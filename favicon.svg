@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="The Brief newspaper icon">
-  <g fill="none" stroke="#1C3247" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 7h29v31a6 6 0 0 1-6 6H12a7 7 0 0 1-7-7V16h7v21a7 7 0 0 1-7 7"/>
-    <path d="M12 16V7"/>
-  </g>
-  <path d="M18 15h17" fill="none" stroke="#B99A5A" stroke-width="4" stroke-linecap="round"/>
-  <rect x="18" y="22" width="9" height="9" rx="1" fill="#1C3247"/>
-  <path d="M32 23h4M32 29h4M18 37h18" fill="none" stroke="#1C3247" stroke-width="3" stroke-linecap="round"/>
+  <path d="M12 7h25v32a5 5 0 0 1-5 5H15a6 6 0 0 1-6-6V13h3z" fill="none" stroke="#1C3247" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 15h16" fill="none" stroke="#B99A5A" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M16 22h8v9h-8z" fill="none" stroke="#1C3247" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M29 23h3M29 28h3M16 36h16" fill="none" stroke="#1C3247" stroke-width="2.8" stroke-linecap="round"/>
 </svg>
