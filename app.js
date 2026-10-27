@@ -31,7 +31,12 @@
     const detail=make('div','story-detail');
     detail.hidden=!state.open.has(key);
     if(kind==='reddit')detail.append(make('p','',item.text));
-    else item.summary.forEach(line=>detail.append(make('p','',line)));
+    else {
+      // Prefer a source-provided opening/excerpt. Keep older archived summaries unchanged.
+      const lead=typeof item.openingParagraph==='string'?item.openingParagraph.trim():'';
+      const paragraphs=lead?[lead]:(Array.isArray(item.summary)?item.summary:[]);
+      paragraphs.forEach(line=>detail.append(make('p','',line)));
+    }
     detail.append(make('div','story-meta',(kind==='reddit'?item.subreddit+' · ':item.publisher+' · ')+item.date+(item.qualification?' · '+item.qualification:'')));
     const actions=make('div','story-actions');
     const source=make('a','original','Original source ↗');source.href=item.url;source.target='_blank';source.rel='noopener noreferrer';
@@ -51,7 +56,7 @@
     const host=$('news-list');host.replaceChildren();
     const groups=new Map();let count=0;
     state.data.news.forEach(item=>{
-      const hay=[item.headline,item.publisher,item.category,...item.summary].join(' ').toLowerCase();
+      const hay=[item.headline,item.publisher,item.category,item.openingParagraph||'',...(Array.isArray(item.summary)?item.summary:[])].join(' ').toLowerCase();
       if(state.filter!=='All'&&item.category!==state.filter)return;
       if(state.query&&!hay.includes(state.query.toLowerCase()))return;
       if(!groups.has(item.publisher))groups.set(item.publisher,[]);
