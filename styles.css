@@ -169,3 +169,6 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 #news-panel .edition-title{font-size:clamp(25px,3.4vw,36px);line-height:1.12;margin:8px 0 0}
 #news-panel .edition-year{font-size:13px;margin:6px 0}
 @media(max-width:740px){main.shell{padding-top:22px}#news-panel .edition-title{font-size:clamp(25px,6vw,31px)}}
+
+/* Site design version, deliberately separate from historical Brief edition numbers. */
+.site-version{display:block;flex:0 0 auto;font:500 10px/1 var(--sans);letter-spacing:.06em;color:#9ca7b0;padding-bottom:3px;user-select:none}
