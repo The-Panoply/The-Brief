@@ -1,0 +1,215 @@
+{
+  "type": "design-preview",
+  "edition": "LAYOUT 01",
+  "displayDate": "Monday, October 26",
+  "year": "2026",
+  "news": [
+    {
+      "id": "apple-duo-response",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 26, 2026",
+      "headline": "Apple Responds to iPhone Duo Display Cracking Reports",
+      "qualification": "Apple statement",
+      "summary": [
+        "Apple acknowledges an inner-display issue affecting a small number of iPhone Duo units and advises affected buyers to contact AppleCare for a replacement. The company has not identified a specific cause or announced a design fix.",
+        "Several early reports describe cracking around the lower hinge area, sometimes preceded by resistance or a popping sound. An investigation of possible mechanical stress points is ongoing; online photographs alone cannot establish how common the problem is."
+      ],
+      "url": "https://www.macrumors.com/2026/10/26/iphone-duo-crack-apple-response/"
+    },
+    {
+      "id": "apple-oled",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 25, 2026",
+      "headline": "Apple Reportedly Announcing New MacBook Pro With OLED Touchscreen on Wednesday",
+      "qualification": "Rumor",
+      "summary": [
+        "Bloomberg's Mark Gurman reports that Apple will announce touchscreen OLED MacBook Pro models on October 28, with 14-inch and 16-inch configurations and a Dynamic Island-style camera cutout.",
+        "The rumored macOS interface would respond differently to touch and trackpad use. Specifications, pricing and timing should be treated as reports rather than confirmed announcements."
+      ],
+      "url": "https://www.macrumors.com/2026/10/25/macbook-pro-with-touchscreen-on-wednesday/"
+    },
+    {
+      "id": "ifixit-duo",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 25, 2026",
+      "headline": "iFixit iPhone Duo Teardown Points to Possible Cause of Screen Cracks",
+      "qualification": "Cause unconfirmed",
+      "summary": [
+        "iFixit inspected the Duo's internal hinge, folding display and construction, and recreated stress patterns around the location of reported cracks. Several components converge near the affected spot, raising hypotheses about mechanical interference.",
+        "Its preliminary assessment credits the phone's removable batteries and accessible outer display, but the inner screen remains challenging to repair. No single failure mechanism has yet been demonstrated."
+      ],
+      "url": "https://www.macrumors.com/2026/10/25/ifixit-iphone-duo-teardown/"
+    },
+    {
+      "id": "oled-other",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 25, 2026",
+      "headline": "OLED MacBook Air and iMac Remain in Testing",
+      "qualification": "Rumor",
+      "summary": [
+        "Apple is reportedly testing OLED panels for future MacBook Air and iMac models. Its next updates for both product families are nonetheless expected to keep LCD screens.",
+        "The reported OLED experiments have no announced launch schedule. The distinction matters because the expected OLED MacBook Pro would arrive before any corresponding transition for Apple's less expensive Macs."
+      ],
+      "url": "https://www.macrumors.com/2026/10/25/oled-macbook-air-and-imac-in-testing/"
+    },
+    {
+      "id": "zen",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Technology",
+      "date": "October 26, 2026",
+      "headline": "Zen Browser is the Arc replacement I was looking for",
+      "summary": [
+        "The Verge's Terrence O'Brien finds the Firefox-based Zen Browser a promising replacement for Arc, praising vertical tabs, spaces, fast navigation and extensive customization without an AI-first agenda.",
+        "The review also identifies practical limitations, particularly DRM-protected video and audio services, as well as some unfinished customization details."
+      ],
+      "url": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement"
+    },
+    {
+      "id": "opensource",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Technology",
+      "date": "October 26, 2026",
+      "headline": "r/opensource just banned AI, non-English speakers, and more",
+      "summary": [
+        "The r/opensource subreddit adopted restrictive rules for projects involving AI, newer projects and some submissions that rely on translation. Its moderation approach prompted criticism over broad exclusions.",
+        "The debate has become a flashpoint over AI-assisted programming, community gatekeeping and how volunteer moderators should evaluate open-source projects."
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+    },
+    {
+      "id": "m3",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "October 24, 2026",
+      "headline": "The Electric BMW M3 Is Finally Starting To Lose The Camo: Video",
+      "summary": [
+        "Fresh prototype footage shows an electric BMW M3 wearing less camouflage. Details such as its hood vent and rear spoiler suggest the production car will retain much of the Neue Klasse M concept's shape.",
+        "BMW has confirmed a motor for each wheel. Gold brake calipers visible in the footage suggest, but do not confirm, an optional carbon-ceramic braking system."
+      ],
+      "url": "https://www.bmwblog.com/2026/10/24/2028-bmw-m3-electric-less-camouflage/"
+    },
+    {
+      "id": "x7",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "October 24, 2026",
+      "headline": "2028 BMW X7 Loses The Split Tailgate, Following The New X5",
+      "qualification": "Sourced report; not confirmed by BMW",
+      "summary": [
+        "BMWBLOG reports that BMW's next-generation X7 will switch to a single-piece tailgate, reversing the publication's earlier expectation that the large SUV would keep its two-section opening.",
+        "BMW executives have explained the same change on the newer X5 as a way to simplify the rear design and improve reach into the cargo area. The X7 change itself has not been officially announced."
+      ],
+      "url": "https://www.bmwblog.com/2026/10/24/the-next-bmw-x7-g67-wont-have-a-split-tailgate-either-sources/"
+    },
+    {
+      "id": "bugatti",
+      "publisher": "Top Gear",
+      "domain": "topgear.com",
+      "category": "Automotive",
+      "date": "October 26, 2026",
+      "headline": "‘We can do bold things’: Bugatti might do a lightweight V16 Tourbillon with a manual",
+      "qualification": "Concept being discussed",
+      "summary": [
+        "Mate Rimac has floated the possibility of a lighter, simpler Bugatti built around the V16 Tourbillon architecture, potentially with a manual gearbox.",
+        "The comments describe an ambition and design direction rather than a production commitment. A lighter combustion-focused car would be a meaningful departure from the heavily electrified Tourbillon."
+      ],
+      "url": "https://www.topgear.com/car-news/interview/we-can-do-bold-things-bugatti-might-do-a-lightweight-v16-tourbillon-a-manual"
+    },
+    {
+      "id": "orion",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Science",
+      "date": "October 23, 2026",
+      "headline": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+      "summary": [
+        "NASA outlined revised Artemis landing architectures, including different rendezvous approaches for SpaceX's Starship and Blue Origin's Blue Moon lander.",
+        "An extended Centaur V upper stage is being developed to help Orion reach lower lunar orbits, potentially reducing burdens on lunar landers. NASA's 2027 demonstration and 2028 landing targets remain ambitious plans, not established outcomes."
+      ],
+      "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/"
+    },
+    {
+      "id": "soccer",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
+      "category": "Sports",
+      "date": "October 25, 2026",
+      "headline": "No. 15 Florida State soccer takes first ACC loss against No. 17 Notre Dame",
+      "summary": [
+        "Florida State's women's soccer team fell 2–0 to Notre Dame in Tallahassee, taking its first conference loss of the season.",
+        "Notre Dame scored early in both halves. The Seminoles generated stronger chances after halftime but could not overturn the deficit."
+      ],
+      "url": "https://www.tomahawknation.com/florida-state-seminoles-womens-soccer/139417/no-15-florida-state-soccer-takes-first-acc-loss-against-no-17-notre-dame"
+    },
+    {
+      "id": "antonelli",
+      "publisher": "Road & Track",
+      "domain": "roadandtrack.com",
+      "category": "Sports",
+      "date": "October 24, 2026",
+      "headline": "Kimi Antonelli on Pole for the US Grand Prix",
+      "qualification": "Historical weekend report",
+      "summary": [
+        "Kimi Antonelli secured pole position at Circuit of the Americas ahead of Max Verstappen, positioning himself for a pivotal United States Grand Prix.",
+        "This article is the original Saturday qualifying report. Its future-tense race scenarios are historical and should not be mistaken for a live race update."
+      ],
+      "url": "https://www.roadandtrack.com/news/a74238361/kimi-antonelli-pole-united-states-grand-prix-austin/"
+    }
+  ],
+  "reddit": [
+    {
+      "id": "iphone-crack",
+      "subreddit": "r/iPhoneDuo",
+      "title": "iPhone Duo screen cracked within 6 hours of ownership",
+      "date": "October 23, 2026",
+      "text": "Had my iPhone Duo for about six hours and had probably opened it fewer than 20 times. I was showing it to a friend, and as I opened it, I felt something around the internal hinge, underneath the screen. As I continued opening it, I heard an audible crack, and the screen broke right along the hinge.",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xday9i/iphone_duo_screen_cracked_within_6_hours_of/"
+    },
+    {
+      "id": "iphone-mega",
+      "subreddit": "r/iPhoneDuo",
+      "title": "[MEGATHREAD] 'Crackgate'",
+      "date": "October 24, 2026",
+      "text": "If you have experienced any screen issues, please post in this thread for visibility. All other threads on this subject will be removed and the poster pointed towards this Megathread.",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xekbh4/megathread_crackgate/",
+      "qualification": "Moderator later revised the thread-removal policy"
+    },
+    {
+      "id": "apple-reply",
+      "subreddit": "r/apple",
+      "title": "Apple on the iPhone Duo's screen cracking: “We are aware of an issue impacting the inner display on a small number of iPhone Duo units…”",
+      "date": "October 26, 2026",
+      "text": "NEW: iPhone Duo screen-cracking issue is real. Apple hasn’t given stores or customer service representatives guidance but the company is investigating. Several people have sent me images and stories of their new $2000 device breaking within hours.",
+      "url": "https://www.reddit.com/r/apple/comments/1xg34hv/apple_on_the_iphone_duos_screen_cracking_we_are/",
+      "qualification": "Quoted X post reposted by Reddit author"
+    },
+    {
+      "id": "cfb-cincy",
+      "subreddit": "r/CFB",
+      "title": "[Postgame Thread] Cincinnati Defeats Texas Tech 37-24",
+      "date": "October 24, 2026",
+      "text": "Box Score provided by ESPN. Texas Tech: 24. Cincinnati: 37.",
+      "url": "https://www.reddit.com/r/CFB/comments/1xei4j1/postgame_thread_cincinnati_defeats_texas_tech_3724/"
+    },
+    {
+      "id": "opus",
+      "subreddit": "r/ClaudeAI",
+      "title": "What to do with practically unlimited access to opus 5.5?",
+      "date": "October 24, 2026",
+      "text": "Well, like the title said, I got unlimitd access to Claude Opus 5.5 alongside other premium models. What should I do with it? Any advice ?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xe9hz7/what_to_do_with_practically_unlimited_access_to/"
+    }
+  ]
+}
