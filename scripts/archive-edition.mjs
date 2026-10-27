@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Explicit, manual publishing utility. This does not run on a schedule.
-// Usage: node scripts/archive-edition.mjs path/to/published-edition.json 2026-10-27
+// Usage: node scripts/archive-edition.mjs path/to/published-edition.json 2026-10-27 [issue-label]
 import {readFile, writeFile, mkdir} from 'node:fs/promises';
 import {existsSync} from 'node:fs';
 import {resolve, join} from 'node:path';
@@ -9,8 +9,10 @@ import {fileURLToPath} from 'node:url';
 const root=resolve(fileURLToPath(new URL('..',import.meta.url)));
 const source=process.argv[2];
 const date=process.argv[3];
-if(!source||!/^\d{4}-\d{2}-\d{2}$/.test(date||'')){
-  console.error('Usage: node scripts/archive-edition.mjs <published-edition.json> <YYYY-MM-DD>');
+const label=process.argv[4]||'';
+if(!source||!/^\d{4}-\d{2}-\d{2}$/.test(date||'')||
+   (label&&!/^[a-z0-9][a-z0-9-]*$/.test(label))||process.argv.length>5){
+  console.error('Usage: node scripts/archive-edition.mjs <published-edition.json> <YYYY-MM-DD> [issue-label]');
   process.exit(1);
 }
 const data=JSON.parse(await readFile(resolve(source),'utf8'));
@@ -27,7 +29,7 @@ for(const item of data.news){
     throw Error('Invalid story in published edition: '+String(item.id));
   }
 }
-const id='issue-'+date;
+const id='issue-'+date+(label?'-'+label:'');
 const relative='archive/editions/'+id+'.json';
 const filename=join(root,relative);
 if(existsSync(filename))throw Error('Edition already archived: '+id+'. Archive snapshots must not be replaced.');
@@ -40,12 +42,13 @@ if(catalog.schemaVersion!==1||!Array.isArray(catalog.editions)||
 const entry={
   id,date,displayDate:data.displayDate,year:String(data.year),type:'published',
   title:data.title||'The Brief',file:relative,
-  storyCount:data.news.length,sourceCount:new Set(data.news.map(x=>x.publisher)).size
+  storyCount:data.news.length,sourceCount:new Set(data.news.map(x=>x.publisher)).size,
+  redditCount:data.reddit.length
 };
 await mkdir(join(root,'archive/editions'),{recursive:true});
 await writeFile(filename,JSON.stringify(data,null,2)+'\n',{flag:'wx'});
 catalog.editions.unshift(entry);
 catalog.editions.sort((a,b)=>b.date.localeCompare(a.date));
 await writeFile(indexFile,JSON.stringify(catalog,null,2)+'\n','utf8');
-console.log('Archived '+id+' ('+entry.storyCount+' stories).');
+console.log('Archived '+id+' ('+entry.storyCount+' news stories, '+entry.redditCount+' Reddit posts preserved).');
 console.log('Review both generated changes and commit them together to GitHub when ready.');
