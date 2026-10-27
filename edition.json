@@ -25,7 +25,7 @@
       "domain": "macrumors.com",
       "category": "Technology",
       "date": "October 25, 2026",
-      "headline": "Apple Reportedly Announcing MacBook Pro With OLED Touchscreen on Wednesday",
+      "headline": "Apple Reportedly Announcing New MacBook Pro With OLED Touchscreen on Wednesday",
       "qualification": "Rumor",
       "summary": [
         "Bloomberg's Mark Gurman reports that Apple will announce touchscreen OLED MacBook Pro models on October 28, with 14-inch and 16-inch configurations and a Dynamic Island-style camera cutout.",
@@ -106,7 +106,7 @@
       "domain": "bmwblog.com",
       "category": "Automotive",
       "date": "October 24, 2026",
-      "headline": "The Next BMW X7 (G67) Won’t Have A Split Tailgate Either: Sources",
+      "headline": "2028 BMW X7 Loses The Split Tailgate, Following The New X5",
       "qualification": "Sourced report; not confirmed by BMW",
       "summary": [
         "BMWBLOG reports that BMW's next-generation X7 will switch to a single-piece tailgate, reversing the publication's earlier expectation that the large SUV would keep its two-section opening.",
@@ -175,7 +175,7 @@
       "subreddit": "r/iPhoneDuo",
       "title": "iPhone Duo screen cracked within 6 hours of ownership",
       "date": "October 23, 2026",
-      "text": "The poster says the internal display cracked along the hinge after fewer than 20 openings, with an audible crack and resistance while opening it. Apple offered an express replacement, according to the account. This is an individual owner report.",
+      "text": "Had my iPhone Duo for about six hours and had probably opened it fewer than 20 times. I was showing it to a friend, and as I opened it, I felt something around the internal hinge, underneath the screen. As I continued opening it, I heard an audible crack, and the screen broke right along the hinge.",
       "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xday9i/iphone_duo_screen_cracked_within_6_hours_of/"
     },
     {
@@ -183,32 +183,34 @@
       "subreddit": "r/iPhoneDuo",
       "title": "[MEGATHREAD] 'Crackgate'",
       "date": "October 24, 2026",
-      "text": "The moderators established a central discussion for reports of iPhone Duo screen problems and asked users to put experiences there. The thread collects a mixture of firsthand accounts, opinions and speculation; the volume of posts is not a measured failure rate.",
-      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xekbh4/megathread_crackgate/"
+      "text": "If you have experienced any screen issues, please post in this thread for visibility. All other threads on this subject will be removed and the poster pointed towards this Megathread.",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xekbh4/megathread_crackgate/",
+      "qualification": "Moderator later revised the thread-removal policy"
     },
     {
       "id": "apple-reply",
       "subreddit": "r/apple",
       "title": "Apple on the iPhone Duo's screen cracking: “We are aware of an issue impacting the inner display on a small number of iPhone Duo units…”",
       "date": "October 26, 2026",
-      "text": "The poster relays Apple's statement to MacRumors and reporting about how quickly some damaged units failed. Subsequent replies debate how widely the issue may affect devices, but the thread does not establish a reliable failure rate.",
-      "url": "https://www.reddit.com/r/apple/comments/1xg34hv/apple_on_the_iphone_duos_screen_cracking_we_are/"
+      "text": "NEW: iPhone Duo screen-cracking issue is real. Apple hasn’t given stores or customer service representatives guidance but the company is investigating. Several people have sent me images and stories of their new $2000 device breaking within hours.",
+      "url": "https://www.reddit.com/r/apple/comments/1xg34hv/apple_on_the_iphone_duos_screen_cracking_we_are/",
+      "qualification": "Quoted X post reposted by Reddit author"
     },
     {
       "id": "cfb-cincy",
       "subreddit": "r/CFB",
       "title": "[Postgame Thread] Cincinnati Defeats Texas Tech 37-24",
       "date": "October 24, 2026",
-      "text": "The original post presents the ESPN box score for Cincinnati's 37–24 win. The replies contain fan reactions to one of the weekend's significant upsets; the entry itself is a scoreboard thread rather than an authored analysis.",
+      "text": "Box Score provided by ESPN. Texas Tech: 24. Cincinnati: 37.",
       "url": "https://www.reddit.com/r/CFB/comments/1xei4j1/postgame_thread_cincinnati_defeats_texas_tech_3724/"
     },
     {
-      "id": "organize",
-      "subreddit": "r/secondbrain",
-      "title": "How do you organize? I'm getting crazy...",
-      "date": "October 26, 2026",
-      "text": "The author describes scattered notes across Obsidian, saved links, video apps, local files and cloud services and asks how others have built a sustainable system for finding what they save. The conversation explores inbox-processing discipline and avoiding duplicate sources of truth.",
-      "url": "https://www.reddit.com/r/secondbrain/comments/1xgc4ez/how_do_you_organize_im_getting_crazy/"
+      "id": "opus",
+      "subreddit": "r/ClaudeAI",
+      "title": "What to do with practically unlimited access to opus 5.5?",
+      "date": "October 24, 2026",
+      "text": "Well, like the title said, I got unlimitd access to Claude Opus 5.5 alongside other premium models. What should I do with it? Any advice ?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xe9hz7/what_to_do_with_practically_unlimited_access_to/"
     }
   ]
 }
