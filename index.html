@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f9f8f5">
+  <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
+  <title>The Brief — The Panoply</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip">Skip to stories</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="panoply" href="#news" aria-label="The Panoply — The Brief">THE PANOPLY</a>
+      <div class="brand-row">
+        <div class="identity">
+          <h1><span class="small-the">The</span> <span>Brief</span><span class="period">.</span></h1>
+          <p class="brand-sub">A considered view of what matters.</p>
+        </div>
+        <div class="masthead-side"><span>INDEPENDENT READER</span><span>ONE EDITION · EVERY DAY</span></div>
+      </div>
+      <div class="gold-rule"></div>
+    </div>
+  </header>
+  <div class="nav-wrap">
+    <div class="shell nav-inner">
+      <nav class="tabs" aria-label="Main sections">
+        <button data-tab="news" class="tab active" aria-current="page">The Brief</button>
+        <button data-tab="reddit" class="tab">Reddit Home</button>
+        <button data-tab="archive" class="tab">Archive</button>
+      </nav>
+      <span class="preview-label"><span class="status-dot"></span> DESIGN PREVIEW</span>
+    </div>
+  </div>
+  <main id="main" class="shell" tabindex="-1">
+    <section id="news-panel" class="panel" aria-label="News edition">
+      <div class="edition-top">
+        <div>
+          <div class="kicker">THE DAILY EDITION <span class="hairline"></span> <span id="edition-number"></span></div>
+          <h2 id="edition-title" class="edition-title">Monday, October 26</h2>
+          <p id="edition-description" class="edition-description"></p>
+        </div>
+        <p class="edition-year" id="edition-year">2026</p>
+      </div>
+      <div class="alert"><span class="alert-mark">✳</span><span>Editorial design demonstration with sourced October stories. Not a live or automatically updated edition.</span></div>
+      <div class="tools">
+        <div class="filters" id="filters" role="group" aria-label="Filter news by subject"></div>
+        <label class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.2 16.2 4.3 4.3"/></svg><input type="search" id="search" autocomplete="off" placeholder="Find a story…" aria-label="Find a story"></label>
+      </div>
+      <div class="feed-meta"><span id="news-count" aria-live="polite"></span><button id="clear" class="clear" hidden>Clear filters</button></div>
+      <div id="news-list" class="feed" aria-live="polite"></div>
+      <div id="empty-news" class="empty" hidden>No matching stories. Try another search or category.</div>
+      <div class="endmark"><span>✳</span><span>END OF EDITION</span><span>✳</span></div>
+    </section>
+    <section id="reddit-panel" class="panel" aria-label="Reddit Home" hidden>
+      <div class="edition-top">
+        <div><div class="kicker">THE COMMUNITY DESK</div><h2 class="edition-title">Reddit Home</h2><p class="edition-description">Actual posts worth opening. Original author text in each disclosure, not prewritten comment summaries.</p></div>
+        <p class="edition-year">01 / 03</p>
+      </div>
+      <div class="alert"><span class="alert-mark">✳</span><span>Design sample drawn from verified Reddit threads. Post claims are not automatically verified facts.</span></div>
+      <div id="reddit-list" class="feed"></div>
+      <div class="endmark"><span>✳</span><span>END OF COMMUNITY DESK</span><span>✳</span></div>
+    </section>
+    <section id="archive-panel" class="panel" aria-label="Edition archive" hidden>
+      <div class="edition-top">
+        <div><div class="kicker">THE RECORD</div><h2 class="edition-title">The Archive</h2><p class="edition-description">A permanent home for completed editions, instead of hunting through old conversations.</p></div>
+        <p class="edition-year">01 / 03</p>
+      </div>
+      <div class="archive-entry">
+        <div><div class="kicker">DESIGN STUDY · OCTOBER 2026</div><h3>First edition layout</h3><p>News, Reddit Home, compact publisher groups, inline reading and original-source links.</p></div>
+        <button id="view-preview" class="archive-open">View edition <span aria-hidden="true">↗</span></button>
+      </div>
+      <p class="archive-note">This is a functional layout prototype, not a published daily archive. Actual editions will appear here once we approve the design and build the publishing workflow.</p>
+    </section>
+  </main>
+  <footer><div class="shell footer-inner"><div><span class="footer-panoply">THE PANOPLY</span><span class="footer-name"> / The Brief</span></div><span>Editorial judgment first. Delivery systems second.</span></div></footer>
+</body>
+</html>
