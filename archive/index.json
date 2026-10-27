@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "editions": [
+    {
+      "id": "preview-2026-10-26",
+      "date": "2026-10-26",
+      "displayDate": "Monday, October 26",
+      "year": "2026",
+      "type": "preview",
+      "title": "First edition layout",
+      "file": "archive/editions/preview-2026-10-26.json",
+      "storyCount": 12,
+      "sourceCount": 7
+    }
+  ]
+}
