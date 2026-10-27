@@ -151,7 +151,6 @@
       $('edition-number').textContent=state.data.edition;
       $('edition-title').textContent=state.data.displayDate;
       $('edition-year').textContent=state.data.year;
-      $('edition-description').textContent=state.data.description;
       filters();news();reddit();
       try{
         const footballResponse=await fetch('./football.json',{cache:'no-store'});
