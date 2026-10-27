@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#f9f8f5">
+  <meta name="theme-color" content="#ffffff">
   <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
   <title>The Brief — The Panoply</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="mask-icon" href="./pinned-tab.svg" color="#1c3247">
   <link rel="stylesheet" href="./styles.css">
   <script defer src="./app.js"></script>
 </head>
@@ -19,7 +21,6 @@
           <h1><span class="small-the">The</span> <span>Brief</span><span class="period">.</span></h1>
           <p class="brand-sub">A considered view of what matters.</p>
         </div>
-        <div class="masthead-side"><span>INDEPENDENT READER</span><span>ONE EDITION · EVERY DAY</span></div>
       </div>
       <div class="gold-rule"></div>
     </div>
@@ -29,6 +30,7 @@
       <nav class="tabs" aria-label="Main sections">
         <button data-tab="news" class="tab active" aria-current="page">The Brief</button>
         <button data-tab="reddit" class="tab">Reddit Home</button>
+        <button data-tab="football" class="tab"><span class="tab-long">College Football</span><span class="tab-short">Football</span></button>
         <button data-tab="archive" class="tab">Archive</button>
       </nav>
       <span class="preview-label"><span class="status-dot"></span> DESIGN PREVIEW</span>
@@ -57,19 +59,49 @@
     <section id="reddit-panel" class="panel" aria-label="Reddit Home" hidden>
       <div class="edition-top">
         <div><div class="kicker">THE COMMUNITY DESK</div><h2 class="edition-title">Reddit Home</h2><p class="edition-description">Actual posts worth opening. Original author text in each disclosure, not prewritten comment summaries.</p></div>
-        <p class="edition-year">01 / 03</p>
+        <p class="edition-year">02 / 04</p>
       </div>
       <div class="alert"><span class="alert-mark">✳</span><span>Design sample drawn from verified Reddit threads. Post claims are not automatically verified facts.</span></div>
       <div id="reddit-list" class="feed"></div>
       <div class="endmark"><span>✳</span><span>END OF COMMUNITY DESK</span><span>✳</span></div>
     </section>
+    <section id="football-panel" class="panel" aria-label="College Football Weekend Desk" hidden>
+      <div class="edition-top">
+        <div><div class="kicker">THE WEEKEND DESK</div><h2 class="edition-title">College Football</h2><p class="edition-description">A considered look at the weekend's games, with the Seminoles always front and center.</p></div>
+        <p class="edition-year">03 / 04</p>
+      </div>
+      <div class="football-topline">
+        <span class="football-top-label">WEEKEND BOARD <span aria-hidden="true">·</span> <span id="football-week">OCT 30 – NOV 2</span></span>
+        <span class="football-top-schedule">EDITORIAL UPDATES <strong>FRIDAY – MONDAY</strong></span>
+      </div>
+      <div class="football-preview-note"><span class="status-dot" aria-hidden="true"></span><span>Design preview with a dated schedule snapshot. Games do not update live yet.</span></div>
+      <div id="football-feature" class="football-feature" aria-label="Featured Florida State game"></div>
+      <div class="football-subhead"><h3>Games worth watching</h3><span id="football-matchup-count">WEEKEND SELECTED MATCHUPS</span></div>
+      <div id="football-games" class="football-grid" aria-label="Ranked football games"></div>
+      <div class="football-secondary">
+        <div class="football-tv">
+          <div class="football-section-kicker">THE TV GUIDE</div>
+          <h3>Plan your Saturday.</h3>
+          <p>Kickoff and network information will appear here when verified. The featured Florida State broadcast is included in this design preview.</p>
+          <div id="football-tv-list" class="football-tv-list"></div>
+        </div>
+        <div class="football-reddit">
+          <div class="football-section-kicker">THE FAN CONVERSATION</div>
+          <h3>Reddit Game Day</h3>
+          <p>A dedicated home for actual r/CFB game threads and postgame conversations. Previewing the placement with a completed thread from last weekend.</p>
+          <a href="https://www.reddit.com/r/CFB/comments/1xei4j1/postgame_thread_cincinnati_defeats_texas_tech_3724/" target="_blank" rel="noopener noreferrer" class="football-community-link"><span>LAST WEEKEND · r/CFB</span><strong>Cincinnati defeats Texas Tech, 37–24</strong><small>Open original postgame thread ↗</small></a>
+        </div>
+      </div>
+      <p class="football-disclaimer">Weekend editorial cadence: Friday through Monday during the season. This is not a live scoreboard, a scheduled updater, or a promise that future editions are already published.</p>
+      <div class="endmark"><span>✳</span><span>END OF WEEKEND DESK</span><span>✳</span></div>
+    </section>
     <section id="archive-panel" class="panel" aria-label="Edition archive" hidden>
       <div class="edition-top">
         <div><div class="kicker">THE RECORD</div><h2 class="edition-title">The Archive</h2><p class="edition-description">A permanent home for completed editions, instead of hunting through old conversations.</p></div>
-        <p class="edition-year">01 / 03</p>
+        <p class="edition-year">04 / 04</p>
       </div>
       <div class="archive-entry">
-        <div><div class="kicker">DESIGN STUDY · OCTOBER 2026</div><h3>First edition layout</h3><p>News, Reddit Home, compact publisher groups, inline reading and original-source links.</p></div>
+        <div><div class="kicker">DESIGN STUDY · OCTOBER 2026</div><h3>First edition layout</h3><p>News, Reddit Home, College Football, compact publisher groups, inline reading and original-source links.</p></div>
         <button id="view-preview" class="archive-open">View edition <span aria-hidden="true">↗</span></button>
       </div>
       <p class="archive-note">This is a functional layout prototype, not a published daily archive. Actual editions will appear here once we approve the design and build the publishing workflow.</p>
