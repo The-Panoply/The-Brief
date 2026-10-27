@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
   <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=reader-v1-5">
-  <script defer src="./app.js?v=reader-v1-4"></script>
+  <script defer src="./app.js?v=archive-v1"></script>
 </head>
 <body>
   <a href="#main" class="skip">Skip to stories</a>
@@ -34,13 +34,17 @@
   </div>
   <main id="main" class="shell" tabindex="-1">
     <section id="news-panel" class="panel" aria-label="News edition">
+      <div id="archive-reader-bar" class="archive-reader-bar" hidden>
+        <button type="button" id="archive-back" class="archive-return">← Archive</button>
+        <button type="button" id="archive-latest" class="archive-return">Latest edition ↗</button>
+      </div>
       <div class="edition-top">
         <div>
           <h2 id="edition-title" class="edition-title">Monday, October 26</h2>
         </div>
         <span class="site-version" title="Website design version 1">v1</span>
       </div>
-      <div class="alert"><span class="alert-mark">✳</span><span>Design preview · Not a live edition.</span></div>
+      <div class="alert"><span class="alert-mark">✳</span><span id="edition-status-text">Design preview · Not a live edition.</span></div>
       <div class="tools">
         <div class="filters" id="filters" role="group" aria-label="Filter news by subject"></div>
         <label class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.2 16.2 4.3 4.3"/></svg><input type="search" id="search" autocomplete="off" placeholder="Find a story…" aria-label="Find a story"></label>
@@ -88,14 +92,13 @@
     </section>
     <section id="archive-panel" class="panel" aria-label="Edition archive" hidden>
       <div class="edition-top">
-        <div><div class="kicker">THE RECORD</div><h2 class="edition-title">The Archive</h2><p class="edition-description">A permanent home for completed editions, instead of hunting through old conversations.</p></div>
+        <div><div class="kicker">THE RECORD</div><h2 class="edition-title">The Archive</h2></div>
         <p class="edition-year">04 / 04</p>
       </div>
-      <div class="archive-entry">
-        <div><div class="kicker">DESIGN STUDY · OCTOBER 2026</div><h3>First edition layout</h3><p>News, Reddit Home, College Football, compact publisher groups, inline reading and original-source links.</p></div>
-        <button id="view-preview" class="archive-open">View edition <span aria-hidden="true">↗</span></button>
-      </div>
-      <p class="archive-note">This is a functional layout prototype, not a published daily archive. Actual editions will appear here once we approve the design and build the publishing workflow.</p>
+      <div class="archive-summary" id="archive-count" aria-live="polite">Loading archive…</div>
+      <div id="archive-list" class="archive-list" aria-live="polite"></div>
+      <p id="archive-empty" class="archive-note" hidden>No published editions yet.</p>
+      <p id="archive-error" class="archive-note" role="alert" hidden></p>
     </section>
   </main>
   <footer class="panoply-footer"><div class="panoply-footer-brand"><span>The Panoply</span></div><nav class="panoply-footer-sites" aria-label="Other Panoply sites"><a href="https://the-panoply.github.io/The-Closet/">The Closet</a><a href="https://the-panoply.github.io/The-Media-Center/">The Media Center</a><a href="https://the-panoply.github.io/The-Garage/">The Garage</a></nav></footer>
