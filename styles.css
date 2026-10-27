@@ -15,7 +15,6 @@ a{color:inherit}
 .identity h1{margin:0;color:#1c3247;font:400 clamp(53px,7.5vw,80px)/.92 var(--serif);letter-spacing:-.055em;white-space:nowrap}
 .identity .small-the{font-size:.38em;font-style:italic;letter-spacing:-.01em;vertical-align:top;position:relative;top:.22em;margin-right:.06em}
 .period{color:var(--gold)}
-.brand-sub{margin:10px 0 0;font-size:13px;letter-spacing:.025em;color:#79848c}
 .masthead-side{font-size:10px;color:var(--subtle);letter-spacing:.12em;text-align:right;display:flex;flex-direction:column;gap:7px;padding-bottom:3px}
 .gold-rule{height:2px;width:42px;background:var(--gold);margin-top:19px}
 .nav-wrap{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
@@ -26,7 +25,7 @@ a{color:inherit}
 .tab:hover{color:var(--ink)}
 .preview-label{white-space:nowrap;color:#8c9191;font-size:9px;font-weight:700;letter-spacing:.13em}
 .status-dot{display:inline-block;width:5px;height:5px;border:1px solid #bb9a57;border-radius:50%;vertical-align:1px;margin-right:6px}
-main.shell{min-height:65vh;padding-top:37px;padding-bottom:38px}
+main.shell{min-height:65vh;padding-top:27px;padding-bottom:38px}
 .panel[hidden]{display:none}
 .edition-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
 .kicker{display:flex;align-items:center;gap:12px;font-size:10px;letter-spacing:.20em;color:var(--gold);font-weight:750}
@@ -34,7 +33,7 @@ main.shell{min-height:65vh;padding-top:37px;padding-bottom:38px}
 .edition-title{margin:14px 0 11px;font:400 clamp(36px,5.5vw,54px)/1.11 var(--serif);letter-spacing:-.035em;color:#1d3245}
 .edition-description{font-size:14px;line-height:1.6;color:var(--muted);margin:0;max-width:680px}
 .edition-year{color:#b2b9be;letter-spacing:.12em;font:400 15px var(--serif);margin:10px 0}
-.alert{display:flex;gap:11px;align-items:baseline;background:#f7f9fb;border-left:2px solid #baa275;color:#6d7577;padding:12px 14px;font-size:11px;line-height:1.55;margin:26px 0 24px}
+.alert{display:flex;gap:9px;align-items:baseline;background:#f7f9fb;border-left:2px solid #baa275;color:#6d7577;padding:8px 11px;font-size:11px;line-height:1.45;margin:15px 0 15px}
 .alert-mark{color:var(--gold);flex:0 0 auto}
 .tools{border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px;padding:0 0 16px}
 .filters{display:flex;gap:6px;overflow:auto;scrollbar-width:none;padding:2px 0}
@@ -47,9 +46,9 @@ main.shell{min-height:65vh;padding-top:37px;padding-bottom:38px}
 .search-wrap input{background:#fff;border:1px solid #e2e5e6;border-radius:7px;color:var(--ink);font-size:12px;padding:10px 12px 10px 35px;width:100%;outline:0}
 .search-wrap input:focus{border-color:#a8aca9;box-shadow:0 0 0 2px #d6dad650}
 .search-wrap input::placeholder{color:#9aa3a8}
-.feed-meta{display:flex;justify-content:space-between;align-items:center;margin:18px 1px 5px;color:#909aa0;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.feed-meta{display:flex;justify-content:space-between;align-items:center;margin:12px 1px 5px;color:#909aa0;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
 .clear{border:0;background:none;padding:4px 0;color:var(--gold);letter-spacing:normal;text-transform:none;font-size:12px;text-decoration:underline}
-.publisher{margin-top:29px}
+.publisher{margin-top:23px}
 .publisher-head{display:flex;align-items:center;gap:9px;padding-bottom:11px}
 .publisher-head img{height:19px;width:19px;object-fit:contain;border-radius:3px}
 .publisher-fallback{display:none;background:#e6e9e9;color:#344a5b;width:19px;height:19px;border-radius:3px;place-items:center;font-size:11px;font-weight:700}
@@ -87,7 +86,7 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 .footer-name{font-family:var(--serif);font-size:15px;color:#6c7a86}
 :focus-visible{outline:2px solid #b89b65;outline-offset:3px}
 @keyframes appear{from{opacity:.6;transform:translateY(-2px)}to{opacity:1;transform:none}}
-@media(max-width:740px){.shell{padding-left:21px;padding-right:21px}.masthead-inner{padding-top:17px;padding-bottom:17px}.masthead-side{display:none}.brand-sub{margin-top:7px}.gold-rule{margin-top:15px}.nav-inner{min-height:50px}.tabs{gap:22px}.tab{padding-top:15px;padding-bottom:13px;font-size:12px}.preview-label{font-size:8px}.identity h1{font-size:clamp(48px,12vw,69px)}main.shell{padding-top:29px}.edition-title{font-size:clamp(35px,8vw,44px)}.tools{display:block;padding-bottom:13px}.filters{margin-bottom:12px}.search-wrap{width:100%;display:block}.story-title{font-size:15px}.story-toggle{padding:11px 0 12px}.publisher{margin-top:26px}.footer-inner{display:block}.footer-inner>span{display:block;margin-top:10px}}
+@media(max-width:740px){.shell{padding-left:21px;padding-right:21px}.masthead-inner{padding-top:17px;padding-bottom:17px}.masthead-side{display:none}.gold-rule{margin-top:15px}.nav-inner{min-height:50px}.tabs{gap:22px}.tab{padding-top:15px;padding-bottom:13px;font-size:12px}.preview-label{font-size:8px}.identity h1{font-size:clamp(48px,12vw,69px)}main.shell{padding-top:29px}.edition-title{font-size:clamp(35px,8vw,44px)}.tools{display:block;padding-bottom:13px}.filters{margin-bottom:12px}.search-wrap{width:100%;display:block}.story-title{font-size:15px}.story-toggle{padding:11px 0 12px}.publisher{margin-top:26px}.footer-inner{display:block}.footer-inner>span{display:block;margin-top:10px}}
 @media(max-width:400px){.preview-label{font-size:0}.status-dot{width:7px;height:7px}.tabs{gap:18px}.tab{font-size:12px}.edition-year{display:none}.story-detail{padding-right:4px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
@@ -165,3 +164,8 @@ footer{border-top:1px solid var(--line);background:#ffffff}
  .football-team-record{font-size:10px}
  .football-event-note{font-size:11px}
 }
+
+/* Compact edition header: let reporting, not explanatory copy, lead the page. */
+#news-panel .edition-title{font-size:clamp(25px,3.4vw,36px);line-height:1.12;margin:8px 0 0}
+#news-panel .edition-year{font-size:13px;margin:6px 0}
+@media(max-width:740px){main.shell{padding-top:22px}#news-panel .edition-title{font-size:clamp(25px,6vw,31px)}}
