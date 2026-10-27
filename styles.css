@@ -175,3 +175,22 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 /* Keep the design version on the same typographic line as the edition date. */
 #news-panel .edition-top{align-items:baseline}
 #news-panel .edition-top .site-version{align-self:baseline;padding:0;margin:0;white-space:nowrap}
+
+/* Persistent edition archive: editions are data snapshots rendered in today's reader. */
+.archive-summary{margin:25px 0 11px;color:#8d99a0;font-size:10px;font-weight:650;letter-spacing:.115em}
+.archive-list .archive-entry{margin:0;padding:18px 0;border-top:0}
+.archive-list .archive-entry:first-child{border-top:1px solid var(--line-dark)}
+.archive-entry-info{min-width:0}
+.archive-list .archive-entry h3{font-size:clamp(22px,3vw,28px);margin:8px 0 4px}
+.archive-list .archive-entry .kicker{font-size:9px;letter-spacing:.14em}
+.archive-list .archive-entry p{font-size:11px;letter-spacing:.055em}
+.archive-reader-bar{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:0 0 21px;border-bottom:1px solid var(--line);padding-bottom:13px}
+.archive-reader-bar[hidden]{display:none}
+.archive-return{padding:2px 0;color:#5d6c77;background:none;border:none;font-size:12px;font-weight:650}
+.archive-return:hover{color:var(--gold)}
+@media(max-width:560px){
+ .archive-list .archive-entry{gap:13px}
+ .archive-list .archive-entry h3{font-size:22px}
+ .archive-list .archive-open{padding:10px 11px;font-size:11px}
+ .archive-reader-bar{margin-bottom:16px}
+}
