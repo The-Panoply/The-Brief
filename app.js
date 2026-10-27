@@ -1,20 +1,24 @@
 (() => {
   'use strict';
-  const state = {data:null,tab:'news',filter:'All',query:'',open:new Set()};
+  const state = {data:null,latestData:null,archiveEntries:[],archivedId:null,tab:'news',filter:'All',query:'',open:new Set()};
   const $ = id => document.getElementById(id);
   const categories=['All','Technology','Automotive','Science','Sports'];
   const chevron=() => {const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('class','story-chevron');svg.setAttribute('aria-hidden','true');const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d','m5 9 7 7 7-7');svg.append(path);return svg};
   const make=(tag,cls,text) => {const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
-  function navigate(tab) {
+  function navigate(tab, updateHistory=true) {
     state.tab=tab;
+    const selected=tab==='edition'?'archive':tab;
     ['news','reddit','football','archive'].forEach(id=>{
-      $(id+'-panel').hidden=id!==tab;
+      $(id+'-panel').hidden=(tab==='edition'?id!=='news':id!==tab);
       const b=document.querySelector('[data-tab="'+id+'"]');
-      b.classList.toggle('active',id===tab);
-      if(id===tab)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');
+      b.classList.toggle('active',id===selected);
+      if(id===selected)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');
     });
     window.scrollTo({top:0,behavior:'instant'});
-    try{history.replaceState(null,'','#'+tab)}catch(e){}
+    if(updateHistory){
+      const hash=tab==='edition'?'#archive/'+encodeURIComponent(state.archivedId):'#'+tab;
+      try{history.pushState(null,'',hash)}catch(e){location.hash=hash}
+    }
   }
   function showStory(item,kind) {
     const key=kind+'-'+item.id;
@@ -137,19 +141,127 @@
       tv.append(row);
     });
   }
+  const archivePath=id => 'archive/editions/'+id+'.json';
+  function archiveStatus(item){
+    return item.type==='preview'?'Archived design preview · Not a published edition.':'Archived edition · '+item.displayDate+', '+item.year;
+  }
+  function renderEdition(data, entry=null){
+    state.data=data;
+    state.archivedId=entry?entry.id:null;
+    state.filter='All';state.query='';state.open.clear();$('search').value='';
+    $('edition-title').textContent=data.displayDate+(data.year?', '+data.year:'');
+    $('edition-status-text').textContent=entry?archiveStatus(entry):'Design preview · Not a live edition.';
+    $('archive-reader-bar').hidden=!entry;
+    filters();news();
+  }
+  function latestEdition(){
+    if(state.latestData)renderEdition(state.latestData);
+    navigate('news');
+  }
+  function renderArchiveIndex(){
+    const host=$('archive-list');host.replaceChildren();
+    const entries=state.archiveEntries;
+    const published=entries.filter(e=>e.type==='published').length;
+    const previews=entries.filter(e=>e.type==='preview').length;
+    $('archive-count').textContent=published+' PUBLISHED EDITIONS'+(previews?' · '+previews+' DESIGN PREVIEW'+(previews>1?'S':''):'');
+    $('archive-empty').hidden=published>0;
+    if(published===0)$('archive-empty').textContent='No published editions yet.';
+    entries.forEach(entry=>{
+      const row=make('article','archive-entry');
+      const info=make('div','archive-entry-info');
+      const label=(entry.type==='preview'?'DESIGN PREVIEW':'PUBLISHED')+' · '+entry.displayDate.toUpperCase()+', '+entry.year;
+      info.append(make('div','kicker',label),make('h3','',entry.title||entry.displayDate),
+        make('p','',entry.storyCount+' STORIES · '+entry.sourceCount+' SOURCES'));
+      const button=make('button','archive-open','Open edition ↗');
+      button.type='button';
+      button.setAttribute('aria-label','Open '+entry.displayDate+', '+entry.year+(entry.type==='preview'?' design preview':' edition'));
+      button.addEventListener('click',()=>{void openArchivedEdition(entry.id)});
+      row.append(info,button);host.append(row);
+    });
+  }
+  async function loadArchiveIndex(){
+    try{
+      const response=await fetch('./archive/index.json',{cache:'no-store'});
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const data=await response.json();
+      if(data.schemaVersion!==1||!Array.isArray(data.editions))throw Error('Invalid archive index');
+      const seen=new Set();
+      state.archiveEntries=data.editions.filter(e=>{
+        if(!e||typeof e.id!=='string'||!/^[a-z0-9][a-z0-9-]*$/.test(e.id)||
+           seen.has(e.id)||e.file!==archivePath(e.id)||
+           !['published','preview'].includes(e.type)||
+           typeof e.date!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(e.date)||
+           !Number.isInteger(e.storyCount)||!Number.isInteger(e.sourceCount)||
+           typeof e.displayDate!=='string'||typeof e.year!=='string')return false;
+        seen.add(e.id);return true;
+      }).sort((a,b)=>b.date.localeCompare(a.date));
+      $('archive-error').hidden=true;
+    }catch(error){
+      state.archiveEntries=[];
+      $('archive-error').textContent='Archive index could not be loaded. Please refresh this page.';
+      $('archive-error').hidden=false;
+      console.error(error);
+    }
+    renderArchiveIndex();
+  }
+  async function openArchivedEdition(id,updateHistory=true){
+    const entry=state.archiveEntries.find(item=>item.id===id);
+    if(!entry){
+      navigate('archive',updateHistory);
+      $('archive-error').textContent='This archived edition is not available.';
+      $('archive-error').hidden=false;
+      return;
+    }
+    try{
+      const response=await fetch('./'+entry.file,{cache:'no-store'});
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const data=await response.json();
+      if(!Array.isArray(data.news)||!Array.isArray(data.reddit)||
+         data.displayDate!==entry.displayDate||String(data.year)!==entry.year||
+         (entry.type==='preview'&&data.type!=='design-preview')||
+         (entry.type==='published'&&data.type!=='published')||
+         data.news.length!==entry.storyCount)throw Error('Invalid archive edition');
+      $('archive-error').hidden=true;
+      renderEdition(data,entry);navigate('edition',updateHistory);
+    }catch(error){
+      $('archive-error').textContent='This archived edition could not be opened. Please try again later.';
+      $('archive-error').hidden=false;
+      navigate('archive',updateHistory);
+      console.error(error);
+    }
+  }
+  async function routeFromHash(){
+    const hash=location.hash.slice(1);
+    if(hash.startsWith('archive/')){
+      let id='';
+      try{id=decodeURIComponent(hash.slice('archive/'.length))}catch(e){/* invalid hash */}
+      await openArchivedEdition(id,false);
+    }else if(hash==='news'||!hash){
+      if(state.latestData)renderEdition(state.latestData);
+      navigate('news',false);
+    }else{
+      navigate(['reddit','football','archive'].includes(hash)?hash:'news',false);
+    }
+  }
   async function start(){
-    document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>navigate(button.dataset.tab)));
-    $('view-preview').addEventListener('click',()=>navigate('news'));
+    document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>{
+      if(button.dataset.tab==='news')latestEdition();
+      else navigate(button.dataset.tab);
+    }));
+    $('archive-back').addEventListener('click',()=>navigate('archive'));
+    $('archive-latest').addEventListener('click',latestEdition);
     $('search').addEventListener('input',event=>{state.query=event.target.value.trim();news()});
     $('clear').addEventListener('click',()=>{state.query='';state.filter='All';$('search').value='';filters();news()});
     document.addEventListener('keydown',event=>{if(event.key==='/'&&!event.metaKey&&!event.ctrlKey&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)&&state.tab==='news'){event.preventDefault();$('search').focus()}});
+    window.addEventListener('popstate',()=>{void routeFromHash()});
+    window.addEventListener('hashchange',()=>{void routeFromHash()});
     try{
       const response=await fetch('./edition.json',{cache:'no-store'});
       if(!response.ok)throw Error('HTTP '+response.status);
-      state.data=await response.json();
-      if(!Array.isArray(state.data.news)||!Array.isArray(state.data.reddit))throw Error('Invalid edition');
-      $('edition-title').textContent=state.data.displayDate+(state.data.year?', '+state.data.year:'');
-      filters();news();reddit();
+      const data=await response.json();
+      if(!Array.isArray(data.news)||!Array.isArray(data.reddit))throw Error('Invalid edition');
+      state.latestData=data;
+      renderEdition(data);reddit();
       try{
         const footballResponse=await fetch('./football.json',{cache:'no-store'});
         if(!footballResponse.ok)throw Error('HTTP '+footballResponse.status);
@@ -162,8 +274,8 @@
       $('news-list').append(make('p','empty','The demo edition could not be loaded. Please refresh the page.'));
       console.error(error);
     }
-    const hash=location.hash.replace('#','');
-    navigate(['news','reddit','football','archive'].includes(hash)?hash:'news');
+    await loadArchiveIndex();
+    await routeFromHash();
   }
   start();
 })();
