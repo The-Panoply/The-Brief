@@ -1,0 +1,174 @@
+{
+  "type": "design-preview",
+  "edition": "WEEK 9 — PREVIEW",
+  "asOf": "October 27, 2026",
+  "displayWeek": "OCT 30 – NOV 2",
+  "timezone": "ET",
+  "cadence": "Friday–Monday during football season",
+  "updateStatus": "manual-preview-only",
+  "feature": {
+    "away": {
+      "name": "Clemson",
+      "label": "Tigers",
+      "logoId": "228",
+      "record": ""
+    },
+    "home": {
+      "name": "Florida State",
+      "label": "Seminoles",
+      "logoId": "52",
+      "record": "3–4"
+    },
+    "kickoff": "Saturday · Oct 31 · 7:00 PM ET",
+    "tv": "ACC Network",
+    "venue": "Doak S. Campbell Stadium · Tallahassee",
+    "status": "UPCOMING",
+    "source": "https://seminoles.com/game-center/16680"
+  },
+  "games": [
+    {
+      "id": "florida-georgia",
+      "away": {
+        "name": "Florida",
+        "logoId": "57",
+        "rank": "17"
+      },
+      "home": {
+        "name": "Georgia",
+        "logoId": "61",
+        "rank": "3"
+      },
+      "kickoff": "SAT · 3:30 PM",
+      "tv": "ABC",
+      "source": "https://fbschedules.com/college-football-schedule-tv-selections-for-october-31-2026/"
+    },
+    {
+      "id": "notredame-navy",
+      "away": {
+        "name": "Notre Dame",
+        "logoId": "87",
+        "rank": "5"
+      },
+      "home": {
+        "name": "Navy",
+        "logoId": "2426"
+      },
+      "kickoff": "SAT · 12:00 PM",
+      "tv": "ABC",
+      "source": "https://fbschedules.com/college-football-schedule-tv-selections-for-october-31-2026/"
+    },
+    {
+      "id": "arizona-ttu",
+      "away": {
+        "name": "Arizona",
+        "logoId": "12",
+        "rank": "22"
+      },
+      "home": {
+        "name": "Texas Tech",
+        "logoId": "2641",
+        "rank": "13"
+      },
+      "kickoff": "SAT · 12:00 PM",
+      "tv": "ESPN",
+      "source": "https://fbschedules.com/college-football-schedule-tv-selections-for-october-31-2026/"
+    },
+    {
+      "id": "asu-byu",
+      "away": {
+        "name": "Arizona State",
+        "logoId": "9"
+      },
+      "home": {
+        "name": "BYU",
+        "logoId": "252",
+        "rank": "8"
+      },
+      "kickoff": "SAT · 3:30 PM",
+      "tv": "FOX",
+      "source": "https://fbschedules.com/college-football-schedule-tv-selections-for-october-31-2026/"
+    },
+    {
+      "id": "ohio-usc",
+      "away": {
+        "name": "Ohio State",
+        "logoId": "194",
+        "rank": "2"
+      },
+      "home": {
+        "name": "USC",
+        "logoId": "30"
+      },
+      "kickoff": "SAT · 7:30 PM",
+      "tv": "NBC",
+      "source": "https://fbschedules.com/college-football-schedule-tv-selections-for-october-31-2026/"
+    },
+    {
+      "id": "miami-unc",
+      "away": {
+        "name": "Miami",
+        "logoId": "2390",
+        "rank": "1"
+      },
+      "home": {
+        "name": "North Carolina",
+        "logoId": "153"
+      },
+      "kickoff": "SAT · 7:30 PM",
+      "tv": "ABC",
+      "source": "https://theacc.com/news/2026/10/19/acc-football-week-9-tv-networks-and-game-times-announced.aspx"
+    },
+    {
+      "id": "indiana-minnesota",
+      "away": {
+        "name": "Minnesota",
+        "logoId": "135"
+      },
+      "home": {
+        "name": "Indiana",
+        "logoId": "84",
+        "rank": "4"
+      },
+      "kickoff": "SAT · 3:30 PM",
+      "tv": "CBS",
+      "source": "https://fbschedules.com/college-football-schedule-tv-selections-for-october-31-2026/"
+    },
+    {
+      "id": "utah-cincinnati",
+      "away": {
+        "name": "Utah",
+        "logoId": "254",
+        "rank": "6"
+      },
+      "home": {
+        "name": "Cincinnati",
+        "logoId": "2132"
+      },
+      "kickoff": "SAT · 3:45 PM",
+      "tv": "ESPN",
+      "source": "https://fbschedules.com/college-football-schedule-tv-selections-for-october-31-2026/"
+    }
+  ],
+  "tvHighlights": [
+    {
+      "time": "NOON",
+      "match": "No. 5 Notre Dame vs. Navy",
+      "network": "ABC"
+    },
+    {
+      "time": "3:30 PM",
+      "match": "No. 17 Florida vs. No. 3 Georgia",
+      "network": "ABC"
+    },
+    {
+      "time": "7:00 PM",
+      "match": "Clemson at Florida State",
+      "network": "ACCN"
+    },
+    {
+      "time": "7:30 PM",
+      "match": "No. 2 Ohio State at USC",
+      "network": "NBC"
+    }
+  ]
+}
