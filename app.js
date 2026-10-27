@@ -7,7 +7,7 @@
   const make=(tag,cls,text) => {const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
   function navigate(tab) {
     state.tab=tab;
-    ['news','reddit','archive'].forEach(id=>{
+    ['news','reddit','football','archive'].forEach(id=>{
       $(id+'-panel').hidden=id!==tab;
       const b=document.querySelector('[data-tab="'+id+'"]');
       b.classList.toggle('active',id===tab);
@@ -76,6 +76,67 @@
     const host=$('reddit-list');host.replaceChildren();host.classList.add('reddit-list');
     state.data.reddit.forEach(item=>host.append(showStory(item,'reddit')));
   }
+  function teamLogo(team, cssClass) {
+    const holder=make('span','logo-container');
+    const image=make('img',cssClass);
+    image.src='https://a.espncdn.com/i/teamlogos/ncaa/500/'+team.logoId+'.png';
+    image.alt=team.name+' logo';image.loading='lazy';
+    const fallback=make('span','logo-fallback',team.name.split(' ').map(word=>word[0]).join('').slice(0,3));
+    fallback.hidden=true;
+    image.addEventListener('error',()=>{image.hidden=true;fallback.hidden=false});
+    holder.append(image,fallback);
+    return holder;
+  }
+  function footballTeam(team) {
+    const holder=make('div','football-team');
+    holder.append(teamLogo(team,'football-logo'),make('div','football-team-name',team.name));
+    const secondary=team.record?'Record: '+team.record:team.label;
+    if(secondary)holder.append(make('div','football-team-record',secondary));
+    return holder;
+  }
+  function footballScoreTeam(team){
+    const row=make('div','score-row');
+    const name=make('span','score-team-name');
+    if(team.rank)name.append(make('span','score-rank','#'+team.rank));
+    name.append(document.createTextNode(team.name));
+    row.append(teamLogo(team,'score-logo'),name);
+    return row;
+  }
+  function loadFootball(data){
+    if(!data||!data.feature||!Array.isArray(data.games))throw Error('Invalid football file');
+    $('football-week').textContent=data.displayWeek;
+    const feature=$('football-feature');feature.replaceChildren();
+    const eyebrow=make('div','football-feature-eyebrow');
+    eyebrow.append(make('span','','SEMINOLES SPOTLIGHT'),make('span','kick-status','NEXT UP'));
+    const body=make('div','football-feature-body');
+    body.append(footballTeam(data.feature.away),make('span','football-vs','at'),footballTeam(data.feature.home));
+    const meta=make('div','football-event-note');
+    meta.append(make('span','',data.feature.kickoff),make('span','broadcast',data.feature.tv));
+    const link=make('a','football-match-link','Official game center ↗');
+    link.href=data.feature.source;link.target='_blank';link.rel='noopener noreferrer';
+    meta.append(link);
+    feature.append(eyebrow,body,meta);
+    const grid=$('football-games');grid.replaceChildren();
+    $('football-matchup-count').textContent=data.games.length+' FEATURED MATCHUPS';
+    data.games.forEach(game=>{
+      const card=make('article','score-card');
+      const top=make('div','score-card-top');
+      top.append(make('span','',game.kickoff+' ET'),make('span','card-state','SCHEDULED'));
+      card.append(top,footballScoreTeam(game.away),footballScoreTeam(game.home));
+      const foot=make('div','score-card-foot');
+      foot.append(make('span','',game.tv));
+      const source=make('a','','Schedule source ↗');
+      source.href=game.source;source.target='_blank';source.rel='noopener noreferrer';
+      foot.append(source);
+      card.append(foot);grid.append(card);
+    });
+    const tv=$('football-tv-list');tv.replaceChildren();
+    (data.tvHighlights||[]).forEach(item=>{
+      const row=make('div','football-tv-row');
+      row.append(make('span','',item.time+' · '+item.match),make('strong','',item.network));
+      tv.append(row);
+    });
+  }
   async function start(){
     document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>navigate(button.dataset.tab)));
     $('view-preview').addEventListener('click',()=>navigate('news'));
@@ -92,12 +153,20 @@
       $('edition-year').textContent=state.data.year;
       $('edition-description').textContent=state.data.description;
       filters();news();reddit();
+      try{
+        const footballResponse=await fetch('./football.json',{cache:'no-store'});
+        if(!footballResponse.ok)throw Error('HTTP '+footballResponse.status);
+        loadFootball(await footballResponse.json());
+      }catch(footballError){
+        $('football-feature').append(make('p','empty','Football preview could not be loaded. Please refresh this page.'));
+        console.error(footballError);
+      }
     }catch(error){
       $('news-list').append(make('p','empty','The demo edition could not be loaded. Please refresh the page.'));
       console.error(error);
     }
     const hash=location.hash.replace('#','');
-    navigate(['news','reddit','archive'].includes(hash)?hash:'news');
+    navigate(['news','reddit','football','archive'].includes(hash)?hash:'news');
   }
   start();
 })();
