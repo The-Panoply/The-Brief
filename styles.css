@@ -128,7 +128,6 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 .football-tv,.football-reddit{border-top:2px solid #e3e7e9;padding:18px 0 0}
 .football-section-kicker{font-size:10px;letter-spacing:.17em;color:var(--gold);font-weight:750}
 .football-secondary h3{font:400 26px var(--serif);margin:11px 0 8px;letter-spacing:-.02em}
-.football-secondary p{font-size:12px;color:#74818a;line-height:1.65;margin:0 0 15px}
 .football-tv-row{display:flex;justify-content:space-between;gap:14px;padding:12px 0;border-top:1px solid var(--line);font-size:12px}
 .football-tv-row span{color:#566c78}
 .football-tv-row strong{font-size:11px;color:#8a6d3b;white-space:nowrap}
@@ -137,7 +136,6 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 .football-community-link strong{font-weight:620;font-size:13px;line-height:1.4}
 .football-community-link small{font-size:11px;color:#8a6d3b}
 .football-community-link:hover{border-color:#bfc9d1}
-.football-disclaimer{font-size:11px;color:#93a0a6;line-height:1.6;margin:31px 0 0}
 @media(max-width:740px){
  .preview-label{display:none}
  .tabs{gap:clamp(12px,3vw,22px);width:100%;justify-content:space-between}
@@ -172,3 +170,7 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 
 /* Site design version, deliberately separate from historical Brief edition numbers. */
 .site-version{display:block;flex:0 0 auto;font:500 10px/1 var(--sans);letter-spacing:.06em;color:#9ca7b0;padding-bottom:3px;user-select:none}
+
+/* Keep the design version on the same typographic line as the edition date. */
+#news-panel .edition-top{align-items:baseline}
+#news-panel .edition-top .site-version{align-self:baseline;padding:0;margin:0;white-space:nowrap}
