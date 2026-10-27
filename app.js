@@ -150,7 +150,7 @@
     state.archivedId=entry?entry.id:null;
     state.filter='All';state.query='';state.open.clear();$('search').value='';
     $('edition-title').textContent=data.displayDate+(data.year?', '+data.year:'');
-    $('edition-status-text').textContent=entry?archiveStatus(entry):'Design preview · Not a live edition.';
+    $('edition-status-text').textContent=entry?archiveStatus(entry):(data.type==='published'?'Published edition · '+data.displayDate+', '+data.year:'Design preview · Not a live edition.');
     $('archive-reader-bar').hidden=!entry;
     filters();news();
   }
