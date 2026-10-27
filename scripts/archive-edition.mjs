@@ -24,7 +24,9 @@ if(data.type!=='published'||!Array.isArray(data.news)||data.news.length===0||
 for(const item of data.news){
   if(typeof item.id!=='string'||typeof item.publisher!=='string'||typeof item.domain!=='string'||
      typeof item.category!=='string'||typeof item.headline!=='string'||
-     !Array.isArray(item.summary)||!item.summary.every(t=>typeof t==='string')||
+     !(typeof item.openingParagraph==='string'&&item.openingParagraph.trim().length>0||
+       Array.isArray(item.summary)&&item.summary.length>0&&item.summary.every(t=>typeof t==='string'))||
+     (item.summary!==undefined&&(!Array.isArray(item.summary)||!item.summary.every(t=>typeof t==='string')))||
      !/^https?:\/\//.test(item.url||'')){
     throw Error('Invalid story in published edition: '+String(item.id));
   }
