@@ -148,9 +148,7 @@
       if(!response.ok)throw Error('HTTP '+response.status);
       state.data=await response.json();
       if(!Array.isArray(state.data.news)||!Array.isArray(state.data.reddit))throw Error('Invalid edition');
-      $('edition-number').textContent=state.data.edition;
-      $('edition-title').textContent=state.data.displayDate;
-      $('edition-year').textContent=state.data.year;
+      $('edition-title').textContent=state.data.displayDate+(state.data.year?', '+state.data.year:'');
       filters();news();reddit();
       try{
         const footballResponse=await fetch('./football.json',{cache:'no-store'});
