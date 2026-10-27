@@ -62,7 +62,7 @@ main.shell{min-height:65vh;padding-top:27px;padding-bottom:38px}
 .story-toggle[aria-expanded="true"] .story-chevron{transform:rotate(180deg)}
 .story-detail{padding:0 28px 18px 1px;max-width:860px;animation:appear .16s}
 .story-detail[hidden]{display:none}
-.story-detail p{margin:0 0 10px;color:#475d68;line-height:1.72;font-size:14px}
+.story-detail p{margin:0 0 12px;color:#475d68;line-height:1.62;font-size:16px}
 .story-meta{font-size:11px;color:#8f9a9f;margin:5px 0 13px}
 .story-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:1px}
 .story-actions a{font-size:12px;color:#8a6d3b;font-weight:650;text-decoration:none}
