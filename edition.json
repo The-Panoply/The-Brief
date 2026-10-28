@@ -901,5 +901,319 @@
       "url": "https://x.com/itspdfu/status/2110776155103990260",
       "qualification": "Described on author's own research site; direct X text unavailable"
     }
+  ],
+  "comments": [
+    {
+      "id": "macbook-pro-oled-touch-2026-10-28",
+      "headline": "Apple unveils the touchscreen OLED MacBook Pro",
+      "date": "October 28, 2026",
+      "publisher": "Apple",
+      "articleUrl": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+      "context": "Apple announced 14- and 16-inch MacBook Pro models with tandem OLED, touch input, a lighter chassis and Dynamic Island. The 14-inch starts at $2,899 and the 16-inch at $3,399. They retain M5 Pro/M5 Max chips, and Apple says they ship November 6.",
+      "synthesis": [
+        "The launch-day MacRumors discussion is sharply split. Many like the OLED screen, reduced weight and illuminated Apple logo; others resent paying for touch on a traditional clamshell laptop. An outspoken portion thinks the pricing is too high even when the hardware looks appealing.",
+        "The deeper disagreement is about form factor and input. Some see touch as an occasional, welcome supplement to an excellent trackpad. Others expect fatigue, fingerprints and awkward reaching. A third group would rather have a convertible or detachable Mac/iPad, preferably with Pencil support. Those are different objections, not one single anti-touch position.",
+        "Some commenters are more interested in whether macOS and professional apps evolve around the new input method. Others question why the OLED redesign uses M5 Pro and Max rather than newer-numbered M6 silicon, or whether the display and portability improvements alone justify replacing a still-capable older Mac.",
+        "This is a deliberately varied sample of public comments, not a poll or a measurement of consensus. MacRumors selections are from October 28 launch-day discussion; accessible Reddit selections were posted October 6–27, before the announcement, and are labeled accordingly. None are represented as hands-on ownership reviews."
+      ],
+      "sources": [
+        {
+          "name": "Apple announcement",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
+        },
+        {
+          "name": "MacRumors launch-day forum",
+          "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/"
+        },
+        {
+          "name": "r/apple — October 27 discussion",
+          "url": "https://www.reddit.com/r/apple/comments/1xgu85v/"
+        },
+        {
+          "name": "r/apple — October 8 discussion",
+          "url": "https://www.reddit.com/r/apple/comments/1x11ulx/"
+        },
+        {
+          "name": "r/macbookpro — October discussions",
+          "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/"
+        }
+      ],
+      "themes": [
+        {
+          "title": "The price—and whether the upgrade earns it",
+          "insight": "The display wins admirers, but high starting prices dominate much of the immediate reaction. Even some people who like the hardware intend to wait.",
+          "comments": [
+            {
+              "author": "Apple Knowledge Navigator",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "quote",
+              "text": "Woah. That’s OLED a money…",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
+              "note": "Launch-day quip"
+            },
+            {
+              "author": "Astuces iOS",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "At roughly CAD $4,000, this commenter says the OLED model costs more than twice what their base M4 MacBook Pro cost.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
+              "note": "Launch-day pricing reaction"
+            },
+            {
+              "author": "EcosystemApple",
+              "source": "r/apple",
+              "date": "Oct 27 · before launch",
+              "kind": "quote",
+              "text": "I just cannot imagine the price of this computer.\n\nI feel that prices have skyrocketed for no real reasons in general and Apple is looking for reasons to justify these increases.",
+              "url": "https://www.reddit.com/r/apple/comments/1xgu85v/comment/19rqi6a0khqsh/",
+              "note": "Pre-announcement perspective"
+            },
+            {
+              "author": "joshwithachance",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "Calls this essentially a mid-cycle M5 refresh with a new display and a roughly $400 premium, questioning how much practical novelty buyers receive.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-6",
+              "note": "Launch-day value assessment"
+            },
+            {
+              "author": "vrmvavoom",
+              "source": "r/apple",
+              "date": "Oct 8 · before launch",
+              "kind": "quote",
+              "text": "The cost of a touch layer in 2026 is basically nothing. $50 garbage Android tablets have touchscreens. The impact of adding touch to the cost of a $3000+ laptop will not be noticeable - there's a dozen other factors you should be much more worried about when it comes to the cost of this thing.",
+              "url": "https://www.reddit.com/r/apple/comments/1x11ulx/",
+              "note": "Counterargument; commenter assertion, not verified cost analysis"
+            }
+          ]
+        },
+        {
+          "title": "The OLED display, weight and what people actually want",
+          "insight": "Several comments suggest the OLED panel and lighter chassis are the meaningful innovations, with touch functioning as a bonus—or an unwelcome extra.",
+          "comments": [
+            {
+              "author": "random person",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "quote",
+              "text": "It’s about the OLED screen, people. That by itself makes this an incredible upgrade.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-18",
+              "note": "Launch-day optimism"
+            },
+            {
+              "author": "cinder",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "quote",
+              "text": "the only thing I really like is the weight reduction.\nstrange product, tbh",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-6",
+              "note": "Launch-day skepticism"
+            },
+            {
+              "author": "JPack",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "Describes the launch as an OLED-centered mid-cycle update: touch is a supplementary input method rather than a wholesale reinvention of the Mac.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
+              "note": "Launch-day product framing"
+            },
+            {
+              "author": "appleguy123",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "Impressed by a roughly three-pound 14-inch machine with high-end performance and a returning lit Apple logo, but says the cost puts it out of reach.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
+              "note": "Launch-day hardware reaction"
+            },
+            {
+              "author": "mSants732",
+              "source": "r/macbookpro",
+              "date": "Oct 26 · before launch",
+              "kind": "quote",
+              "text": "Which model you coming from?\nI’m still with an M3 Max and only thought maybe an M4 for the brighter screen and I’ve been out the loop since then. I just game on mine basically and it’s superb.\nAlthough, I do want whatever Max version has that touchscreen and the cellular connection. Not sure if that’s been leaked yet. I think the Max’s are steep but buys you time so to say between models.",
+              "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/comment/19rp6l0k3hbsz/",
+              "note": "Pre-announcement; cellular was a hoped-for feature, not an announced one"
+            }
+          ]
+        },
+        {
+          "title": "Fingerprints, arm fatigue and the clamshell problem",
+          "insight": "A touchscreen is not the same thing as a tablet. The debate centers on whether occasional taps are worth integrating into a posture designed for the keyboard and trackpad.",
+          "comments": [
+            {
+              "author": "Corefile",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "quote",
+              "text": "I don't want gorilla arms.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
+              "note": "Launch-day ergonomics objection"
+            },
+            {
+              "author": "con2apple",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "Argues that playing an on-screen piano or manipulating a 3D model while reaching forward from a laptop keyboard would be tiring. Wants an Apple-built convertible instead.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-6",
+              "note": "Launch-day use-case criticism"
+            },
+            {
+              "author": "TheAwkwardPigeon",
+              "source": "r/macbookpro",
+              "date": "Oct 6 · before launch",
+              "kind": "quote",
+              "text": "I swear the amount of people who go up and touch my damn screen when Im showing them something--ya'll I got this laptop so it wouldnt be covered in finger grease smudge. And for some reason I always have to tell them TWICE before it seems to connect in their brain while they continue to attempt to \"scroll\" on the screen.",
+              "url": "https://www.reddit.com/r/macbookpro/comments/1wza8lp/comment/peaf3tj/",
+              "note": "Pre-announcement firsthand complaint about screen smudges"
+            },
+            {
+              "author": "GMoney7304",
+              "source": "r/macbookpro",
+              "date": "Oct 6 · before launch",
+              "kind": "quote",
+              "text": "I've never understood this. A lot of MacBooks I see still have a really gross display, despite not being a touchscreen.\nIn my experience MacBooks also have a really poor anti-fingerprint coating, which doesn't help.",
+              "url": "https://www.reddit.com/r/macbookpro/comments/1wza8lp/comment/pe9zjwt/",
+              "note": "Pre-announcement counterargument"
+            },
+            {
+              "author": "Masam10",
+              "source": "r/apple",
+              "date": "Oct 8 · before launch",
+              "kind": "quote",
+              "text": "I always felt like a touch screen MacBook should be basically a surface pro. A detachable laptop that becomes an iPad when detached.",
+              "url": "https://www.reddit.com/r/apple/comments/1x11ulx/comment/pepsy0p/",
+              "note": "Pre-announcement form-factor proposal"
+            },
+            {
+              "author": "cardfan",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "Responding to complaints about the missing Apple Pencil, observes that writing with a Pencil on an upright laptop display would itself be awkward.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-18",
+              "note": "Launch-day defense of clamshell limitations"
+            }
+          ]
+        },
+        {
+          "title": "What should touch change in macOS?",
+          "insight": "The software implementation may matter more than the spec sheet: a few users are already watching for touch-friendly targets, handwriting and gestures in normal Mac workflows.",
+          "comments": [
+            {
+              "author": "Rogifan",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "quote",
+              "text": "Over 200 comments and no comments on the software.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-9",
+              "note": "Launch-day observation"
+            },
+            {
+              "author": "The_Bald_Skald",
+              "source": "r/apple",
+              "date": "Oct 27 · before launch",
+              "kind": "quote",
+              "text": "I wonder what they've done with MacOS 27.2 to make it more touch friendly, in the advance of this new MacBook.",
+              "url": "https://www.reddit.com/r/apple/comments/1xgu85v/comment/19rqi55d5ha00/",
+              "note": "Pre-announcement software question"
+            },
+            {
+              "author": "AltruisticNetwork869",
+              "source": "r/apple",
+              "date": "Oct 27 · before launch",
+              "kind": "quote",
+              "text": "One interesting thing I noticed upon updating to 27.2 was that notes on Mac added support for drawing “with mouse or trackpad”.",
+              "url": "https://www.reddit.com/r/apple/comments/1xgu85v/comment/19rqi7b43ycbn/",
+              "note": "Pre-announcement observation; not proof of Pencil support"
+            },
+            {
+              "author": "aemfbm",
+              "source": "r/apple",
+              "date": "Oct 27 · before launch",
+              "kind": "quote",
+              "text": "\"revamped hinge\" ... will they make it fold all the way back for tablet mode?",
+              "url": "https://www.reddit.com/r/apple/comments/1xgu85v/comment/19rqi8tuk3tut/",
+              "note": "Pre-announcement design question"
+            },
+            {
+              "author": "Saar13",
+              "source": "r/apple",
+              "date": "Oct 8 · before launch",
+              "kind": "quote",
+              "text": "Gurman calls it the MacBook Pro. It's clear it will have an OLED screen, dynamic island, some design changes, and will be lighter. All great in my opinion. What I still can't understand is the touchscreen issue. Will this be standard for the MacBook Pro or will it just be an option for the customer to choose, like the nano-texture? Because it wouldn't make any sense to have the best laptop in the lineup with a feature that will increase the price and isn't exactly necessary for almost anyone.\nIf it's an additional option, that's fine.",
+              "url": "https://www.reddit.com/r/apple/comments/1x11ulx/comment/pepvjnn/",
+              "note": "Pre-announcement speculation; actual product now confirmed"
+            }
+          ]
+        },
+        {
+          "title": "Who upgrades—and who refuses?",
+          "insight": "Actual purchase intent appears highly conditional. Some buyers are delighted; others see little reason to replace a fast M-series Mac, or plan to avoid a touchscreen laptop entirely.",
+          "comments": [
+            {
+              "author": "Illuminated",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "quote",
+              "text": "Shut up and take my money!",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
+              "note": "Launch-day enthusiasm"
+            },
+            {
+              "author": "tim@ipad",
+              "source": "MacRumors Forums",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "Likes the display and expects to buy an M7-era version to replace an aging 16-inch M1 Pro. Their preferred configuration appears somewhat more expensive, but not by as much as feared.",
+              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-9",
+              "note": "Interested future buyer"
+            },
+            {
+              "author": "SvenLorenz",
+              "source": "r/macbookpro",
+              "date": "Oct 26 · before launch",
+              "kind": "quote",
+              "text": "That's why got my M5 Pro, even if I didn't want to upgrade this year. It's going to last until Apple realizes that people don't want a touchscreen on a MacBook. And burn-in still is a problem, no matter what people try to tell themselves.",
+              "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/comment/19rp7uhto1h4x/",
+              "note": "Pre-announcement choice; burn-in worry is an opinion"
+            },
+            {
+              "author": "Marino4K",
+              "source": "r/macbookpro",
+              "date": "Oct 26 · before launch",
+              "kind": "quote",
+              "text": "I may invest in a Max because if Apple plans on moving the entire MBP line to touchscreens, I want nothing to do with it.",
+              "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/",
+              "note": "Pre-announcement purchase planning"
+            },
+            {
+              "author": "Bmosbacker",
+              "source": "Mac Power Users forum",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "Uses an iPad Pro with Magic Keyboard but only touches its display in tablet mode. Would rather have the new panel quality and lighter weight without paying for touch.",
+              "url": "https://talk.macpowerusers.com/t/apple-announces-oled-macbook-pro-with-touch-display/47844",
+              "note": "Separate contemporary community perspective"
+            },
+            {
+              "author": "ChrisUpchurch",
+              "source": "Mac Power Users forum",
+              "date": "Oct 28",
+              "kind": "summary",
+              "text": "In contrast, says iPad Pro use with Magic Keyboard is roughly 60% trackpad and 40% touch, to the point of instinctively reaching for a MacBook Air screen.",
+              "url": "https://talk.macpowerusers.com/t/apple-announces-oled-macbook-pro-with-touch-display/47844",
+              "note": "Contemporary mixed-input workflow"
+            }
+          ]
+        }
+      ],
+      "methodology": "Editorial selection of accessible public discussion, not a poll. Quoted passages are verbatim; entries marked 'summary' paraphrase the linked original. MacRumors selections are from launch day; Reddit comments shown here predate the announcement. Links lead to source threads or individual comments. No opinion is represented as a verified product fact."
+    }
   ]
 }
