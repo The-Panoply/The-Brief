@@ -23,7 +23,7 @@ a{color:inherit}
 .tab:hover{color:var(--ink)}
 .preview-label{white-space:nowrap;color:#8c9191;font-size:9px;font-weight:700;letter-spacing:.13em}
 .status-dot{display:inline-block;width:5px;height:5px;border:1px solid #bb9a57;border-radius:50%;vertical-align:1px;margin-right:6px}
-main.shell{min-height:65vh;padding-top:27px;padding-bottom:38px}
+main.shell{min-height:65vh;padding-top:15px;padding-bottom:38px}
 .panel[hidden]{display:none}
 .edition-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
 #edition-heading[hidden],#search-wrap[hidden]{display:none}
@@ -153,7 +153,7 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 /* Compact edition header: let reporting, not explanatory copy, lead the page. */
 #news-panel .edition-title{font-size:clamp(25px,3.4vw,36px);line-height:1.12;margin:8px 0 0}
 #news-panel .edition-year{font-size:13px;margin:6px 0}
-@media(max-width:740px){main.shell{padding-top:22px}#news-panel .edition-title{font-size:clamp(25px,6vw,31px)}}
+@media(max-width:740px){main.shell{padding-top:12px}#news-panel .edition-title{font-size:clamp(25px,6vw,31px)}}
 
 /* Site design version, deliberately separate from historical Brief edition numbers. */
 
@@ -187,14 +187,21 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 .x-list .story-toggle{padding:14px 1px}
 @media(max-width:740px){.tabs{flex:1 1 100%;gap:clamp(12px,3vw,22px);overflow-x:auto;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tab{flex:0 0 auto}}
 
-/* Brief v12 compact edition navigation */
-.edition-meta{display:flex;justify-content:flex-end;align-items:center;gap:12px;margin:0 2px 13px;min-height:19px}
-.edition-meta .edition-date{font:500 13px/1.35 var(--sans);letter-spacing:.01em;color:#77848d;text-align:right}
-.edition-meta .edition-version{font:400 11px/1.35 var(--sans);color:#b1bac1;letter-spacing:.025em;white-space:nowrap}
-.edition-meta .edition-version[hidden]{display:none}
-.section-tools .tabs{gap:6px}
+/* Edition navigation: one compact line below the masthead. */
+.section-tools{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:nowrap;margin-bottom:10px;padding-bottom:11px}
+.section-tools .tabs{display:flex;align-items:center;gap:6px;min-width:0}
 .section-tools .tab{appearance:none;border:1px solid transparent;border-radius:999px;background:transparent;color:#71808a;font:600 12px/1.2 var(--sans);letter-spacing:0;padding:7px 12px;white-space:nowrap}
 .section-tools .tab.active{color:var(--ink);background:#f0f2f4;border-color:#e5e9ed;font-weight:600}
 .section-tools .tab:hover{color:var(--ink);background:#f7f8f9}
-@media(max-width:740px){.section-tools .tabs{gap:5px}.section-tools .tab{padding:7px 10px;font-size:11px}.edition-meta{margin-bottom:10px}}
+.section-tools .edition-meta{display:flex;flex:0 0 auto;justify-content:flex-end;align-items:center;gap:11px;margin:0;min-height:0}
+.section-tools .edition-date{font:500 16px/1.2 var(--sans);letter-spacing:.005em;color:#77848d;text-align:right;white-space:nowrap}
+.section-tools .edition-version{font:400 11px/1.2 var(--sans);color:#b1bac1;letter-spacing:.025em;white-space:nowrap}
+.section-tools .edition-version[hidden]{display:none}
+@media(max-width:690px){
+ .section-tools{flex-wrap:wrap;gap:5px}
+ .section-tools .tabs{flex:1 1 100%;width:100%;justify-content:space-between;gap:5px;overflow:visible}
+ .section-tools .tab{padding:7px 10px;font-size:11px}
+ .section-tools .edition-meta{width:100%;justify-content:flex-end;margin-top:1px}
+ .section-tools .edition-date{font-size:15px}
+}
 @media(max-width:380px){.section-tools .tab{padding:7px 8px;font-size:10.5px}}
