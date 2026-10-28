@@ -1,0 +1,218 @@
+{
+  "type": "published",
+  "edition": "v12",
+  "displayDate": "Wednesday, October 28",
+  "year": "2026",
+  "news": [
+    {
+      "id": "apple-productivity-ai",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+      "openingParagraph": "The new AI assistant can draft and restructure content in Pages, while organizing data in Numbers.",
+      "summary": [],
+      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
+    },
+    {
+      "id": "icloud-plugins",
+      "publisher": "OpenAI",
+      "domain": "openai.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "iCloud Mail and Calendar plugins in ChatGPT",
+      "openingParagraph": "iCloud users can now connect Mail and Calendar to ChatGPT to find emails, catch up on your inbox, check your schedule, and update calendar events.",
+      "summary": [],
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "id": "terra-work",
+      "publisher": "OpenAI",
+      "domain": "openai.com",
+      "category": "Technology",
+      "date": "October 26, 2026",
+      "headline": "Introducing GPT-6.1 Terra",
+      "openingParagraph": "GPT-6.1 Terra brings faster visual reasoning and computer use to ChatGPT Work, Codex and the API.",
+      "summary": [],
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+    },
+    {
+      "id": "academic-sci",
+      "publisher": "OpenAI",
+      "domain": "openai.com",
+      "category": "Science",
+      "date": "October 26, 2026",
+      "headline": "Working with academic communities to build scientific understanding",
+      "summary": [],
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+    },
+    {
+      "id": "genie4",
+      "publisher": "Google DeepMind",
+      "domain": "deepmind.google",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Genie 4: A new generation of world simulation",
+      "openingParagraph": "Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and improves real-time interactive simulation.",
+      "summary": [],
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+      "id": "gruber-wysiwyg",
+      "publisher": "Daring Fireball",
+      "domain": "daringfireball.net",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Prestructured WYSIWYG",
+      "summary": [],
+      "url": "https://daringfireball.net/2026/10/prestructured_wysiwyg"
+    },
+    {
+      "id": "topol-aging",
+      "publisher": "Eric Topol — Ground Truths",
+      "domain": "erictopol.substack.com",
+      "category": "Science",
+      "date": "October 27, 2026",
+      "headline": "Vadim Gladyshev and the Science of Aging",
+      "summary": [],
+      "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of"
+    },
+    {
+      "id": "vibe-genes",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Science",
+      "date": "October 27, 2026",
+      "headline": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+      "openingParagraph": "You can apparently now tell AI tools what sort of protein you want them to make.",
+      "summary": [],
+      "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/"
+    },
+    {
+      "id": "m3-reveal",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "October 24, 2026",
+      "headline": "The Electric BMW M3 Is Finally Starting To Lose The Camo: Video",
+      "openingParagraph": "BMW's quad-motor sports sedan is getting closer to production, and the latest spy footage gives us a better look at what's hiding beneath the camouflage.",
+      "summary": [],
+      "url": "https://www.bmwblog.com/2026/10/24/2028-bmw-m3-electric-less-camouflage/"
+    },
+    {
+      "id": "fathom-home",
+      "publisher": "Car and Driver",
+      "domain": "caranddriver.com",
+      "category": "Automotive",
+      "date": "October 27, 2026",
+      "headline": "Ford’s $30K Fathom EV Can Double as a Home Power Generator",
+      "openingParagraph": "The forthcoming electric truck will be able to power a home when it’s linked to a power setup that’s expected to cost about $2300 extra.",
+      "summary": [],
+      "url": "https://www.caranddriver.com/news/a74263722/2028-ford-fathom-bidirectional-home-power-setup/"
+    },
+    {
+      "id": "brabus-g63",
+      "publisher": "Car and Driver",
+      "domain": "caranddriver.com",
+      "category": "Automotive",
+      "date": "October 26, 2026",
+      "headline": "Brabus Is Turning the Mercedes-AMG G63 Into a 900-HP Pickup Truck",
+      "summary": [],
+      "url": "https://www.caranddriver.com/news/a74251542/brabus-mercedes-amg-g63-pickup-truck/"
+    },
+    {
+      "id": "fec-hack",
+      "publisher": "Reuters",
+      "domain": "reuters.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Hackers target US FEC system, disrupting campaign finance disclosures days before midterms",
+      "summary": [],
+      "url": "https://www.reuters.com/technology/hacker-trying-breach-us-federal-election-commission-system-email-shows-2026-10-27/"
+    },
+    {
+      "id": "oleshky-truce",
+      "publisher": "Reuters",
+      "domain": "reuters.com",
+      "category": "Science",
+      "date": "October 27, 2026",
+      "headline": "US-brokered truce appears to hold in Ukrainian town close to starvation",
+      "summary": [],
+      "url": "https://www.reuters.com/world/europe/russia-ukraine-begin-localised-ceasefire-allow-humanitarian-operation-oleshky-2026-10-27/"
+    },
+    {
+      "id": "anthropic-ipo",
+      "publisher": "Reuters",
+      "domain": "reuters.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Morning Bid: All eyes on AI",
+      "summary": [],
+      "url": "https://www.reuters.com/business/media-telecom/global-markets-view-europe-2026-10-27/"
+    },
+    {
+      "id": "fsu-president",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
+      "category": "Sports",
+      "date": "October 27, 2026",
+      "headline": "FSU President Richard McCullough issues statement on athletics and fan frustration",
+      "summary": [],
+      "url": "https://www.tomahawknation.com/florida-state-football/139467/fsu-president-richard-mccullough-issues-statement-athletic-director-search-fan-frustration-standards-discussion"
+    },
+    {
+      "id": "fsu-norvell",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
+      "category": "Sports",
+      "date": "October 26, 2026",
+      "headline": "Mike Norvell on playing Clemson this week: “We’ve got to take a step as a football team”",
+      "summary": [],
+      "url": "https://www.tomahawknation.com/florida-state-football/139437/mike-norvell-on-playing-clemson-this-week-weve-got-to-take-a-step-as-a-football-team"
+    }
+  ],
+  "reddit": [
+    {
+      "id": "second-look",
+      "subreddit": "r/shortcuts",
+      "title": "Second Look: a one-press check on where something you're reading came from, using Apple Intelligence",
+      "date": "October 27, 2026",
+      "text": "My teenagers and my parents regularly send me things they \"found\" online. I wanted something they could call in for a quick second set of eyes, without needing a fact-checking habit.\n\nIf you’ve seen the Truth Finder shortcut here, this comes at the same problem from a different angle and more integration points. Instead of rating whether a claim is true, Second Look only looks at where it came from, and hands the judgment and research back to you.",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xgxkut/second_look_a_onepress_check_on_where_something/"
+    },
+    {
+      "id": "wp-codex",
+      "subreddit": "r/ChatGPT",
+      "title": "ChatGPT can make WordPress plugins",
+      "date": "October 27, 2026",
+      "text": "The problem with third-party free WordPress plugins is that they're always geared toward getting you to buy the pro version. Maybe the free version has enough functionality to justify it, but then you get all these other things, like messages on your dashboard or warnings about things your free version can't fix (that are usually bullshit). Things that annoy you and just waste your data.\n\nSo, on a whim, I asked Codex to make me a couple of WordPress plugins.",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xgojlx/chatgpt_can_make_wordpress_plugins/"
+    },
+    {
+      "id": "shortcuts-missing",
+      "subreddit": "r/shortcuts",
+      "title": "Automations vanished",
+      "date": "October 27, 2026",
+      "text": "Over the weeekend all of my automations just disappeared. I had over 40 automations configured on my phone and now they are just gone, the shortcuts are still there thankfully. Has anybody else had this happen?\n\nEdit: Based on when the last automation’s successfully ran it appears to have happened when I logged into my new MacBook. Is there possibly a bug where adding a Mac resets automations?",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xgpjxo/automations_vanished/"
+    },
+    {
+      "id": "duo-shortcut",
+      "subreddit": "r/shortcuts",
+      "title": "Lock iPhone Duo on close unless app is open",
+      "date": "October 24, 2026",
+      "text": "iPhone Duo Shortcut:\nLock your iPhone Duo if you’re running an app and close the phone, the app still runs on the smaller display.\nIf you’re on the home screen, closing also locks the phone.\nhttps://www.icloud.com/shortcuts/d5a1cf54f5e949bba0a935c3de3e7ab6",
+      "url": "https://www.reddit.com/r/shortcuts/comments/1xemql3/lock_iphone_duo_on_close_unless_app_is_open/"
+    },
+    {
+      "id": "devday-berlin",
+      "subreddit": "r/OpenAI",
+      "title": "OpenAI DevDay Berlin: Dots, Codex, Custom Plugins, Sites & More",
+      "date": "October 26, 2026",
+      "text": "Went to OpenAI DevDay Exchange in Berlin today, and there was a lot more than just new models.\nA few things OpenAI introduced or highlighted that might interest heavy ChatGPT users and developers:",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1xg95lf/openai_devday_berlin_dots_codex_custom_plugins/",
+      "qualification": "OP report; individual rollout claims require confirmation"
+    }
+  ]
+}
