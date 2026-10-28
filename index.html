@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
-  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=edition-v12-clean-2">
-  <script defer src="./app.js?v=edition-v12-clean-2"></script>
+  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=x-desk-v12-1">
+  <script defer src="./app.js?v=x-desk-v12-1"></script>
 </head>
 <body>
   <a href="#main" class="skip">Skip to stories</a>
@@ -26,6 +26,7 @@
       <nav class="tabs" aria-label="Main sections">
         <button data-tab="news" class="tab active" aria-current="page">The Brief</button>
         <button data-tab="reddit" class="tab">Reddit Home</button>
+        <button data-tab="x" class="tab">X</button>
         <button data-tab="football" class="tab"><span class="tab-long">College Football</span><span class="tab-short">Football</span></button>
         <button data-tab="archive" class="tab">Archive</button>
       </nav>
@@ -54,14 +55,21 @@
     <section id="reddit-panel" class="panel" aria-label="Reddit Home" hidden>
       <div class="edition-top">
         <div><div class="kicker">THE COMMUNITY DESK</div><h2 class="edition-title">Reddit Home</h2></div>
-        <p class="edition-year">02 / 04</p>
       </div>
       <div id="reddit-list" class="feed"></div>
+    </section>
+    <section id="x-panel" class="panel" aria-label="Curated X posts" hidden>
+      <div class="edition-top">
+        <div><div class="kicker">THE CONVERSATION DESK</div><h2 class="edition-title">X</h2></div>
+      </div>
+      <p class="x-explainer">Noteworthy posts, expert exchanges and overlooked discoveries. Descriptions are editorial context, not verbatim quotations; open the original post for the author's words.</p>
+      <div class="feed-meta"><span id="x-count"></span></div>
+      <div id="x-list" class="feed reddit-list"></div>
+      <p id="x-empty" class="archive-note" hidden>No X selections in this edition.</p>
     </section>
     <section id="football-panel" class="panel" aria-label="College Football Weekend Desk" hidden>
       <div class="edition-top">
         <div><div class="kicker">THE WEEKEND DESK</div><h2 class="edition-title">Game Day</h2></div>
-        <p class="edition-year">03 / 04</p>
       </div>
       <div class="football-topline">
         <span class="football-top-label">WEEKEND BOARD <span aria-hidden="true">·</span> <span id="football-week">OCT 30 – NOV 2</span></span>
@@ -87,7 +95,6 @@
     <section id="archive-panel" class="panel" aria-label="Edition archive" hidden>
       <div class="edition-top">
         <div><div class="kicker">THE RECORD</div><h2 class="edition-title">The Archive</h2></div>
-        <p class="edition-year">04 / 04</p>
       </div>
       <div class="archive-summary" id="archive-count" aria-live="polite">Loading archive…</div>
       <div id="archive-list" class="archive-list" aria-live="polite"></div>
