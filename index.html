@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
-  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=serif-edition-date-v5">
-  <script defer src="./app.js?v=nav-date-inline-v3"></script>
+  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=comments-desk-v1">
+  <script defer src="./app.js?v=comments-desk-v1"></script>
 </head>
 <body>
   <a href="#main" class="skip">Skip to stories</a>
@@ -28,6 +28,7 @@
         <button data-tab="reddit" class="tab">Reddit</button>
         <button data-tab="football" class="tab">CFB</button>
         <button data-tab="x" class="tab">X</button>
+        <button data-tab="comments" class="tab">Comments</button>
         <button data-tab="archive" class="tab">Archive</button>
       </nav>
       <div id="edition-heading" class="edition-meta" aria-label="Edition date and version">
@@ -70,6 +71,10 @@
           <a href="https://www.reddit.com/r/CFB/comments/1xei4j1/postgame_thread_cincinnati_defeats_texas_tech_3724/" target="_blank" rel="noopener noreferrer" class="football-community-link"><span>LAST WEEKEND · r/CFB</span><strong>Cincinnati defeats Texas Tech, 37–24</strong><small>Open original postgame thread ↗</small></a>
         </div>
       </div>
+    </section>
+    <section id="comments-panel" class="panel" aria-label="Reader reactions and comments" hidden>
+      <div id="comments-list" class="comments-features" aria-live="polite"></div>
+      <p id="comments-empty" class="archive-note" hidden>No major-story comment dossiers in this edition.</p>
     </section>
     <section id="archive-panel" class="panel" aria-label="Edition archive" hidden>
       <div id="archive-list" class="archive-list" aria-live="polite"></div>
