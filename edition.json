@@ -16,15 +16,15 @@
       "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
     },
     {
-      "id": "icloud-plugins",
-      "publisher": "OpenAI",
-      "domain": "openai.com",
+      "id": "genie4",
+      "publisher": "Google DeepMind",
+      "domain": "deepmind.google",
       "category": "Technology",
       "date": "October 27, 2026",
-      "headline": "iCloud Mail and Calendar plugins in ChatGPT",
-      "openingParagraph": "iCloud users can now connect Mail and Calendar to ChatGPT to find emails, catch up on your inbox, check your schedule, and update calendar events.",
+      "headline": "Genie 4: A new generation of world simulation",
+      "openingParagraph": "Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and improves real-time interactive simulation.",
       "summary": [],
-      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
     },
     {
       "id": "terra-work",
@@ -38,25 +38,85 @@
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
     },
     {
-      "id": "academic-sci",
-      "publisher": "OpenAI",
-      "domain": "openai.com",
-      "category": "Science",
-      "date": "October 26, 2026",
-      "headline": "Working with academic communities to build scientific understanding",
-      "summary": [],
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
-    },
-    {
-      "id": "genie4",
-      "publisher": "Google DeepMind",
-      "domain": "deepmind.google",
+      "id": "macbook-oled-pricing",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
       "category": "Technology",
       "date": "October 27, 2026",
-      "headline": "Genie 4: A new generation of world simulation",
-      "openingParagraph": "Today, we are announcing Genie 4, our new world model, which unlocks unprecedented realism and improves real-time interactive simulation.",
+      "headline": "OLED Touchscreen MacBook Pro Could Start at $2,899",
+      "url": "https://www.macrumors.com/2026/10/27/oled-macbook-pro-pricing/",
+      "summary": []
+    },
+    {
+      "id": "icloud-plugins",
+      "publisher": "OpenAI",
+      "domain": "openai.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "iCloud Mail and Calendar plugins in ChatGPT",
+      "openingParagraph": "iCloud users can now connect Mail and Calendar to ChatGPT to find emails, catch up on your inbox, check your schedule, and update calendar events.",
       "summary": [],
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "id": "creator-studio",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Apple Updates Creator Studio With New Tools and AI Features",
+      "url": "https://www.macrumors.com/2026/10/27/apple-updates-creator-studio-ai-features/",
+      "summary": []
+    },
+    {
+      "id": "m6-mbp",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Apple Announces New 14-Inch MacBook Pro With M6 Chip",
+      "url": "https://www.macrumors.com/2026/10/27/14-inch-macbook-pro-with-m6-chip/",
+      "summary": []
+    },
+    {
+      "id": "ipad-mini-oled",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "OLED iPad Mini: Pre-Orders and Release Date",
+      "url": "https://www.macrumors.com/2026/10/27/oled-ipad-mini-pre-orders-and-release-date/",
+      "summary": []
+    },
+    {
+      "id": "siri-27-2",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Technology",
+      "date": "October 26, 2026",
+      "headline": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "summary": []
+    },
+    {
+      "id": "m6-imac",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Apple Announces New iMac With M6 Chip and More",
+      "url": "https://www.macrumors.com/2026/10/27/apple-announces-new-imac-with-m6-chip-and-more/",
+      "summary": []
+    },
+    {
+      "id": "neo-2",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Apple Reportedly Plans to Release MacBook Neo 2 in First Half of 2027",
+      "url": "https://www.macrumors.com/2026/10/27/macbook-neo-2-first-half-2027-report/",
+      "summary": []
     },
     {
       "id": "gruber-wysiwyg",
@@ -69,14 +129,34 @@
       "url": "https://daringfireball.net/2026/10/prestructured_wysiwyg"
     },
     {
-      "id": "topol-aging",
-      "publisher": "Eric Topol — Ground Truths",
-      "domain": "erictopol.substack.com",
-      "category": "Science",
+      "id": "ai-corporations",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Technology",
       "date": "October 27, 2026",
-      "headline": "Vadim Gladyshev and the Science of Aging",
+      "headline": "“No human at the helm”: Delaware plan would let AI agents run entire businesses",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "summary": []
+    },
+    {
+      "id": "anthropic-ipo-risks",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Technology",
+      "date": "October 27, 2026",
+      "headline": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "summary": []
+    },
+    {
+      "id": "academic-sci",
+      "publisher": "OpenAI",
+      "domain": "openai.com",
+      "category": "Science",
+      "date": "October 26, 2026",
+      "headline": "Working with academic communities to build scientific understanding",
       "summary": [],
-      "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of"
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
     },
     {
       "id": "vibe-genes",
@@ -90,15 +170,104 @@
       "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/"
     },
     {
-      "id": "m3-reveal",
+      "id": "topol-aging",
+      "publisher": "Eric Topol — Ground Truths",
+      "domain": "erictopol.substack.com",
+      "category": "Science",
+      "date": "October 27, 2026",
+      "headline": "Vadim Gladyshev and the Science of Aging",
+      "summary": [],
+      "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of"
+    },
+    {
+      "id": "brain-speech",
+      "publisher": "Science News",
+      "domain": "sciencenews.org",
+      "category": "Science",
+      "date": "October 28, 2026",
+      "headline": "How brain implants turn thoughts into speech",
+      "url": "https://www.sciencenews.org/article/brain-implants-thoughts-speech-podcast",
+      "summary": []
+    },
+    {
+      "id": "amygdala-memory",
+      "publisher": "Nature Neuroscience",
+      "domain": "nature.com",
+      "category": "Science",
+      "date": "October 27, 2026",
+      "headline": "Stimulus-specific recruitment of human amygdala neurons predicts episodic memory encoding success",
+      "url": "https://www.nature.com/articles/s41593-026-02493-9",
+      "summary": []
+    },
+    {
+      "id": "hippocampus-generalization",
+      "publisher": "Nature Neuroscience",
+      "domain": "nature.com",
+      "category": "Science",
+      "date": "October 27, 2026",
+      "headline": "Circuit mechanisms for disentangled representations and generalization in the hippocampus",
+      "url": "https://www.nature.com/articles/s41593-026-02491-x",
+      "summary": []
+    },
+    {
+      "id": "bird-flu-ai",
+      "publisher": "Science News",
+      "domain": "sciencenews.org",
+      "category": "Science",
+      "date": "October 27, 2026",
+      "headline": "Claude helped plan risky bird flu research. What did the AI add?",
+      "url": "https://www.sciencenews.org/article/claude-bird-flu-research-ai-biology",
+      "summary": []
+    },
+    {
+      "id": "ix5m-spy",
       "publisher": "BMWBLOG",
       "domain": "bmwblog.com",
       "category": "Automotive",
-      "date": "October 24, 2026",
-      "headline": "The Electric BMW M3 Is Finally Starting To Lose The Camo: Video",
-      "openingParagraph": "BMW's quad-motor sports sedan is getting closer to production, and the latest spy footage gives us a better look at what's hiding beneath the camouflage.",
-      "summary": [],
-      "url": "https://www.bmwblog.com/2026/10/24/2028-bmw-m3-electric-less-camouflage/"
+      "date": "October 27, 2026",
+      "headline": "BMW’s First Electric X5 M Spied On The Move: Video",
+      "url": "https://www.bmwblog.com/2026/10/27/2028-bmw-x5-m-electric-spy-video/",
+      "summary": []
+    },
+    {
+      "id": "m3-california",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "October 27, 2026",
+      "headline": "Electric BMW M3 Spotted in California With Concept Hood Vent",
+      "url": "https://www.bmwblog.com/2026/10/27/2027-bmw-m3-electric-za0-spied-california/",
+      "summary": []
+    },
+    {
+      "id": "i3-touring-spy",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "October 26, 2026",
+      "headline": "BMW i3 Touring Spied During High-Speed Track Testing",
+      "url": "https://www.bmwblog.com/2026/10/26/bmw-i3-touring-na1-spy-video/",
+      "summary": []
+    },
+    {
+      "id": "bmw-autonomous-factory",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "October 27, 2026",
+      "headline": "BMW Has Already Moved 1 Million Cars Inside Its Factories Without Drivers",
+      "url": "https://www.bmwblog.com/2026/10/27/bmw-moved-1-million-cars-inside-factories-without-drivers/",
+      "summary": []
+    },
+    {
+      "id": "ix3-moose",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "October 26, 2026",
+      "headline": "Watch How The New BMW iX3 Performs In The Moose Test",
+      "url": "https://www.bmwblog.com/2026/10/26/new-bmw-ix3-moose-test-video/",
+      "summary": []
     },
     {
       "id": "fathom-home",
@@ -122,34 +291,14 @@
       "url": "https://www.caranddriver.com/news/a74251542/brabus-mercedes-amg-g63-pickup-truck/"
     },
     {
-      "id": "fec-hack",
-      "publisher": "Reuters",
-      "domain": "reuters.com",
-      "category": "Technology",
+      "id": "ktm-supercar",
+      "publisher": "Top Gear",
+      "domain": "topgear.com",
+      "category": "Automotive",
       "date": "October 27, 2026",
-      "headline": "Hackers target US FEC system, disrupting campaign finance disclosures days before midterms",
-      "summary": [],
-      "url": "https://www.reuters.com/technology/hacker-trying-breach-us-federal-election-commission-system-email-shows-2026-10-27/"
-    },
-    {
-      "id": "oleshky-truce",
-      "publisher": "Reuters",
-      "domain": "reuters.com",
-      "category": "World",
-      "date": "October 27, 2026",
-      "headline": "US-brokered truce appears to hold in Ukrainian town close to starvation",
-      "summary": [],
-      "url": "https://www.reuters.com/world/europe/russia-ukraine-begin-localised-ceasefire-allow-humanitarian-operation-oleshky-2026-10-27/"
-    },
-    {
-      "id": "anthropic-ipo",
-      "publisher": "Reuters",
-      "domain": "reuters.com",
-      "category": "Technology",
-      "date": "October 27, 2026",
-      "headline": "Morning Bid: All eyes on AI",
-      "summary": [],
-      "url": "https://www.reuters.com/business/media-telecom/global-markets-view-europe-2026-10-27/"
+      "headline": "KTM has facelifted its X-Bow GT-XR by removing the roof and fitting wing mirrors",
+      "url": "https://www.topgear.com/car-news/supercars/ktm-has-facelifted-its-bonkers-x-bow-gt-xr-removing-roof-and-fitting-wing",
+      "summary": []
     },
     {
       "id": "fsu-president",
@@ -170,6 +319,46 @@
       "headline": "Mike Norvell on playing Clemson this week: “We’ve got to take a step as a football team”",
       "summary": [],
       "url": "https://www.tomahawknation.com/florida-state-football/139437/mike-norvell-on-playing-clemson-this-week-weve-got-to-take-a-step-as-a-football-team"
+    },
+    {
+      "id": "gulf-peace",
+      "publisher": "The Guardian",
+      "domain": "theguardian.com",
+      "category": "World",
+      "date": "October 28, 2026",
+      "headline": "Gulf states working on multipart peace deal to avert renewal of US-Iran war",
+      "url": "https://www.theguardian.com/world/2026/oct/28/gulf-states-multipart-peace-deal-avert-renewal-us-iran-war",
+      "summary": []
+    },
+    {
+      "id": "ukraine-warcrimes",
+      "publisher": "Associated Press",
+      "domain": "apnews.com",
+      "category": "World",
+      "date": "October 27, 2026",
+      "headline": "Russia committed war crimes in Ukraine by attacking its energy grid, UN-backed inquiry says",
+      "url": "https://apnews.com/article/27ee6394694bb30a7f1eab9addced768",
+      "summary": []
+    },
+    {
+      "id": "tysons-heat",
+      "publisher": "FFXnow",
+      "domain": "ffxnow.com",
+      "category": "Local",
+      "date": "October 27, 2026",
+      "headline": "Initial data from Urban Heat Island Mapping Project points to hottest spots in Northern Virginia",
+      "url": "https://www.ffxnow.com/2026/10/27/initial-data-from-urban-heat-island-mapping-project-points-to-hottest-spots-in-n-va/",
+      "summary": []
+    },
+    {
+      "id": "vienna-parade",
+      "publisher": "FFXnow",
+      "domain": "ffxnow.com",
+      "category": "Local",
+      "date": "October 27, 2026",
+      "headline": "Vienna Halloween Parade set to return for 80th year with patriotic twist",
+      "url": "https://www.ffxnow.com/2026/10/27/vienna-halloween-parade-set-to-return-for-80th-year-with-patriotic-twist/",
+      "summary": []
     }
   ],
   "reddit": [
