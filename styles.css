@@ -33,8 +33,6 @@ main.shell{min-height:65vh;padding-top:27px;padding-bottom:38px}
 .edition-title{margin:14px 0 11px;font:400 clamp(36px,5.5vw,54px)/1.11 var(--serif);letter-spacing:-.035em;color:#1d3245}
 .edition-description{font-size:14px;line-height:1.6;color:var(--muted);margin:0;max-width:680px}
 .edition-year{color:#b2b9be;letter-spacing:.12em;font:400 15px var(--serif);margin:10px 0}
-.alert{display:flex;gap:9px;align-items:baseline;background:#f7f9fb;border-left:2px solid #baa275;color:#6d7577;padding:8px 11px;font-size:11px;line-height:1.45;margin:15px 0 15px}
-.alert-mark{color:var(--gold);flex:0 0 auto}
 .tools{border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px;padding:0 0 16px}
 .filters{display:flex;gap:6px;overflow:auto;scrollbar-width:none;padding:2px 0}
 .filters::-webkit-scrollbar{display:none}
@@ -72,8 +70,6 @@ main.shell{min-height:65vh;padding-top:27px;padding-bottom:38px}
 .reddit-sub{font-weight:720;font-size:10px;letter-spacing:.07em;color:#869197;margin:0 0 4px}
 .reddit-list .story-toggle{padding:14px 1px}
 .empty{padding:65px 10px;text-align:center;color:var(--muted);font:19px var(--serif)}
-.endmark{display:flex;justify-content:center;align-items:center;gap:15px;color:#adb3b7;font-size:10px;letter-spacing:.19em;margin:55px 0 9px}
-.endmark span:first-child,.endmark span:last-child{color:var(--gold)}
 .archive-entry{margin-top:31px;display:flex;align-items:center;gap:20px;justify-content:space-between;border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark);padding:24px 0}
 .archive-entry h3{font:400 29px var(--serif);letter-spacing:-.025em;margin:11px 0 4px}
 .archive-entry p{font-size:13px;color:var(--muted);margin:0;line-height:1.55}
@@ -192,3 +188,6 @@ footer{border-top:1px solid var(--line);background:#ffffff}
  .archive-list .archive-open{padding:10px 11px;font-size:11px}
  .archive-reader-bar{margin-bottom:16px}
 }
+
+#news-panel .edition-version{font:500 12px/1 var(--sans);color:#87939d;letter-spacing:.035em;white-space:nowrap;align-self:baseline}
+#news-panel .edition-version[hidden]{display:none}
