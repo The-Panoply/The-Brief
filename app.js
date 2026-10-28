@@ -6,9 +6,7 @@
   const make=(tag,cls,text) => {const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
   function navigate(tab, updateHistory=true) {
     state.tab=tab;
-    const showDate=tab==='news'||tab==='edition';
-    $('edition-heading').hidden=!showDate;
-    $('search-wrap').hidden=!showDate;
+    $('search-wrap').hidden=!(tab==='news'||tab==='edition');
     const selected=tab==='edition'?'archive':tab;
     ['news','reddit','x','football','archive'].forEach(id=>{
       $(id+'-panel').hidden=(tab==='edition'?id!=='news':id!==tab);
