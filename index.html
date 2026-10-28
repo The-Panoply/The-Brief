@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
-  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=nav-date-inline-v3">
+  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=clean-desk-intros-v4">
   <script defer src="./app.js?v=nav-date-inline-v3"></script>
 </head>
 <body>
@@ -45,27 +45,16 @@
       <div class="feed-meta news-footer-count"><span id="news-count" aria-live="polite"></span></div>
     </section>
     <section id="reddit-panel" class="panel" aria-label="Reddit Home" hidden>
-      <div class="edition-top">
-        <div><div class="kicker">THE COMMUNITY DESK</div><h2 class="edition-title">Reddit Home</h2></div>
-      </div>
       <div id="reddit-list" class="feed"></div>
     </section>
     <section id="x-panel" class="panel" aria-label="Curated X posts" hidden>
-      <div class="edition-top">
-        <div><div class="kicker">THE CONVERSATION DESK</div><h2 class="edition-title">X</h2></div>
-      </div>
-      <p class="x-explainer">Noteworthy posts, expert exchanges and overlooked discoveries. Descriptions are editorial context, not verbatim quotations; open the original post for the author's words.</p>
-      <div class="feed-meta"><span id="x-count"></span></div>
       <div id="x-list" class="feed reddit-list"></div>
+      <div class="feed-meta desk-footer-count"><span id="x-count"></span></div>
       <p id="x-empty" class="archive-note" hidden>No X selections in this edition.</p>
     </section>
     <section id="football-panel" class="panel" aria-label="College Football Weekend Desk" hidden>
-      <div class="edition-top">
-        <div><div class="kicker">THE WEEKEND DESK</div><h2 class="edition-title">Game Day</h2></div>
-      </div>
       <div class="football-topline">
-        <span class="football-top-label">WEEKEND BOARD <span aria-hidden="true">·</span> <span id="football-week">OCT 30 – NOV 2</span></span>
-        <span class="football-top-schedule">EDITORIAL UPDATES <strong>FRIDAY – MONDAY</strong></span>
+        <span id="football-week">OCT 30 – NOV 2</span>
       </div>
       <div class="football-preview-note"><span class="status-dot" aria-hidden="true"></span><span>Design preview · Not live scores.</span></div>
       <div id="football-feature" class="football-feature" aria-label="Featured Florida State game"></div>
@@ -73,23 +62,18 @@
       <div id="football-games" class="football-grid" aria-label="Ranked football games"></div>
       <div class="football-secondary">
         <div class="football-tv">
-          <div class="football-section-kicker">THE TV GUIDE</div>
           <h3>Plan your Saturday.</h3>
           <div id="football-tv-list" class="football-tv-list"></div>
         </div>
         <div class="football-reddit">
-          <div class="football-section-kicker">THE FAN CONVERSATION</div>
           <h3>Reddit Game Day</h3>
           <a href="https://www.reddit.com/r/CFB/comments/1xei4j1/postgame_thread_cincinnati_defeats_texas_tech_3724/" target="_blank" rel="noopener noreferrer" class="football-community-link"><span>LAST WEEKEND · r/CFB</span><strong>Cincinnati defeats Texas Tech, 37–24</strong><small>Open original postgame thread ↗</small></a>
         </div>
       </div>
     </section>
     <section id="archive-panel" class="panel" aria-label="Edition archive" hidden>
-      <div class="edition-top">
-        <div><div class="kicker">THE RECORD</div><h2 class="edition-title">The Archive</h2></div>
-      </div>
-      <div class="archive-summary" id="archive-count" aria-live="polite">Loading archive…</div>
       <div id="archive-list" class="archive-list" aria-live="polite"></div>
+      <div class="archive-summary" id="archive-count" aria-live="polite">Loading archive…</div>
       <p id="archive-empty" class="archive-note" hidden>No published editions yet.</p>
       <p id="archive-error" class="archive-note" role="alert" hidden></p>
     </section>
