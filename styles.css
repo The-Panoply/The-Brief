@@ -191,3 +191,8 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 
 #news-panel .edition-version{font:500 12px/1 var(--sans);color:#87939d;letter-spacing:.035em;white-space:nowrap;align-self:baseline}
 #news-panel .edition-version[hidden]{display:none}
+
+/* X desk: original posts with clearly attributed editorial context. */
+.x-explainer{max-width:780px;color:var(--muted);font-size:13px;line-height:1.6;margin:4px 0 18px}
+.x-list .story-toggle{padding:14px 1px}
+@media(max-width:740px){.nav-inner{overflow-x:auto;scrollbar-width:none}.nav-inner::-webkit-scrollbar{display:none}.tabs{flex:0 0 auto;gap:23px}.tab{flex:0 0 auto}}
