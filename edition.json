@@ -913,7 +913,7 @@
       "synthesis": [
         "The launch-day MacRumors discussion is sharply split. Many like the OLED screen, reduced weight and illuminated Apple logo; others resent paying for touch on a traditional clamshell laptop. An outspoken portion thinks the pricing is too high even when the hardware looks appealing.",
         "The deeper disagreement is about form factor and input. Some see touch as an occasional, welcome supplement to an excellent trackpad. Others expect fatigue, fingerprints and awkward reaching. A third group would rather have a convertible or detachable Mac/iPad, preferably with Pencil support. Those are different objections, not one single anti-touch position.",
-        "Some commenters are more interested in whether macOS and professional apps evolve around the new input method. Others question why the OLED redesign uses M5 Pro and Max rather than newer-numbered M6 silicon, or whether the display and portability improvements alone justify replacing a still-capable older Mac.",
+        "Several comments explore professional uses beyond ordinary scrolling: direct manipulation of music controls, digital signatures, 3D models and touch-ready creative apps. The potential payoff may depend on software support more than the presence of a touch sensor alone. That optimism coexists with concern about fingerprints, arm fatigue, and whether the new design should fold or detach.",
         "This is a deliberately varied sample of public comments, not a poll or a measurement of consensus. MacRumors selections are from October 28 launch-day discussion; accessible Reddit selections were posted October 6–27, before the announcement, and are labeled accordingly. None are represented as hands-on ownership reviews."
       ],
       "sources": [
@@ -934,8 +934,16 @@
           "url": "https://www.reddit.com/r/apple/comments/1x11ulx/"
         },
         {
-          "name": "r/macbookpro — October discussions",
-          "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/"
+          "name": "r/macbook — October 26 retrospective",
+          "url": "https://www.reddit.com/r/macbook/comments/1xfi1vl/"
+        },
+        {
+          "name": "r/macbookpro — October 4 use-case debate",
+          "url": "https://www.reddit.com/r/macbookpro/comments/1wxiz3s/"
+        },
+        {
+          "name": "r/apple — October 25 debate",
+          "url": "https://www.reddit.com/r/apple/comments/1xf3x58/"
         }
       ],
       "themes": [
@@ -998,19 +1006,19 @@
               "author": "random person",
               "source": "MacRumors Forums",
               "date": "Oct 28",
-              "kind": "quote",
-              "text": "It’s about the OLED screen, people. That by itself makes this an incredible upgrade.",
+              "kind": "summary",
+              "text": "Argues that the tandem OLED display alone makes the new MacBook Pro a compelling upgrade; touch is not the selling point.",
               "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-18",
-              "note": "Launch-day optimism"
+              "note": "Launch-day enthusiasm for the screen"
             },
             {
               "author": "cinder",
               "source": "MacRumors Forums",
               "date": "Oct 28",
-              "kind": "quote",
-              "text": "the only thing I really like is the weight reduction.\nstrange product, tbh",
+              "kind": "summary",
+              "text": "Says the lighter weight is the only really appealing change, and finds the product itself puzzling.",
               "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-6",
-              "note": "Launch-day skepticism"
+              "note": "Launch-day hardware assessment"
             },
             {
               "author": "JPack",
@@ -1031,13 +1039,13 @@
               "note": "Launch-day hardware reaction"
             },
             {
-              "author": "mSants732",
+              "author": "IzyTarmac",
               "source": "r/macbookpro",
-              "date": "Oct 26 · before launch",
+              "date": "Oct 4 · before launch",
               "kind": "quote",
-              "text": "Which model you coming from?\nI’m still with an M3 Max and only thought maybe an M4 for the brighter screen and I’ve been out the loop since then. I just game on mine basically and it’s superb.\nAlthough, I do want whatever Max version has that touchscreen and the cellular connection. Not sure if that’s been leaked yet. I think the Max’s are steep but buys you time so to say between models.",
-              "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/comment/19rp6l0k3hbsz/",
-              "note": "Pre-announcement; cellular was a hoped-for feature, not an announced one"
+              "text": "I've been using my iPad Pro with the Magic Keyboard for quite some time now – as basically a laptop replacement. In practice, you mostly use the touch screen for scrolling, panning, zooming and other core gestures - and tapping some buttons. It's quite pleasant, but I don't miss it too much when switching to my Macbook Pro.",
+              "url": "https://www.reddit.com/r/macbookpro/comments/1wxiz3s/comment/pdv2l1b/",
+              "note": "Firsthand mixed-input experience, before launch"
             }
           ]
         },
@@ -1098,6 +1106,24 @@
               "text": "Responding to complaints about the missing Apple Pencil, observes that writing with a Pencil on an upright laptop display would itself be awkward.",
               "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-18",
               "note": "Launch-day defense of clamshell limitations"
+            },
+            {
+              "author": "pm_me_meta_memes",
+              "source": "r/macbookpro",
+              "date": "Oct 4 · before launch",
+              "kind": "quote",
+              "text": "After being on MacBooks for a long time, and then trying some Thinkpad Yogas, I think a touch screen MacBook would be really nice BUT mainly in a 180 degree hinge design, so you can frankenstein it into a tablet. Oh, and with Apple Pencil support.\n\nOtherwise, your arm will get tired after 5 minutes and you won’t be using it for anything else except scroll webpages by holding the side of the screen.",
+              "url": "https://www.reddit.com/r/macbookpro/comments/1wxiz3s/",
+              "note": "Hinge and Pencil proposal, before launch"
+            },
+            {
+              "author": "SlaterTh90",
+              "source": "r/apple",
+              "date": "Oct 25 · before launch",
+              "kind": "quote",
+              "text": "Same - my old thinkpad had a touch screen and I was only ever reminded of that when I ever so often accidentally touched the screen and the cursor suddenly jumped…\n\nI hope apple has some innovative feature or UX in mind for this, then it might be interesting.",
+              "url": "https://www.reddit.com/r/apple/comments/1xf3x58/",
+              "note": "Firsthand Windows laptop experience"
             }
           ]
         },
@@ -1149,6 +1175,24 @@
               "text": "Gurman calls it the MacBook Pro. It's clear it will have an OLED screen, dynamic island, some design changes, and will be lighter. All great in my opinion. What I still can't understand is the touchscreen issue. Will this be standard for the MacBook Pro or will it just be an option for the customer to choose, like the nano-texture? Because it wouldn't make any sense to have the best laptop in the lineup with a feature that will increase the price and isn't exactly necessary for almost anyone.\nIf it's an additional option, that's fine.",
               "url": "https://www.reddit.com/r/apple/comments/1x11ulx/comment/pepvjnn/",
               "note": "Pre-announcement speculation; actual product now confirmed"
+            },
+            {
+              "author": "cptjpk",
+              "source": "r/apple",
+              "date": "Oct 25 · before launch",
+              "kind": "quote",
+              "text": "There is a microscopic market: businesses who require digital signature but refuse to provide tablets.\n\nMe. I work in that business. My company gives us laptops only yet one of our SaaS only accepts written style signatures. If I didn’t have a touchscreen it would be ugly mouse signings.",
+              "url": "https://www.reddit.com/r/apple/comments/1xf3x58/",
+              "note": "Specific workplace accessibility/workflow example"
+            },
+            {
+              "author": "LIONEL14JESSE",
+              "source": "r/macbook",
+              "date": "Oct 26 · before launch",
+              "kind": "summary",
+              "text": "Expects touch to be genuinely helpful when manipulating knobs and dials in music software, but believes the benefit will increase only as developers adapt their interfaces.",
+              "url": "https://www.reddit.com/r/macbook/comments/1xfi1vl/",
+              "note": "The same commenter also appears above, offering a contrasting angle"
             }
           ]
         },
@@ -1175,22 +1219,22 @@
               "note": "Interested future buyer"
             },
             {
-              "author": "SvenLorenz",
-              "source": "r/macbookpro",
+              "author": "LIONEL14JESSE",
+              "source": "r/macbook",
               "date": "Oct 26 · before launch",
               "kind": "quote",
-              "text": "That's why got my M5 Pro, even if I didn't want to upgrade this year. It's going to last until Apple realizes that people don't want a touchscreen on a MacBook. And burn-in still is a problem, no matter what people try to tell themselves.",
-              "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/comment/19rp7uhto1h4x/",
-              "note": "Pre-announcement choice; burn-in worry is an opinion"
+              "text": "There’s certain software that will benefit from it where mouse and keyboard input is inefficient. Music software for example often emulates hardware and adjusting dials could be nice.\n\nI think in general it will be fairly useless for a bit until it becomes more standard and then once software is designed for it we will wonder how we ever lived without it.",
+              "url": "https://www.reddit.com/r/macbook/comments/1xfi1vl/comment/19rnnpt51blqc/",
+              "note": "A use case and a prediction, not hands-on experience"
             },
             {
-              "author": "Marino4K",
-              "source": "r/macbookpro",
+              "author": "jeffyboy526",
+              "source": "r/macbook",
               "date": "Oct 26 · before launch",
               "kind": "quote",
-              "text": "I may invest in a Max because if Apple plans on moving the entire MBP line to touchscreens, I want nothing to do with it.",
-              "url": "https://www.reddit.com/r/macbookpro/comments/1xg82bk/",
-              "note": "Pre-announcement purchase planning"
+              "text": "Nope - mind not changed. I see no need for this. The only value would be if the screen could be flipped and I’m certain Apple ain’t doing that. Even still you would have a heavy ass iPad",
+              "url": "https://www.reddit.com/r/macbook/comments/1xfi1vl/",
+              "note": "Pre-launch rejection of a fixed clamshell"
             },
             {
               "author": "Bmosbacker",
@@ -1213,7 +1257,7 @@
           ]
         }
       ],
-      "methodology": "Editorial selection of accessible public discussion, not a poll. Quoted passages are verbatim; entries marked 'summary' paraphrase the linked original. MacRumors selections are from launch day; Reddit comments shown here predate the announcement. Links lead to source threads or individual comments. No opinion is represented as a verified product fact."
+      "methodology": "Hand-selected public reactions, not a poll or sentiment measurement. Verbatim comments are labeled and reproduced with author/source attribution; editorial summaries are paraphrases. MacRumors and Mac Power Users contributions are from October 28 launch-day discussion; Reddit comments shown here predate the announcement (October 4–27) and are explicitly labeled. We link to the relevant post or forum discussion, and do not portray pre-release speculation as verified specifications or hands-on ownership reviews."
     }
   ]
 }
