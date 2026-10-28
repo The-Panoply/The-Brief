@@ -1,0 +1,22 @@
+# The Brief — Comments Desk
+Version 1 · Approved October 28, 2026
+
+## Purpose
+The Comments tab is a standing part of The Brief, separate from Reddit Home and the main news feed. When a major announcement, scientific advance, technology launch, or similarly consequential story generates substantial thoughtful discussion, prepare an editor-curated conversation dossier. The user especially values Apple/technology launch reactions from MacRumors Forums, r/apple, and related Reddit communities; expand to other relevant communities when appropriate. The desk is not limited to Apple.
+
+## Format
+Each dossier opens with the **same recognizable major-story headline**, linking to the original reporting or first-party announcement. Follow with a concise, factual account of the news, an editor's multi-paragraph synthesis of the reactions, and **substantial reader perspectives organized by meaningful themes**. Show the original author's handle, site/community, accurate date or timing, and a direct source-thread/comment link for each selection. Include voices for and against, minority arguments, technical insights, practical usage reports, and inconvenient criticisms. Prefer explanation and genuine diversity of reasoning over popularity/vote totals. Report interesting disagreements rather than flattening them into a generic "mixed reaction."
+
+Target depth is **comprehensive enough to replace personally reading multiple lengthy comment threads**, often dozens of worthwhile remarks across several sources when the conversation supports it, without a fixed minimum or filler. Use meaningful verbatim comments, including longer Reddit comments when accessible and legally appropriate. MacRumors and other publisher forums may require shorter verbatim excerpts accompanied by faithful editorial paraphrases. Distinguish every exact quotation from a paraphrase. Do not silently edit author wording, stitch remarks into manufactured quotes, or over-quote publisher content. Respect copyright and any source-specific constraints.
+
+## Evidence and timing
+Independently open and verify original posts whenever possible. Do not fabricate usernames, comments, links, consensus, or hands-on experience. Label all rumor-era or pre-release discussions separately from post-announcement reactions. A commenter prediction is not a product fact. Qualify when exact comment links are inaccessible and link the verified discussion instead. Do not portray a curated cross-section as a statistically representative poll. Reader comments are opinions unless independently corroborated. Include enough source context to understand why a quote matters, especially for lengthy excerpts.
+
+The first pilot dossier (October 28, 2026) covers Apple's touchscreen OLED MacBook Pro announcement: 31 linked perspectives across MacRumors Forums, r/apple, r/macbookpro, r/macbook and Mac Power Users, including explicitly labeled pre-announcement Reddit discussion.
+
+## Website integration
+The existing page has six tabs: The Brief, Reddit, CFB, X, **Comments**, Archive. Comments uses the same persistent navigation/date, with its own rendering and without a separate generic welcome or introduction. Edition data uses an optional `comments` array in `edition.json`. Each entry has:
+- `id`, `headline`, `date`, `publisher`, `articleUrl`, `context`, `synthesis` (paragraph strings), `themes` (each `title`, `insight`, `comments`), `sources`, and `methodology`.
+- Each theme comment has `author`, `source`, `date`, `kind` (`quote` or `summary`), `text`, `url`, and optional `note`.
+
+The JavaScript renderer escapes text through DOM textContent, preserves paragraph breaks in quotes, and supports older archived editions with no `comments` array. New complete editions should archive their own Comments content as part of the edition snapshot; do not retroactively rewrite older frozen issues without explicit request. Preserve links and fidelity in future editions. This is a standing editorial feature, **not** authorization to auto-publish or schedule editions. Research and publication remain user-requested under the existing rules.
