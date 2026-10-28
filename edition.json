@@ -662,5 +662,77 @@
       "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xfhvmt/my_crackgate_duo/",
       "qualification": "OP excerpt · firsthand account"
     }
+  ],
+  "xPosts": [
+    {
+      "id": "gurman-rollout",
+      "author": "Mark Gurman",
+      "handle": "@markgurman",
+      "title": "Apple’s three-day hardware announcement strategy",
+      "date": "October 26, 2026",
+      "text": "Gurman suggested Apple could stretch its new-product announcements across three days, with the OLED iPad mini, M6 Macs, and touchscreen MacBook Pro arriving in succession. This was a forecast before the announcements, not confirmation of timing.",
+      "url": "https://x.com/markgurman/status/2114668023999291733",
+      "qualification": "Context corroborated by Appleosophy; direct X text unavailable"
+    },
+    {
+      "id": "pdfu-calendar",
+      "author": "pdfu",
+      "handle": "@itspdfu",
+      "title": "Touch-friendly Calendar event handles in macOS 27.2",
+      "date": "October 26, 2026",
+      "text": "The developer’s inspection of macOS 27.2 beta 4 found circular handles for resizing Calendar events using touch. A small but revealing clue about how Apple's desktop interfaces are adapting to touchscreens.",
+      "url": "https://x.com/itspdfu/status/2114752139167670648",
+      "qualification": "Described on author's own research site; direct X text unavailable"
+    },
+    {
+      "id": "pdfu-finder",
+      "author": "pdfu",
+      "handle": "@itspdfu",
+      "title": "Finder’s tag editor gains more room for touch",
+      "date": "October 26, 2026",
+      "text": "In macOS 27.2 beta 4, the Finder tag-editing popover reportedly increases spacing when operated by touch. Another subtle interaction change for touchscreen Macs.",
+      "url": "https://x.com/itspdfu/status/2114478207311442081",
+      "qualification": "Described on author's own research site; direct X text unavailable"
+    },
+    {
+      "id": "pdfu-duo-camera",
+      "author": "pdfu",
+      "handle": "@itspdfu",
+      "title": "What the iPhone Duo camera identifiers reveal",
+      "date": "October 23, 2026",
+      "text": "The researcher identified camera sensor references for the Duo’s main, ultrawide, outer selfie and inner selfie cameras in iOS 27.1 and 27.2 builds. It’s an unusually specific look at the device’s hardware.",
+      "url": "https://x.com/itspdfu/status/2113644042894389378",
+      "qualification": "Described on author's own research site; direct X text unavailable"
+    },
+    {
+      "id": "viticci-duo-shortcuts",
+      "author": "Federico Viticci",
+      "handle": "@viticci",
+      "title": "iPhone Duo gains open-and-close automation triggers",
+      "date": "October 22, 2026",
+      "text": "Viticci reported that Shortcuts offers “Opened or Closed” triggers for the iPhone Duo. The discovery has practical implications for automations that react to folding or unfolding the phone.",
+      "url": "https://x.com/viticci/status/2113320137042616559",
+      "qualification": "Corroborated by developer's research site; direct X text unavailable"
+    },
+    {
+      "id": "pdfu-homepod-audio",
+      "author": "pdfu",
+      "handle": "@itspdfu",
+      "title": "The unusual speaker mapping behind Whole Room Audio",
+      "date": "October 19, 2026",
+      "text": "The researcher examined Apple’s new four-HomePod audio mode and found that diagonally opposite speakers share the same stereo channel. The layout is designed to give people a more consistent stereo experience as they move around a room.",
+      "url": "https://x.com/itspdfu/status/2112288728987099343",
+      "qualification": "Described on author's own research site; direct X text unavailable"
+    },
+    {
+      "id": "pdfu-door-open",
+      "author": "pdfu",
+      "handle": "@itspdfu",
+      "title": "Matter-compatible locks can report a door left open",
+      "date": "October 15, 2026",
+      "text": "A code discovery in iOS 27.2 describes a “Door Left Open” notification for locks that directly report Matter's door-position state. A separate contact sensor alone does not meet that requirement.",
+      "url": "https://x.com/itspdfu/status/2110776155103990260",
+      "qualification": "Described on author's own research site; direct X text unavailable"
+    }
   ]
 }
