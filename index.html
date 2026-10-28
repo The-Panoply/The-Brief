@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
-  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=compact-meta-pills-v2">
-  <script defer src="./app.js?v=compact-meta-pills-v2"></script>
+  <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=nav-date-inline-v3">
+  <script defer src="./app.js?v=nav-date-inline-v3"></script>
 </head>
 <body>
   <a href="#main" class="skip">Skip to stories</a>
@@ -22,10 +22,6 @@
     </div>
   </header>
   <main id="main" class="shell" tabindex="-1">
-    <div id="edition-heading" class="edition-meta" aria-label="Edition date and version">
-      <span id="edition-title" class="edition-date">Wednesday, October 28</span>
-      <span id="edition-version" class="edition-version">v12</span>
-    </div>
     <div class="tools section-tools">
       <nav class="tabs" aria-label="Main sections">
         <button data-tab="news" class="tab active" aria-current="page">The Brief</button>
@@ -34,16 +30,19 @@
         <button data-tab="x" class="tab">X</button>
         <button data-tab="archive" class="tab">Archive</button>
       </nav>
-      <label id="search-wrap" class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16.2 16.2 4.3 4.3"/></svg><input type="search" id="search" autocomplete="off" placeholder="Find a story…" aria-label="Find a story"></label>
+      <div id="edition-heading" class="edition-meta" aria-label="Edition date and version">
+        <span id="edition-title" class="edition-date">Wednesday, October 28</span>
+        <span id="edition-version" class="edition-version">v12</span>
+      </div>
     </div>
     <section id="news-panel" class="panel" aria-label="News edition">
       <div id="archive-reader-bar" class="archive-reader-bar" hidden>
         <button type="button" id="archive-back" class="archive-return">← Archive</button>
         <button type="button" id="archive-latest" class="archive-return">Latest edition ↗</button>
       </div>
-      <div class="feed-meta"><span id="news-count" aria-live="polite"></span><button id="clear" class="clear" hidden>Clear search</button></div>
+      <div class="feed-meta"><span id="news-count" aria-live="polite"></span></div>
       <div id="news-list" class="feed" aria-live="polite"></div>
-      <div id="empty-news" class="empty" hidden>No matching stories. Try another search.</div>
+      <div id="empty-news" class="empty" hidden>No stories in this edition.</div>
     </section>
     <section id="reddit-panel" class="panel" aria-label="Reddit Home" hidden>
       <div class="edition-top">
