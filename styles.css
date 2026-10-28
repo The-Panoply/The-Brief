@@ -213,3 +213,45 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 #archive-panel .archive-list .archive-entry:first-child{border-top:0}
 #archive-panel .archive-summary{margin:25px 0 4px}
 #x-panel .desk-footer-count{margin:25px 1px 5px}
+
+/* Comments desk: a source-grounded conversation companion to major headlines. */
+.comments-features{max-width:910px;margin:0 auto}
+.comment-feature{padding:11px 0 35px}
+.comment-feature+.comment-feature{border-top:2px solid var(--line-dark);margin-top:44px;padding-top:35px}
+.comment-hero{padding:12px 0 25px;border-bottom:1px solid var(--line)}
+.comment-feature-label{font-size:10px;letter-spacing:.18em;color:var(--gold);font-weight:740;margin-bottom:12px}
+.comment-story-title{font:400 clamp(29px,4.1vw,43px)/1.15 var(--serif);letter-spacing:-.035em;color:#1d3245;margin:0 0 11px}
+.comment-story-title a{text-decoration:none;color:inherit}
+.comment-story-title a:hover{color:#8b6b36}
+.comment-article-meta{font-size:11px;letter-spacing:.07em;color:#89979e;margin-bottom:13px;text-transform:uppercase}
+.comment-story-context{font-size:14px;line-height:1.7;color:#465b69;margin:0;max-width:790px}
+.comment-synthesis{padding:23px 0 19px}
+.comment-section-title{font:400 23px/1.25 var(--serif);color:#1d3245;letter-spacing:-.02em;margin:0 0 13px}
+.comment-synthesis p{font-size:13px;line-height:1.72;color:#4e5c66;margin:0 0 12px;max-width:820px}
+.comment-theme{margin:27px 0 34px}
+.comment-theme-head{border-bottom:1px solid var(--line-dark);padding:0 0 15px;margin-bottom:2px}
+.comment-theme-title{font:400 24px/1.18 var(--serif);letter-spacing:-.025em;color:#213749;margin:0 0 8px}
+.comment-theme-insight{font-size:13px;line-height:1.65;color:#6b7882;margin:0;max-width:795px}
+.comment-row{border-bottom:1px solid var(--line);padding:18px 1px 19px}
+.comment-row-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px 12px;margin-bottom:10px}
+.comment-author{font-size:12px;font-weight:720;color:#344c5e}
+.comment-source{font-size:11px;color:#7b8a94;font-weight:550}
+.comment-date{font-size:11px;color:#99a4ac}
+.comment-verbatim{margin:0 0 13px;border-left:2px solid #bdac8c;padding:2px 0 3px 15px;font:400 15px/1.66 var(--serif);color:#253d50;white-space:pre-line}
+.comment-paraphrase{font-size:13px;line-height:1.75;color:#445664;margin:0 0 13px}
+.comment-row-footer{display:flex;gap:9px 13px;flex-wrap:wrap;align-items:center;font-size:10px;line-height:1.4}
+.comment-method{font-weight:710;letter-spacing:.09em;color:#8b969c;font-size:9px}
+.comment-note{color:#99a2a8}
+.comment-origin{color:#997c46;text-decoration:none;font-weight:620;margin-left:auto}
+.comment-origin:hover{text-decoration:underline}
+.comment-total{text-align:right;padding-top:21px;color:#94a0a7;font-size:10px;font-weight:650;letter-spacing:.11em}
+.comment-methodology{border-top:1px solid var(--line);padding-top:15px;color:#88949a;font-size:11px;line-height:1.6}
+@media(max-width:690px){
+ .section-tools .tabs{justify-content:flex-start;gap:4px;overflow-x:auto;scrollbar-width:none}
+ .section-tools .tabs::-webkit-scrollbar{display:none}
+ .section-tools .tab{flex:0 0 auto}
+ .comment-story-title{font-size:clamp(27px,7vw,34px)}
+ .comment-theme-title{font-size:22px}
+ .comment-verbatim{font-size:15px}
+ .comment-origin{margin-left:0}
+}
