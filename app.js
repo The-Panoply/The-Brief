@@ -30,7 +30,7 @@
     toggle.append(chevron());
     const detail=make('div','story-detail');
     detail.hidden=!state.open.has(key);
-    if(kind==='reddit')detail.append(make('p','',item.text));
+    if(kind==='reddit'&&typeof item.text==='string'&&item.text.trim())detail.append(make('p','',item.text));
     else {
       // Prefer a source-provided opening/excerpt. Keep older archived summaries unchanged.
       const lead=typeof item.openingParagraph==='string'?item.openingParagraph.trim():'';
