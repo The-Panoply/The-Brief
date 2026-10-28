@@ -2,7 +2,7 @@
   'use strict';
   const state = {data:null,latestData:null,archiveEntries:[],archivedId:null,tab:'news',filter:'All',query:'',open:new Set()};
   const $ = id => document.getElementById(id);
-  const categories=['All','Technology','Automotive','Science','Sports','World'];
+  const categories=['All','Technology','Automotive','Science','Sports','World','Local'];
   const chevron=() => {const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('class','story-chevron');svg.setAttribute('aria-hidden','true');const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d','m5 9 7 7 7-7');svg.append(path);return svg};
   const make=(tag,cls,text) => {const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
   function navigate(tab, updateHistory=true) {
