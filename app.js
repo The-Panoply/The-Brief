@@ -8,7 +8,7 @@
   function navigate(tab, updateHistory=true) {
     state.tab=tab;
     const selected=tab==='edition'?'archive':tab;
-    ['news','reddit','football','archive'].forEach(id=>{
+    ['news','reddit','x','football','archive'].forEach(id=>{
       $(id+'-panel').hidden=(tab==='edition'?id!=='news':id!==tab);
       const b=document.querySelector('[data-tab="'+id+'"]');
       b.classList.toggle('active',id===selected);
@@ -25,24 +25,26 @@
     const article=make('article','story');
     const toggle=make('button','story-toggle');
     toggle.type='button';toggle.setAttribute('aria-expanded',String(state.open.has(key)));
-    if(kind==='reddit'){const wrap=make('span');wrap.style.flex='1';wrap.append(make('div','reddit-sub',item.subreddit),make('div','story-title',item.title));toggle.append(wrap)}
+    if(kind==='reddit'||kind==='x'){const wrap=make('span');wrap.style.flex='1';const byline=kind==='x'?(item.author+(item.handle?' · '+item.handle:'')):item.subreddit;wrap.append(make('div','reddit-sub',byline),make('div','story-title',item.title));toggle.append(wrap)}
     else toggle.append(make('span','story-title',item.headline));
     toggle.append(chevron());
     const detail=make('div','story-detail');
     detail.hidden=!state.open.has(key);
-    if(kind==='reddit'&&typeof item.text==='string'&&item.text.trim())detail.append(make('p','',item.text));
-    else {
+    if(kind==='reddit'||kind==='x'){
+      if(typeof item.text==='string'&&item.text.trim())detail.append(make('p','',item.text));
+    }else {
       // Prefer a source-provided opening/excerpt. Keep older archived summaries unchanged.
       const lead=typeof item.openingParagraph==='string'?item.openingParagraph.trim():'';
       const paragraphs=lead?[lead]:(Array.isArray(item.summary)?item.summary:[]);
       paragraphs.forEach(line=>detail.append(make('p','',line)));
     }
-    detail.append(make('div','story-meta',(kind==='reddit'?item.subreddit+' · ':item.publisher+' · ')+item.date+(item.qualification?' · '+item.qualification:'')));
+    const sourceLabel=kind==='reddit'?item.subreddit:kind==='x'?(item.author+(item.handle?' · '+item.handle:'')):item.publisher;
+    detail.append(make('div','story-meta',sourceLabel+' · '+item.date+(item.qualification?' · '+item.qualification:'')));
     const actions=make('div','story-actions');
-    const source=make('a','original','Original source ↗');source.href=item.url;source.target='_blank';source.rel='noopener noreferrer';
+    const source=make('a','original',kind==='x'?'Original post ↗':'Original source ↗');source.href=item.url;source.target='_blank';source.rel='noopener noreferrer';
     const explore=make('button','explore','Explore ↗');explore.type='button';
     explore.addEventListener('click',() => {
-      const prompt='Explore this '+(kind==='reddit'?'Reddit discussion':'news story')+' from The Brief: '+(item.headline||item.title)+'. Original source: '+item.url+'. Verify claims and explain the background, what is established, and what is uncertain.';
+      const prompt='Explore this '+(kind==='reddit'?'Reddit discussion':kind==='x'?'X post':'news story')+' from The Brief: '+(item.headline||item.title)+'. Original source: '+item.url+'. Verify claims and explain the background, what is established, and what is uncertain.';
       window.open('https://chatgpt.com/?q='+encodeURIComponent(prompt),'_blank','noopener,noreferrer');
     });
     actions.append(source,explore);detail.append(actions);
@@ -84,6 +86,13 @@
   function reddit() {
     const host=$('reddit-list');host.replaceChildren();host.classList.add('reddit-list');
     state.data.reddit.forEach(item=>host.append(showStory(item,'reddit')));
+  }
+  function xDesk() {
+    const host=$('x-list');host.replaceChildren();
+    const posts=state.latestData&&Array.isArray(state.latestData.xPosts)?state.latestData.xPosts:[];
+    posts.forEach(item=>host.append(showStory(item,'x')));
+    $('x-count').textContent=posts.length+' SELECTED POSTS';
+    $('x-empty').hidden=posts.length!==0;
   }
   function teamLogo(team, cssClass) {
     const holder=make('span','logo-container');
@@ -247,7 +256,7 @@
       if(state.latestData)renderEdition(state.latestData);
       navigate('news',false);
     }else{
-      navigate(['reddit','football','archive'].includes(hash)?hash:'news',false);
+      navigate(['reddit','x','football','archive'].includes(hash)?hash:'news',false);
     }
   }
   async function start(){
@@ -268,7 +277,7 @@
       const data=await response.json();
       if(!Array.isArray(data.news)||!Array.isArray(data.reddit))throw Error('Invalid edition');
       state.latestData=data;
-      renderEdition(data);reddit();
+      renderEdition(data);reddit();xDesk();
       try{
         const footballResponse=await fetch('./football.json',{cache:'no-store'});
         if(!footballResponse.ok)throw Error('HTTP '+footballResponse.status);
