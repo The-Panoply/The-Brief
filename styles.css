@@ -17,10 +17,8 @@ a{color:inherit}
 .period{color:var(--gold)}
 .masthead-side{font-size:10px;color:var(--subtle);letter-spacing:.12em;text-align:right;display:flex;flex-direction:column;gap:7px;padding-bottom:3px}
 .gold-rule{height:2px;width:42px;background:var(--gold);margin-top:19px}
-.nav-wrap{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:58px}
-.tabs{display:flex;align-items:center;gap:clamp(17px,4.4vw,44px)}
-.tab{appearance:none;background:none;border:0;border-bottom:2px solid transparent;padding:19px 1px 17px;color:#7e8991;letter-spacing:.005em;font-size:13px;font-weight:550;white-space:nowrap}
+.tabs{display:flex;align-items:center;gap:clamp(17px,3vw,34px);min-width:0}
+.tab{appearance:none;background:none;border:0;border-bottom:2px solid transparent;padding:12px 1px 13px;color:#7e8991;letter-spacing:.005em;font-size:13px;font-weight:550;white-space:nowrap}
 .tab.active{border-color:var(--gold);color:var(--ink);font-weight:720}
 .tab:hover{color:var(--ink)}
 .preview-label{white-space:nowrap;color:#8c9191;font-size:9px;font-weight:700;letter-spacing:.13em}
@@ -28,17 +26,14 @@ a{color:inherit}
 main.shell{min-height:65vh;padding-top:27px;padding-bottom:38px}
 .panel[hidden]{display:none}
 .edition-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
+#edition-heading[hidden],#search-wrap[hidden]{display:none}
 .kicker{display:flex;align-items:center;gap:12px;font-size:10px;letter-spacing:.20em;color:var(--gold);font-weight:750}
 .hairline{width:20px;height:1px;background:#b9c0c2}
 .edition-title{margin:14px 0 11px;font:400 clamp(36px,5.5vw,54px)/1.11 var(--serif);letter-spacing:-.035em;color:#1d3245}
 .edition-description{font-size:14px;line-height:1.6;color:var(--muted);margin:0;max-width:680px}
 .edition-year{color:#b2b9be;letter-spacing:.12em;font:400 15px var(--serif);margin:10px 0}
-.tools{border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px;padding:0 0 16px}
-.filters{display:flex;gap:6px;overflow:auto;scrollbar-width:none;padding:2px 0}
-.filters::-webkit-scrollbar{display:none}
-.filter{white-space:nowrap;background:transparent;color:#71808a;border:1px solid transparent;border-radius:99px;padding:7px 12px;font-size:12px;font-weight:600}
-.filter[aria-pressed="true"]{color:var(--ink);background:#f0f2f4;border-color:#e5e9ed}
-.filter:hover{color:var(--ink)}
+.tools{border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:18px;padding:0 0 6px}
+.section-tools{margin-bottom:11px}
 .search-wrap{position:relative;display:block;flex:0 0 220px}
 .search-wrap svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:15px;height:15px;fill:none;stroke:#88959c;stroke-width:1.8;stroke-linecap:round}
 .search-wrap input{background:#fff;border:1px solid #e2e5e6;border-radius:7px;color:var(--ink);font-size:12px;padding:10px 12px 10px 35px;width:100%;outline:0}
@@ -82,13 +77,12 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 .footer-name{font-family:var(--serif);font-size:15px;color:#6c7a86}
 :focus-visible{outline:2px solid #b89b65;outline-offset:3px}
 @keyframes appear{from{opacity:.6;transform:translateY(-2px)}to{opacity:1;transform:none}}
-@media(max-width:740px){.shell{padding-left:21px;padding-right:21px}.masthead-inner{padding-top:17px;padding-bottom:17px}.masthead-side{display:none}.gold-rule{margin-top:15px}.nav-inner{min-height:50px}.tabs{gap:22px}.tab{padding-top:15px;padding-bottom:13px;font-size:12px}.preview-label{font-size:8px}.identity h1{font-size:clamp(48px,12vw,69px)}main.shell{padding-top:29px}.edition-title{font-size:clamp(35px,8vw,44px)}.tools{display:block;padding-bottom:13px}.filters{margin-bottom:12px}.search-wrap{width:100%;display:block}.story-title{font-size:15px}.story-toggle{padding:11px 0 12px}.publisher{margin-top:26px}.footer-inner{display:block}.footer-inner>span{display:block;margin-top:10px}}
+@media(max-width:740px){.shell{padding-left:21px;padding-right:21px}.masthead-inner{padding-top:17px;padding-bottom:17px}.masthead-side{display:none}.gold-rule{margin-top:15px}.nav-inner{min-height:50px}.tabs{gap:22px}.tab{padding-top:15px;padding-bottom:13px;font-size:12px}.preview-label{font-size:8px}.identity h1{font-size:clamp(48px,12vw,69px)}main.shell{padding-top:29px}.edition-title{font-size:clamp(35px,8vw,44px)}.tools{flex-wrap:wrap;gap:8px;padding-bottom:13px}.search-wrap{width:100%;flex:1 1 100%}.story-title{font-size:15px}.story-toggle{padding:11px 0 12px}.publisher{margin-top:26px}.footer-inner{display:block}.footer-inner>span{display:block;margin-top:10px}}
 @media(max-width:400px){.preview-label{font-size:0}.status-dot{width:7px;height:7px}.tabs{gap:18px}.tab{font-size:12px}.edition-year{display:none}.story-detail{padding-right:4px}}
 .panoply-footer{width:100%;margin:38px auto 0;padding:24px clamp(18px,4vw,54px) 28px;border-top:1px solid #e4e6e5;background:#fff;color:#1c3143;font-family:inherit}.panoply-footer-brand{display:flex;align-items:center;justify-content:center;gap:10px;color:#a8894b;font-family:inherit;font-size:11px;font-weight:700;line-height:1.2;letter-spacing:.16em}.panoply-footer-brand::before,.panoply-footer-brand::after{content:"";display:block;width:10px;height:1px;background:#a8894b}.panoply-footer-sites{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px auto 0;width:100%}.panoply-footer-sites a{display:block;text-align:center;color:#536572;text-decoration:none;font-size:12px;font-weight:550}.panoply-footer-sites a:hover{color:#a8894b;text-decoration:underline}@media(max-width:520px){.panoply-footer{padding-left:18px;padding-right:18px}.panoply-footer-sites{gap:6px}.panoply-footer-sites a{font-size:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
 /* College Football: calm scoreboard design, with Florida State in the lead. */
-.tab-short{display:none}
 .football-topline{display:flex;justify-content:space-between;gap:12px;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0;margin:31px 0 16px;color:var(--muted);font-size:10px;letter-spacing:.13em;font-weight:700}
 .football-top-label{color:var(--ink)}
 .football-top-schedule strong{color:#6c7880;margin-left:4px}
@@ -136,8 +130,6 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 @media(max-width:740px){
  .preview-label{display:none}
  .tabs{gap:clamp(12px,3vw,22px);width:100%;justify-content:space-between}
- .nav-inner{overflow-x:auto;scrollbar-width:none}
- .nav-inner::-webkit-scrollbar{display:none}
  .football-grid{grid-template-columns:1fr}
  .football-secondary{grid-template-columns:1fr;gap:22px}
  .football-feature-body{grid-template-columns:minmax(0,1fr) 50px minmax(0,1fr);margin:21px auto 17px}
@@ -146,8 +138,6 @@ footer{border-top:1px solid var(--line);background:#ffffff}
  .football-vs{font-size:20px}
 }
 @media(max-width:510px){
- .tab-long{display:none}
- .tab-short{display:inline}
  .football-topline{display:block}
  .football-top-schedule{display:block;margin-top:8px}
  .football-subhead h3{font-size:24px}
@@ -195,4 +185,4 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 /* X desk: original posts with clearly attributed editorial context. */
 .x-explainer{max-width:780px;color:var(--muted);font-size:13px;line-height:1.6;margin:4px 0 18px}
 .x-list .story-toggle{padding:14px 1px}
-@media(max-width:740px){.nav-inner{overflow-x:auto;scrollbar-width:none}.nav-inner::-webkit-scrollbar{display:none}.tabs{flex:0 0 auto;gap:23px}.tab{flex:0 0 auto}}
+@media(max-width:740px){.tabs{flex:1 1 100%;gap:clamp(12px,3vw,22px);overflow-x:auto;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tab{flex:0 0 auto}}
