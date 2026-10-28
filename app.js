@@ -1,12 +1,11 @@
 (() => {
   'use strict';
-  const state = {data:null,latestData:null,archiveEntries:[],archivedId:null,tab:'news',query:'',open:new Set()};
+  const state = {data:null,latestData:null,archiveEntries:[],archivedId:null,tab:'news',open:new Set()};
   const $ = id => document.getElementById(id);
   const chevron=() => {const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('class','story-chevron');svg.setAttribute('aria-hidden','true');const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d','m5 9 7 7 7-7');svg.append(path);return svg};
   const make=(tag,cls,text) => {const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
   function navigate(tab, updateHistory=true) {
     state.tab=tab;
-    $('search-wrap').hidden=!(tab==='news'||tab==='edition');
     const selected=tab==='edition'?'archive':tab;
     ['news','reddit','x','football','archive'].forEach(id=>{
       $(id+'-panel').hidden=(tab==='edition'?id!=='news':id!==tab);
@@ -58,8 +57,6 @@
     const host=$('news-list');host.replaceChildren();
     const groups=new Map();let count=0;
     state.data.news.forEach(item=>{
-      const hay=[item.headline,item.publisher,item.category,item.openingParagraph||'',...(Array.isArray(item.summary)?item.summary:[])].join(' ').toLowerCase();
-      if(state.query&&!hay.includes(state.query.toLowerCase()))return;
       if(!groups.has(item.publisher))groups.set(item.publisher,[]);
       groups.get(item.publisher).push(item);count++;
     });
@@ -72,7 +69,6 @@
     });
     $('news-count').textContent=count+' STORIES · '+groups.size+' SOURCES';
     $('empty-news').hidden=count!==0;
-    $('clear').hidden=!state.query;
   }
   function reddit() {
     const host=$('reddit-list');host.replaceChildren();host.classList.add('reddit-list');
@@ -153,7 +149,7 @@
   function renderEdition(data, entry=null){
     state.data=data;
     state.archivedId=entry?entry.id:null;
-    state.query='';state.open.clear();$('search').value='';
+    state.open.clear();
     $('edition-title').textContent=data.displayDate+(data.year?', '+data.year:'');
     const editionLabel=$('edition-version');
     editionLabel.textContent=data.type==='published'&&/^v\d+$/.test(data.edition||'')?data.edition:'';
@@ -257,9 +253,6 @@
     }));
     $('archive-back').addEventListener('click',()=>navigate('archive'));
     $('archive-latest').addEventListener('click',latestEdition);
-    $('search').addEventListener('input',event=>{state.query=event.target.value.trim();news()});
-    $('clear').addEventListener('click',()=>{state.query='';$('search').value='';news()});
-    document.addEventListener('keydown',event=>{if(event.key==='/'&&!event.metaKey&&!event.ctrlKey&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)&&state.tab==='news'){event.preventDefault();$('search').focus()}});
     window.addEventListener('popstate',()=>{void routeFromHash()});
     window.addEventListener('hashchange',()=>{void routeFromHash()});
     try{
