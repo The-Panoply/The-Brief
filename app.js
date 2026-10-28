@@ -89,7 +89,7 @@
   }
   function xDesk() {
     const host=$('x-list');host.replaceChildren();
-    const posts=state.latestData&&Array.isArray(state.latestData.xPosts)?state.latestData.xPosts:[];
+    const posts=state.data&&Array.isArray(state.data.xPosts)?state.data.xPosts:[];
     posts.forEach(item=>host.append(showStory(item,'x')));
     $('x-count').textContent=posts.length+' SELECTED POSTS';
     $('x-empty').hidden=posts.length!==0;
@@ -168,7 +168,7 @@
     editionLabel.textContent=data.type==='published'&&/^v\d+$/.test(data.edition||'')?data.edition:'';
     editionLabel.hidden=!editionLabel.textContent;
     $('archive-reader-bar').hidden=!entry;
-    filters();news();
+    filters();news();reddit();xDesk();
   }
   function latestEdition(){
     if(state.latestData)renderEdition(state.latestData);
@@ -277,7 +277,7 @@
       const data=await response.json();
       if(!Array.isArray(data.news)||!Array.isArray(data.reddit))throw Error('Invalid edition');
       state.latestData=data;
-      renderEdition(data);reddit();xDesk();
+      renderEdition(data);
       try{
         const footballResponse=await fetch('./football.json',{cache:'no-store'});
         if(!footballResponse.ok)throw Error('HTTP '+footballResponse.status);
