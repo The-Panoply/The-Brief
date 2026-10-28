@@ -170,11 +170,9 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 @media(max-width:740px){main.shell{padding-top:22px}#news-panel .edition-title{font-size:clamp(25px,6vw,31px)}}
 
 /* Site design version, deliberately separate from historical Brief edition numbers. */
-.site-version{display:block;flex:0 0 auto;font:500 10px/1 var(--sans);letter-spacing:.06em;color:#9ca7b0;padding-bottom:3px;user-select:none}
 
 /* Keep the design version on the same typographic line as the edition date. */
 #news-panel .edition-top{align-items:baseline}
-#news-panel .edition-top .site-version{align-self:baseline;padding:0;margin:0;white-space:nowrap}
 
 /* Persistent edition archive: editions are data snapshots rendered in today's reader. */
 .archive-summary{margin:25px 0 11px;color:#8d99a0;font-size:10px;font-weight:650;letter-spacing:.115em}
