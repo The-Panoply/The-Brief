@@ -7,7 +7,7 @@
   function navigate(tab, updateHistory=true) {
     state.tab=tab;
     const selected=tab==='edition'?'archive':tab;
-    ['news','reddit','x','football','archive'].forEach(id=>{
+    ['news','reddit','x','football','comments','archive'].forEach(id=>{
       $(id+'-panel').hidden=(tab==='edition'?id!=='news':id!==tab);
       const b=document.querySelector('[data-tab="'+id+'"]');
       b.classList.toggle('active',id===selected);
@@ -73,6 +73,66 @@
   function reddit() {
     const host=$('reddit-list');host.replaceChildren();host.classList.add('reddit-list');
     state.data.reddit.forEach(item=>host.append(showStory(item,'reddit')));
+  }
+
+  // Story-focused community dossiers: every excerpt or paraphrase retains its provenance.
+  function commentsDesk(){
+    const host=$('comments-list');host.replaceChildren();
+    const features=state.data&&Array.isArray(state.data.comments)?state.data.comments:[];
+    $('comments-empty').hidden=features.length!==0;
+    features.forEach(feature=>{
+      const article=make('article','comment-feature');
+      const hero=make('header','comment-hero');
+      hero.append(make('div','comment-feature-label','THE CONVERSATION'));
+      const heading=make('h2','comment-story-title');
+      const articleLink=make('a','',feature.headline);
+      articleLink.href=feature.articleUrl;articleLink.target='_blank';articleLink.rel='noopener noreferrer';
+      heading.append(articleLink);hero.append(heading);
+      if(feature.publisher||feature.date)hero.append(make('div','comment-article-meta',[feature.publisher,feature.date].filter(Boolean).join(' · ')));
+      if(feature.context)hero.append(make('p','comment-story-context',feature.context));
+      article.append(hero);
+
+      const synthesis=make('section','comment-synthesis');
+      synthesis.append(make('h3','comment-section-title','What the discussion reveals'));
+      (Array.isArray(feature.synthesis)?feature.synthesis:[]).forEach(paragraph=>{
+        synthesis.append(make('p','',paragraph));
+      });
+      article.append(synthesis);
+
+      const themes=Array.isArray(feature.themes)?feature.themes:[];
+      let total=0;
+      themes.forEach(theme=>{
+        const section=make('section','comment-theme');
+        const head=make('div','comment-theme-head');
+        head.append(make('h3','comment-theme-title',theme.title));
+        if(theme.insight)head.append(make('p','comment-theme-insight',theme.insight));
+        section.append(head);
+        (Array.isArray(theme.comments)?theme.comments:[]).forEach(item=>{
+          total++;
+          const row=make('article','comment-row');
+          const meta=make('div','comment-row-meta');
+          const who=make('span','comment-author',item.author||'Community member');
+          const where=make('span','comment-source',item.source||'Discussion');
+          const when=make('span','comment-date',item.date||'');
+          meta.append(who,where,when);row.append(meta);
+          const isQuote=item.kind==='quote';
+          const prose=make(isQuote?'blockquote':'p',isQuote?'comment-verbatim':'comment-paraphrase',item.text||'');
+          row.append(prose);
+          const foot=make('div','comment-row-footer');
+          foot.append(make('span','comment-method',isQuote?'VERBATIM':'EDITORIAL SUMMARY'));
+          if(item.note)foot.append(make('span','comment-note',item.note));
+          if(item.url&&/^https:\/\//.test(item.url)){
+            const a=make('a','comment-origin','Open original discussion ↗');
+            a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';foot.append(a);
+          }
+          row.append(foot);section.append(row);
+        });
+        article.append(section);
+      });
+      article.append(make('p','comment-total',total+' COMMUNITY PERSPECTIVES · '+themes.length+' THEMES'));
+      if(feature.methodology)article.append(make('p','comment-methodology',feature.methodology));
+      host.append(article);
+    });
   }
   function xDesk() {
     const host=$('x-list');host.replaceChildren();
@@ -155,7 +215,7 @@
     editionLabel.textContent=data.type==='published'&&/^v\d+$/.test(data.edition||'')?data.edition:'';
     editionLabel.hidden=!editionLabel.textContent;
     $('archive-reader-bar').hidden=!entry;
-    news();reddit();xDesk();
+    news();reddit();xDesk();commentsDesk();
   }
   function latestEdition(){
     if(state.latestData)renderEdition(state.latestData);
@@ -243,7 +303,7 @@
       if(state.latestData)renderEdition(state.latestData);
       navigate('news',false);
     }else{
-      navigate(['reddit','x','football','archive'].includes(hash)?hash:'news',false);
+      navigate(['reddit','x','football','comments','archive'].includes(hash)?hash:'news',false);
     }
   }
   async function start(){
