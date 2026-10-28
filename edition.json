@@ -661,6 +661,173 @@
       "text": "All I did was use the phone as typical, unfolding and folding approximately 40-50 times and about 36 hours of use",
       "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xfhvmt/my_crackgate_duo/",
       "qualification": "OP excerpt · firsthand account"
+    },
+    {
+      "id": "pro-hidden-workflows",
+      "subreddit": "r/ChatGPTPro",
+      "title": "What can you do with ChatGPT pro that most people don't know about?",
+      "date": "October 26, 2026",
+      "url": "https://www.reddit.com/r/ChatGPTPro/comments/1xg60ci/what_can_you_do_with_chatgpt_pro_that_most_people/",
+      "text": "Most people use ChatGPT for writing, brainstorming, coding, and asking questions. But there's so much more you can do with them, especially with MCPs…"
+    },
+    {
+      "id": "claude-practical-tools",
+      "subreddit": "r/ClaudeAI",
+      "title": "What have you built with AI that actually made your job easier?",
+      "date": "October 16, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x7jf72/what_have_you_built_with_ai_that_actually_made/",
+      "text": "I have created a few tools that help to investigate new projects and now half of the team use it."
+    },
+    {
+      "id": "ai-everyday-toolkit",
+      "subreddit": "r/AIToolMadeEasy",
+      "title": "What AI tools are actually useful in your daily workflow?",
+      "date": "October 22, 2026",
+      "url": "https://www.reddit.com/r/AIToolMadeEasy/comments/1xcs5lz/what_ai_tools_are_actually_useful_in_your_daily/",
+      "text": "I've tried a lot of AI tools but only a few have actually become part of my regular workflow."
+    },
+    {
+      "id": "agents-in-real-life",
+      "subreddit": "r/developersIndia",
+      "title": "What's your actual daily workflow with AI agents? Trying to figure out if I'm missing something.",
+      "date": "October 12, 2026",
+      "url": "https://www.reddit.com/r/developersIndia/comments/1x3vnjj/whats_your_actual_daily_workflow_with_ai_agents/",
+      "text": "I've tried Muse, messed around with OpenClaw, watched the Dots and Grok Bot launches. Feels like a new one drops every week now."
+    },
+    {
+      "id": "claude-code-security",
+      "subreddit": "r/ClaudeCode",
+      "title": "This tweet is a scary truth",
+      "date": "October 26, 2026",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xg1zev/this_tweet_is_a_scary_truth/",
+      "text": "Credit due to Steven^\nI'll be honest I faced a similar issue with claude when building out an oss project related to ai safety…"
+    },
+    {
+      "id": "claude-limit-anomaly",
+      "subreddit": "r/ClaudeCode",
+      "title": "Unexplained Claude Code usage consuming 30% of my weekly limit",
+      "date": "October 26, 2026",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xg3mu3/unexplained_claude_code_usage_consuming_30_of_my/",
+      "text": "I’m on the Claude Max 20x plan, and my weekly usage has gradually climbed to around 30% over the past three days…",
+      "qualification": "User report, unverified"
+    },
+    {
+      "id": "chatgpt-performance-oct27",
+      "subreddit": "r/ChatGPT",
+      "title": "What happened to ChatGPT today?",
+      "date": "October 27, 2026",
+      "url": "https://www.reddit.com/r/ChatGPT/comments/1xgcvrr/what_happened_to_chatgpt_today/",
+      "text": "",
+      "qualification": "Community anecdotes, not a confirmed outage"
+    },
+    {
+      "id": "claude-bugs-oct27",
+      "subreddit": "r/ClaudeAI",
+      "title": "Performance and Bugs Discussion Hub updated on 27 October 2026 - Sort by New!",
+      "date": "October 27, 2026",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgnf4u/performance_and_bugs_discussion_hub_updated_on_27/",
+      "text": "This Discussion Hub makes it easier for everyone to see what others are experiencing at any time by collecting all experiences about Performance Issues.",
+      "qualification": "Community-reported issues"
+    },
+    {
+      "id": "robotics-economy-gap",
+      "subreddit": "r/singularity",
+      "title": "I feel like robotics aren't being discussed enough",
+      "date": "October 23, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1xdpq8q/i_feel_like_robotics_arent_being_discussed_enough/",
+      "text": "I think for real impact on the economy we will need autonomous robots, and I don't think we are seeing much here."
+    },
+    {
+      "id": "accelerating-tech-observations",
+      "subreddit": "r/singularity",
+      "title": "The last few weeks have been the most technologically concentrated period if time I have so far witnessed.",
+      "date": "October 15, 2026",
+      "url": "https://www.reddit.com/r/singularity/comments/1x6vcdy/the_last_few_weeks_have_been_the_most/",
+      "text": "Between Navier Stokes, viable DNA computing, open-source Adobe clones, DLSS5, the Hugging Face hacks, the 700+ math paper dump…",
+      "qualification": "Speculative community discussion"
+    },
+    {
+      "id": "homekit-272-fix",
+      "subreddit": "r/HomeKit",
+      "title": "PSA: 27.2 Fixes the homekit automation bugs",
+      "date": "October 20, 2026",
+      "url": "https://www.reddit.com/r/HomeKit/comments/1xam1as/psa_272_fixes_the_homekit_automation_bugs/",
+      "text": "27.2 RC fixes the issues with internet calls in automations. If you use it to send notifications or any other network calls it works again…",
+      "qualification": "Community-tested fix"
+    },
+    {
+      "id": "bmw-g50-prices",
+      "subreddit": "r/cars",
+      "title": "BMW (2027; G50) 3 Series US Configurator is Live",
+      "date": "October 22, 2026",
+      "url": "https://www.reddit.com/r/cars/comments/1xckznn/bmw_2027_g50_3_series_us_configurator_is_live/",
+      "text": "The following models are available:\n\n330 – starts at $49,900\n330 xDrive – starts at $51,900\nM350 xDrive – starts at $65,900"
+    },
+    {
+      "id": "bmw-3series-in-person",
+      "subreddit": "r/BMW",
+      "title": "New BMW 3 Series",
+      "date": "October 20, 2026",
+      "url": "https://www.reddit.com/r/BMW/comments/1xat6ea/new_bmw_3_series/",
+      "text": "Today I finally saw the new BMW 3 Series in person.\nAnd I think it's the first time ever that I've liked a car…"
+    },
+    {
+      "id": "bmw-test-drive-critique",
+      "subreddit": "r/BMW",
+      "title": "2027 BMW 3series",
+      "date": "October 24, 2026",
+      "url": "https://www.reddit.com/r/BMW/comments/1xe4cfb/2027_bmw_3series/",
+      "text": "Test-drove the new BMW 3 Series yesterday. Honestly shocked by how cheap it feels. Hard plastics, flimsy door release buttons, and an annoying touchscreen…"
+    },
+    {
+      "id": "duo-day-two-review",
+      "subreddit": "r/iPhoneDuo",
+      "title": "Day 2 with the iPhone Duo: a cooler take after the honeymoon",
+      "date": "October 26, 2026",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xfua66/day_2_with_the_iphone_duo_a_cooler_take_after_the/",
+      "text": "Got my Duo yesterday. Day one felt genuinely impressive — especially fully flat. Reading and media on the inner screen were great."
+    },
+    {
+      "id": "duo-keyboard-resizing",
+      "subreddit": "r/iPhoneDuo",
+      "title": "Keyboard",
+      "date": "October 25, 2026",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xew7lu/keyboard/",
+      "text": "So I went to the Apple Store to see the display unit and I'm totally in love with it. But I hate it…"
+    },
+    {
+      "id": "duo-launch-fault-replacement",
+      "subreddit": "r/iPhoneDuo",
+      "title": "PSA: Don’t…open it?",
+      "date": "October 23, 2026",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xdshkz/psa_dontopen_it/",
+      "text": "Edit: After about an hour wait at the Apple Store, they came out with a new phone and replaced for free.",
+      "qualification": "Single-owner account"
+    },
+    {
+      "id": "duo-survivor-report",
+      "subreddit": "r/iPhoneDuo",
+      "title": "27 hours later…",
+      "date": "October 24, 2026",
+      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xegbp0/27_hours_later/",
+      "text": "And my phone is fine.\nThis thing has been amazing. This is just a reminder that users who don’t experience issues like we’re seeing won’t post…",
+      "qualification": "Single-owner account"
+    },
+    {
+      "id": "ios272-reactions",
+      "subreddit": "r/ios",
+      "title": "iOS 27.2 has released.",
+      "date": "October 26, 2026",
+      "url": "https://www.reddit.com/r/ios/comments/1xg57we/ios_272_has_released/",
+      "text": ""
+    },
+    {
+      "id": "apple-oct28-event-discussion",
+      "subreddit": "r/apple",
+      "title": "Apple Now Inviting Media to October 28 'Launch Experience'",
+      "date": "October 15, 2026",
+      "url": "https://www.reddit.com/r/apple/comments/1x6nb9m/apple_now_inviting_media_to_october_28_launch/",
+      "text": ""
     }
   ],
   "xPosts": [
