@@ -1,825 +1,580 @@
 {
   "type": "published",
-  "edition": "v13",
-  "displayDate": "Thursday, October 29",
+  "edition": "v14",
+  "displayDate": "Friday, October 30",
   "year": "2026",
   "news": [
     {
-      "id": "oled-mac-official",
-      "publisher": "Apple",
-      "domain": "apple.com",
-      "category": "Technology",
-      "date": "October 28, 2026",
-      "headline": "Apple unveils groundbreaking MacBook Pro with PROLED XDR Display and Touch for the first time on Mac",
-      "summary": [
-        "Tandem OLED, Touch and Dynamic Island arrive on a lighter MacBook Pro, starting at $2,899 with November 6 availability."
-      ],
-      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
-    },
-    {
-      "id": "touch-mac-hands-on",
+      "id": "reddit-login-plan",
       "publisher": "Ars Technica",
       "domain": "arstechnica.com",
       "category": "Technology",
-      "date": "October 28, 2026",
-      "headline": "Touchscreen MacBook Pro hands-on: OLED looks great on a Mac",
+      "date": "October 29, 2026",
+      "headline": "Reddit is moving to “a logged-in-only experience,” CEO says",
       "summary": [
-        "A hands-on assessment of the OLED display, new lighter construction and touchscreen functionality."
+        "CEO Steve Huffman says non-US testing will start before any global decision, as Reddit tries to reduce anonymous access and protect its data."
       ],
-      "url": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/"
+      "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/"
     },
     {
-      "id": "mac-touch-execs",
-      "publisher": "MacRumors",
-      "domain": "macrumors.com",
+      "id": "reddit-google-ai-traffic",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
       "category": "Technology",
-      "date": "October 28, 2026",
-      "headline": "Apple Executives Explain Why the MacBook Pro Finally Has a Touch Screen",
+      "date": "October 30, 2026",
+      "headline": "Reddit’s CEO says Google’s AI Mode “does not drive traffic”",
       "summary": [
-        "Apple executives describe touch as a complement to keyboard and trackpad, not a replacement."
+        "Reddit reports Google referrals down more than one million per week in October; its CEO argues AI answers are pushing traditional results lower."
       ],
-      "url": "https://www.macrumors.com/2026/10/28/apple-executives-touch-screen-explanation/"
+      "url": "https://www.theverge.com/tech/1022848/reddit-ceo-google-ai-mode-traffic"
     },
     {
-      "id": "gemini4carbon",
-      "publisher": "Google",
-      "domain": "blog.google",
-      "category": "Technology",
-      "date": "October 28, 2026",
-      "headline": "Gemini 4 Carbon: our next frontier model",
+      "id": "alphabet-big-fall",
+      "publisher": "Sky News",
+      "domain": "news.sky.com",
+      "category": "Business",
+      "date": "October 30, 2026",
+      "headline": "Google owner Alphabet suffers its worst-ever day on stock market as value plunges $500bn",
       "summary": [
-        "Google reports stronger long-horizon engineering and cybersecurity capabilities."
+        "Alphabet sank more than 12% after slower search growth and heavy AI spending raised new questions about returns on capital."
       ],
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      "url": "https://news.sky.com/story/google-owner-alphabet-suffers-worst-ever-day-as-shares-plunge-500bn-13605428"
     },
     {
-      "id": "anthropic-vulnerability",
-      "publisher": "Anthropic",
-      "domain": "anthropic.com",
-      "category": "Technology",
-      "date": "October 28, 2026",
-      "headline": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+      "id": "microsoft-jobs-ai",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Business",
+      "date": "October 30, 2026",
+      "headline": "Microsoft’s AI future has fewer jobs",
       "summary": [
-        "Anthropic details AI-assisted vulnerability discoveries and coordinated disclosures involving critical software."
+        "Microsoft is offering voluntary exits to about 60,000 eligible employees while investing heavily in AI infrastructure."
       ],
-      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
     },
     {
-      "id": "github-octoverse",
-      "publisher": "GitHub",
-      "domain": "github.blog",
-      "category": "Technology",
-      "date": "October 28, 2026",
-      "headline": "Octoverse: commits and pushes reach new highs in 2026 as developers build with agents",
-      "summary": [
-        "GitHub reports a dramatic rise in agent-initiated software development work."
-      ],
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
-    },
-    {
-      "id": "dots-sms",
+      "id": "openai-more-usage",
       "publisher": "OpenAI",
       "domain": "help.openai.com",
       "category": "Technology",
-      "date": "October 28, 2026",
-      "headline": "ChatGPT release notes: Dots texting enters US Pro beta",
+      "date": "October 29, 2026",
+      "headline": "ChatGPT release notes: More Work and Codex usage on Pro and Business Premium Plans",
       "summary": [
-        "The new Dots texting capability is described for eligible US Pro users; this does not establish Plus eligibility."
+        "OpenAI doubled included Work and Codex usage for Pro 100 and Pro 500 and reversed a planned cut affecting Pro 200."
       ],
       "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     },
     {
-      "id": "alzheimer-gene",
-      "publisher": "Nature",
-      "domain": "nature.com",
-      "category": "Science",
-      "date": "October 28, 2026",
-      "headline": "Alzheimer’s disease genetics converges on microglial and neuronal dysregulation",
+      "id": "wsj-apple-chip-suppliers",
+      "publisher": "The Wall Street Journal",
+      "domain": "wsj.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "The Beleaguered Chip Sellers Getting Their Revenge on Apple",
       "summary": [
-        "A large study identifies disease-associated genetic loci, providing biological clues, not a new treatment."
+        "AI datacenters are now formidable buyers of flash memory, squeezing the leverage Apple historically used to negotiate storage pricing."
       ],
-      "url": "https://www.nature.com/articles/s41586-026-11206-y"
+      "url": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9?st=FNAyaT"
     },
     {
-      "id": "mettl1-cancers",
-      "publisher": "Nature",
-      "domain": "nature.com",
-      "category": "Science",
-      "date": "October 28, 2026",
-      "headline": "Pharmacological inhibition of METTL1 as a therapy against solid and blood cancers",
+      "id": "apple-taiwan-fee",
+      "publisher": "Apple Developer",
+      "domain": "developer.apple.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "Adjustments to the Taiwan storefront of the App Store on iOS and iPadOS",
       "summary": [
-        "Preclinical inhibitor experiments address solid and blood cancers; human efficacy remains unproven."
+        "Apple says its standard Taiwan App Store commission drops from 30% to 26% on October 31 after regulator discussions."
       ],
-      "url": "https://www.nature.com/articles/s41586-026-11178-z"
+      "url": "https://developer.apple.com/news/?id=w9mxlhek"
     },
     {
-      "id": "heimdall-archaea",
-      "publisher": "Nature",
-      "domain": "nature.com",
-      "category": "Science",
-      "date": "October 28, 2026",
-      "headline": "Eukaryotes’ closest relatives are internally simple syntrophic peptidotrophic archaea",
+      "id": "mac-touch-controls",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "How macOS Adapts Its Controls for Touch on the New MacBook Pro",
       "summary": [
-        "New cultivation work offers evidence about relatives of the ancestors of complex cells."
+        "The first touchscreen Mac resizes menu and window controls contextually and turns the Dynamic Island into a pull-down interface."
       ],
-      "url": "https://www.nature.com/articles/s41586-026-11170-7"
+      "url": "https://www.macrumors.com/2026/10/29/macos-adapts-controls-touch-macbook-pro/"
     },
     {
-      "id": "ix1-spy-video",
+      "id": "mac-touch-optional",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "You Can Turn Off the New MacBook Pro’s Touchscreen Functionality",
+      "summary": [
+        "An accessibility setting can disable touch input altogether; macOS can also allow systemwide pinch-to-zoom."
+      ],
+      "url": "https://www.macrumors.com/2026/10/29/macbook-pro-touch-input-can-be-turned-off/"
+    },
+    {
+      "id": "homepod-mini2-release",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "Apple Releasing HomePod Mini 2 Tomorrow With These New Features",
+      "summary": [
+        "The $149 speaker launches October 30 with S10, Wi-Fi 6E, new colors and surround pairing; Siri AI is not ready at launch."
+      ],
+      "url": "https://www.macrumors.com/2026/10/29/homepod-mini-2-release-date-features/"
+    },
+    {
+      "id": "ipad-mini-60hz",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "Apple Executive Comments on New iPad Mini Lacking 120Hz Display",
+      "summary": [
+        "Apple defends a 60Hz OLED iPad mini by citing faster pixel response and reduced blur, while still withholding ProMotion."
+      ],
+      "url": "https://www.macrumors.com/2026/10/29/apple-executive-on-ipad-mini-lacking-120hz/"
+    },
+    {
+      "id": "popcorn-time-risk",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "Old 'Popcorn Time' App Left Hundreds of Thousands of Macs at Risk",
+      "summary": [
+        "Researchers found an abandoned updater that could install untrusted code; they report no observed criminal exploitation and recommend uninstalling affected variants."
+      ],
+      "url": "https://www.macrumors.com/2026/10/29/old-popcorn-time-app-macs-at-risk/"
+    },
+    {
+      "id": "wired-ternus-touch",
+      "publisher": "Wired",
+      "domain": "wired.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "The Inside Story of Why Apple Finally Brought a Touch Display to the Mac",
+      "summary": [
+        "Steven Levy talks with John Ternus about the design tradeoffs that finally made Apple comfortable adding touch without compromising the Mac."
+      ],
+      "url": "https://www.wired.com/story/the-inside-story-of-why-apple-finally-brought-a-touch-display-to-the-mac/"
+    },
+    {
+      "id": "duo-ltt-lab",
+      "publisher": "LTT Labs",
+      "domain": "lttlabs.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "iPhone Launch 2026 Testing - Round Duo",
+      "summary": [
+        "LTT Labs provides an independent technical examination of Apple’s new foldable, a useful complement to launch-day hands-on impressions."
+      ],
+      "url": "https://www.lttlabs.com/articles/2026/10/29/iphone-duo"
+    },
+    {
+      "id": "bmw-m350-drive",
       "publisher": "BMWBLOG",
       "domain": "bmwblog.com",
       "category": "Automotive",
-      "date": "October 28, 2026",
-      "headline": "2028 BMW iX1 Spied Hiding a Neue Look During Testing: Video",
+      "date": "October 29, 2026",
+      "headline": "2027 BMW M350 xDrive Review: An M3 Lite, Not An M340i Plus",
       "summary": [
-        "New Nürburgring prototype footage provides clues to BMW’s upcoming compact EV."
+        "An original road assessment of BMW’s new-generation 3 Series performance model, including powertrain, handling and daily-use observations."
       ],
-      "url": "https://www.bmwblog.com/2026/10/28/2028-bmw-ix1-nurburgring-spy-video/"
+      "url": "https://www.bmwblog.com/2026/10/29/2027-bmw-m350-xdrive-review/"
     },
     {
-      "id": "valhalla-open",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
+      "id": "bmw-i3-guide",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
       "category": "Automotive",
-      "date": "October 28, 2026",
-      "headline": "Aston Martin’s 1064-HP Valhalla Hypercar Goes Roofless",
+      "date": "October 29, 2026",
+      "headline": "2027 BMW i3 Buyer’s Guide: Range, Price, and What to Know",
       "summary": [
-        "A convertible Valhalla with the same hybrid powertrain is unveiled."
+        "BMWBLOG breaks down the Neue Klasse electric sedan’s trims, claimed range, performance and pricing choices."
       ],
-      "url": "https://www.caranddriver.com/news/a74264241/2028-aston-martin-valhalla-spider-revealed/"
+      "url": "https://www.bmwblog.com/2026/10/29/2027-bmw-i3-buyers-guide/"
     },
     {
-      "id": "bmw-x3-morepower",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
+      "id": "bmw-drift-boost",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
       "category": "Automotive",
-      "date": "October 28, 2026",
-      "headline": "2027 BMW X3 M50 Gets More Power and New Appearance Package",
+      "date": "October 29, 2026",
+      "headline": "BMW M350 Gets Drift Mode and Drift Moment Boost",
       "summary": [
-        "The performance X3 gains power and a new styling option."
+        "BMW’s sport sedan adds a driver-oriented drift setting and boost feature, with software availability details."
       ],
-      "url": "https://www.caranddriver.com/news/a74272007/2027-bmw-x3-m50-power-appearance-package/"
+      "url": "https://www.bmwblog.com/2026/10/29/bmw-m350-drift-mode-drift-moment-boost/"
     },
     {
-      "id": "crown-signia-gt",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
+      "id": "bmw-3series-weight",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
       "category": "Automotive",
-      "date": "October 28, 2026",
-      "headline": "Toyota Crown Signia GT-S Concept Revealed",
+      "date": "October 29, 2026",
+      "headline": "Why the 2027 BMW 3 Series Is Heavier",
       "summary": [
-        "A sporting SEMA design study gives the Crown Signia a more athletic stance."
+        "The publication examines the structural and technological tradeoffs behind the next 3 Series’ extra mass."
       ],
-      "url": "https://www.caranddriver.com/news/a74265465/toyota-crown-signia-gt-s-concept-revealed/"
+      "url": "https://www.bmwblog.com/2026/10/29/why-2027-bmw-3-series-heavier/"
     },
     {
-      "id": "michelotto-308",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
+      "id": "vw-profits-fall",
+      "publisher": "Top Gear",
+      "domain": "topgear.com",
       "category": "Automotive",
-      "date": "October 28, 2026",
-      "headline": "Michelotto Gruppo Four Is a Ferrari 308 Tribute",
+      "date": "October 29, 2026",
+      "headline": "Uh oh, the VW Group’s profits are down by almost 100 per cent",
       "summary": [
-        "The 308-inspired special celebrates lightweight manual V8 driving."
+        "VW Group reported operating profit down 98.7% in the first nine months, amid one-off costs, tariffs and weaker vehicle margins."
       ],
-      "url": "https://www.caranddriver.com/news/a74276071/michelotto-gruppo-four-tributo-ferrari-308-tribute/"
+      "url": "https://www.topgear.com/car-news/business/uh-oh-vw-groups-profits-are-down-almost-100-cent"
     },
     {
-      "id": "fsu-last-interviews",
-      "publisher": "Warchant",
-      "domain": "on3.com",
+      "id": "rivian-vw-ai",
+      "publisher": "TechCrunch",
+      "domain": "techcrunch.com",
+      "category": "Automotive",
+      "date": "October 29, 2026",
+      "headline": "Rivian expands joint venture with VW to include AI assistant",
+      "summary": [
+        "Rivian will license elements of its vehicle voice assistant to Volkswagen under their broader electronics and software partnership."
+      ],
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/"
+    },
+    {
+      "id": "health-official-stock",
+      "publisher": "ProPublica",
+      "domain": "propublica.org",
+      "category": "National",
+      "date": "October 29, 2026",
+      "headline": "Top U.S. Health Official Backed a Medication Policy Shift That Benefited a Company She Has Stock In",
+      "summary": [
+        "A ProPublica investigation reports a senior official held substantial shares in a company positioned to benefit from a policy shift she endorsed."
+      ],
+      "url": "https://www.propublica.org/article/hhs-alicia-jackson-menopause-treatment-policy"
+    },
+    {
+      "id": "fsu-clemson-availability",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
       "category": "College Football",
-      "date": "October 28, 2026",
-      "headline": "Mike Norvell and Duce Robinson preview FSU–Clemson",
+      "date": "October 29, 2026",
+      "headline": "FSU vs. Clemson: Availability report released for Seminoles, Tigers",
       "summary": [
-        "FSU updates ahead of Saturday’s Clemson game."
+        "Florida State and Clemson released injury and availability designations ahead of the Saturday, October 31 Halloween-night meeting."
       ],
-      "url": "https://www.on3.com/teams/florida-state-seminoles/news/fsu-football-interviews-102826/"
+      "url": "https://www.tomahawknation.com/florida-state-football/139554/fsu-clemson-availability-report-seminoles-tigers"
     },
     {
-      "id": "fsu-preview-final",
-      "publisher": "Tallahassee Democrat",
-      "domain": "sports.yahoo.com",
+      "id": "fsu-clemson-watch",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
       "category": "College Football",
-      "date": "October 28, 2026",
-      "headline": "Mike Norvell gives final preview of FSU football vs. Clemson",
+      "date": "October 29, 2026",
+      "headline": "Florida State Seminoles vs. Clemson Tigers: How to watch, stream, odds",
       "summary": [
-        "Final preview of the Seminoles’ Saturday home game."
+        "FSU hosts Clemson at 7 p.m. ET Saturday on ACC Network; the preview reviews form and the early betting line."
       ],
-      "url": "https://sports.yahoo.com/articles/mike-norvell-gives-final-preview-151326321.html"
+      "url": "https://www.tomahawknation.com/florida-state-football/139521/fsu-seminoles-clemson-tigers-how-to-watch-stream-odds"
     },
     {
-      "id": "ffx-datacenter-governor",
+      "id": "fairfax-title-alert",
       "publisher": "FFXnow",
       "domain": "ffxnow.com",
-      "category": "Local",
-      "date": "October 28, 2026",
-      "headline": "Fairfax leaders seek collaboration with governor as Virginia’s data center rules evolve",
+      "category": "Northern Virginia",
+      "date": "October 29, 2026",
+      "headline": "Fairfax Circuit Court offers free alerts for property record fraud",
       "summary": [
-        "Fairfax supervisors seek input into statewide policy changes."
+        "A new free county service emails owners when deeds or other documents are recorded against their property, offering an early warning for fraud."
       ],
-      "url": "https://www.ffxnow.com/2026/10/28/fairfax-leaders-seek-collaboration-with-governor-as-va-s-data-center-rules-evolve/"
+      "url": "https://www.ffxnow.com/2026/10/29/fairfax-circuit-court-offers-free-alerts-for-property-record-fraud/"
     },
     {
-      "id": "ffx-fire-victims",
+      "id": "reston-aerospace-hq",
       "publisher": "FFXnow",
       "domain": "ffxnow.com",
-      "category": "Local",
-      "date": "October 28, 2026",
-      "headline": "Four accused of burglaries targeting victims of home fires in Fairfax County",
-      "summary": [
-        "Four people are accused of burglaries; allegations are not convictions."
-      ],
-      "url": "https://www.ffxnow.com/2026/10/28/four-accused-of-burglaries-targeting-victims-of-home-fires-in-fairfax-county/"
-    },
-    {
-      "id": "arlington-housing",
-      "publisher": "ARLnow",
-      "domain": "arlnow.com",
-      "category": "Local",
-      "date": "October 28, 2026",
-      "headline": "Missing middle arguments flare at County Board town hall",
-      "summary": [
-        "Arlington’s housing reforms remain contentious."
-      ],
-      "url": "https://www.arlnow.com/2026/10/28/missing-middle-arguments-flare-at-county-board-town-hall/"
-    },
-    {
-      "id": "spain-train-crash",
-      "publisher": "Reuters",
-      "domain": "reuters.com",
-      "category": "World",
+      "category": "Northern Virginia",
       "date": "October 29, 2026",
-      "headline": "Spanish rescuers search trains in hope of finding survivors of deadly crash",
+      "headline": "Aerospace defense company picks Reston for new East Coast HQ",
       "summary": [
-        "Rescuers continue searching after a deadly Spanish rail collision; casualty totals may change."
+        "Space and defense contractor Auria plans a Reston headquarters with $1.8 million invested and an expected 78 jobs."
       ],
-      "url": "https://www.reuters.com/world/europe/spanish-rescuers-search-trains-hope-finding-survivors-deadly-crash-2026-10-29/"
+      "url": "https://www.ffxnow.com/2026/10/29/aerospace-defense-company-picks-reston-for-new-east-coast-hq/"
     },
     {
-      "id": "india-cyclone",
-      "publisher": "Reuters",
-      "domain": "reuters.com",
-      "category": "World",
+      "id": "fairfax-employment",
+      "publisher": "FFXnow",
+      "domain": "ffxnow.com",
+      "category": "Northern Virginia",
       "date": "October 29, 2026",
-      "headline": "Six killed by cyclone off India’s eastern coast",
+      "headline": "Fairfax County’s jobless rate still elevated compared to before Trump’s second term",
       "summary": [
-        "Evacuations and emergency response follow a severe cyclone."
+        "Fairfax September unemployment was 3.4%, with the number of unemployed residents almost 28% above the earlier comparison point."
       ],
-      "url": "https://www.reuters.com/business/environment/six-killed-cyclone-off-indias-eastern-coast-2026-10-29/"
+      "url": "https://www.ffxnow.com/2026/10/29/fairfax-countys-jobless-rate-still-elevated-compared-to-before-trumps-second-term/"
     },
     {
-      "id": "us-japan-missiles",
-      "publisher": "Associated Press",
-      "domain": "apnews.com",
-      "category": "World",
-      "date": "October 28, 2026",
-      "headline": "United States and Japan agree to expand joint missile production",
+      "id": "herndon-main-street",
+      "publisher": "FFXnow",
+      "domain": "ffxnow.com",
+      "category": "Northern Virginia",
+      "date": "October 29, 2026",
+      "headline": "Herndon seeks ‘Main Street’ status to guide downtown revitalization",
       "summary": [
-        "A defense-industrial cooperation announcement concerns missile production."
+        "The town seeks a Virginia Main Street designation as it tries to revitalize its downtown amid a longstanding redevelopment dispute."
       ],
-      "url": "https://apnews.com/article/3351555ce9c46b41a3e31d91b81894eb"
+      "url": "https://www.ffxnow.com/2026/10/29/herndon-seeks-main-street-status-to-guide-downtown-revitalization/"
     },
     {
-      "id": "fed-pause",
+      "id": "fewer-graded-homework",
+      "publisher": "Tom’s Hardware",
+      "domain": "tomshardware.com",
+      "category": "Science",
+      "date": "October 29, 2026",
+      "headline": "Fields Medal-winning UC Berkeley professor ends graded homework due to AI cheating",
+      "summary": [
+        "A mathematician’s shift toward in-person assessment illustrates the practical stakes of generative AI in higher education."
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/fields-medal-winning-uc-berkeley-professor-ends-graded-homework-due-to-ai-cheating-says-in-person-exams-are-the-only-solution-left-to-widespread-ai-use"
+    },
+    {
+      "id": "microsoft-copilot-tv",
+      "publisher": "Windows Central",
+      "domain": "windowscentral.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "Microsoft is killing Copilot on all smart TVs after backlash and strategy shift",
+      "summary": [
+        "LG says the Copilot TV integration will end before 2027, a reversal for the strategy of putting AI assistants everywhere."
+      ],
+      "url": "https://www.windowscentral.com/artificial-intelligence/microsoft-copilot/microsoft-is-killing-copilot-on-all-smart-tvs-after-backlash-and-strategy-shift-lg-confirms-support-will-end-before-2027"
+    },
+    {
+      "id": "oracle-agent-metering",
+      "publisher": "The Register",
+      "domain": "theregister.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "Oracle wants to bill you for every AI task, not just every seat",
+      "summary": [
+        "Oracle is exploring pricing linked to actions undertaken by agents rather than just subscriptions, a business-model signal worth watching."
+      ],
+      "url": "https://www.theregister.com/applications/2026/10/29/oracle-wants-to-bill-you-for-every-ai-task-not-just-every-seat/5306403"
+    },
+    {
+      "id": "reddit-panos-exploit",
+      "publisher": "Dream Group",
+      "domain": "dreamgroup.com",
+      "category": "Technology",
+      "date": "October 29, 2026",
+      "headline": "Custom PHP2Shell exploit chained with kernel LPE to root PAN-OS firewalls in the wild",
+      "summary": [
+        "Security researchers document active use of an exploit chain against certain Palo Alto Networks devices; affected operators should check the primary report."
+      ],
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers"
+    },
+    {
+      "id": "sweetener-cognition",
+      "publisher": "ScienceDaily",
+      "domain": "sciencedaily.com",
+      "category": "Science",
+      "date": "October 29, 2026",
+      "headline": "Six popular sugar substitutes linked to faster brain aging",
+      "summary": [
+        "A cohort study associates some sweetener intake patterns with cognitive trajectories; association does not establish cause."
+      ],
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm"
+    },
+    {
+      "id": "daylight-dementia-study",
+      "publisher": "ScienceDaily",
+      "domain": "sciencedaily.com",
+      "category": "Science",
+      "date": "October 29, 2026",
+      "headline": "Less than 42 minutes of bright daylight linked to higher dementia risk",
+      "summary": [
+        "Researchers report an observational relationship between daytime light exposure and dementia, not a proven protective intervention."
+      ],
+      "url": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm"
+    },
+    {
+      "id": "ai-war-technology",
       "publisher": "Reuters",
       "domain": "reuters.com",
-      "category": "Business",
-      "date": "October 28, 2026",
-      "headline": "Fed likely to go into wait-and-see mode on rates",
+      "category": "World",
+      "date": "October 30, 2026",
+      "headline": "AI’s rewiring of US warfare may be only the beginning",
       "summary": [
-        "The central bank signals caution on further rate changes."
+        "A reported look at the military adoption of AI, the technology’s operational promise and its risks."
       ],
-      "url": "https://www.reuters.com/business/fed-likely-go-into-wait-and-see-mode-rates-2026-10-28/"
-    },
-    {
-      "id": "google-ms-ai-business",
-      "publisher": "Reuters Breakingviews",
-      "domain": "reuters.com",
-      "category": "Business",
-      "date": "October 28, 2026",
-      "headline": "Google and Microsoft weave tangled AI webs",
-      "summary": [
-        "An analysis of interlocking cloud infrastructure and AI funding relationships."
-      ],
-      "url": "https://www.reuters.com/commentary/breakingviews/google-microsoft-weave-tangled-ai-webs-2026-10-28/"
+      "url": "https://www.reuters.com/technology/artificial-intelligence/ais-rewiring-us-warfare-may-be-only-beginning-2026-10-30/"
     }
   ],
   "reddit": [
     {
-      "id": "apple-proled-thread",
-      "subreddit": "r/apple",
-      "title": "New MacBook Pro with PROLED XDR Display: The first-ever Mac with Touch",
-      "date": "October 28, 2026",
+      "id": "agent-harness-10",
+      "subreddit": "r/LocalLLaMA",
+      "title": "10 coding agents, one Qwen 3.8 27B, same llama-server: tokens and cache reuse differ more than pass rates",
+      "date": "October 30, 2026",
+      "text": "Part 2 of my agent test (part 1 was a 4B model)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj182d/10_coding_agents_one_qwen_38_27b_same_llamaserver/"
+    },
+    {
+      "id": "qwen-houdini-issue",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Qwen 3.8 what am I missing here?",
+      "date": "October 30, 2026",
+      "text": "I'm just starting my journey here into local LLM. Since I work in VFX I've got a 5090 and 256GB of sys mem.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2hi1/qwen_38_what_am_i_missing_here/"
+    },
+    {
+      "id": "ninfer-native",
+      "subreddit": "r/LocalLLaMA",
+      "title": "NInfer-2080ti-22g now supports Windows-native and is only 0.28 GB",
+      "date": "October 30, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/"
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj1gnw/ninfer2080ti22g_now_supports_windowsnative_and_is/"
     },
     {
-      "id": "apple-proled-discussion",
-      "subreddit": "r/apple",
-      "title": "MacBook Pro with PROLED XDR Display",
-      "date": "October 28, 2026",
+      "id": "local-reddit-login",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Reddit will force everyone to log in",
+      "date": "October 30, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/"
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/"
     },
     {
-      "id": "apple-proled-newsroom",
-      "subreddit": "r/apple",
-      "title": "Apple unveils groundbreaking MacBook Pro with PROLED XDR Display",
-      "date": "October 28, 2026",
+      "id": "tiny-harbor-qwen",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Benchmark: Tiny Harbor, a living 3D island village in three.js (Qwen 3.8 Flash Next)",
+      "date": "October 30, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/apple/comments/1xhu302/newsroom_apple_unveils_groundbreaking_macbook_pro/"
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj0w5d/benchmark_tiny_harbor_a_living_3d_island_village/"
     },
     {
-      "id": "duo-hands-on-change",
-      "subreddit": "r/iPhoneDuo",
-      "title": "Hands on with the Duo changed my mind",
-      "date": "October 28, 2026",
-      "text": "I’ve never been a fan of foldables and to be fair I’ve never really gave them a chance. Went to check out the Duo in store today and it changed my mind. The front screen felt larger than expected; unfolded, the form factor felt excellent.",
-      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xh66d0/hands_on_with_the_duo_changed_my_mind/"
-    },
-    {
-      "id": "duo-screen-poll",
-      "subreddit": "r/iPhoneDuo",
-      "title": "For those who have received your iPhone Duo, how is your screen doing?",
-      "date": "October 28, 2026",
-      "text": "I’m just trying to gauge how many people this is actually affecting. I would put this in the Crackgate megathread, but I can’t do that with a poll.",
-      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xh66wb/for_those_who_have_received_your_iphone_duo_how/"
-    },
-    {
-      "id": "duo-click",
-      "subreddit": "r/iPhoneDuo",
-      "title": "Anyone else notice an audible and tactile click when opening their Duo?",
-      "date": "October 28, 2026",
+      "id": "cohere-critique",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Arguably unethical behavior from Cohere",
+      "date": "October 30, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xh6blp/anyone_else_notice_an_audible_and_also_textile/"
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/"
     },
     {
-      "id": "duo-screen-noise",
-      "subreddit": "r/iPhoneDuo",
-      "title": "When pressing on certain parts of the screen, I can hear a small noise",
-      "date": "October 28, 2026",
+      "id": "local-magnitude-bench",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Anyone tried Magnitude? Claims to be 2x faster than Ollama/llama.cpp, but it wasn’t for me (3060 Laptop GPU + RPi 5 CPU-only).",
+      "date": "October 30, 2026",
+      "text": "However, this was just a quick test and it's possible that I have done something wrong or that Magnitude would have worked better on more powerful GPU hardware.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xivkcc/anyone_tried_magnitude_claims_to_be_2x_faster/"
+    },
+    {
+      "id": "local-raon-bench",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Raon-1-mini-preview (28.8B/4.3B MoE) on hipfire, 7900 XT: runs natively, but ~200× slower prefill / ~10× slower decode than llama.cpp",
+      "date": "October 30, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xh62bw/when_pressing_on_certain_parts_of_the_screen_i/"
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xitxzt/raon1minipreview_288b43b_moe_on_hipfire_7900_xt/"
     },
     {
-      "id": "duo-portrait-bugs",
-      "subreddit": "r/iPhoneDuo",
-      "title": "Why are apps being poorly optimized for portrait mode?",
-      "date": "October 28, 2026",
-      "text": "For example, YouTube has been optimized today, but when used in portrait mode, a margin remains at the top, it looks quite bad. The same thing happens in the X app.",
-      "url": "https://www.reddit.com/r/iPhoneDuo/comments/1xh619a/why_are_apps_being_poorly_optimized_for_portrait/"
-    },
-    {
-      "id": "gpt-followup-constraints",
-      "subreddit": "r/ChatGPT",
-      "title": "Try again or ask to change response information is not carried forward?",
-      "date": "October 29, 2026",
-      "text": "I have access to both a pro account at work and the free account on my personal phone. I’m noticing a brand new problem with GPT-6 I’ve not previously encountered.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xibtty/try_again_or_ask_to_change_response_information/"
-    },
-    {
-      "id": "astra-credits",
-      "subreddit": "r/ChatGPT",
-      "title": "Five minutes and Astra nearly exhausted all credits",
-      "date": "October 29, 2026",
+      "id": "local-design-harness",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Research: Matching Claude Code + Sonnet 5.5 design quality with DeepSeek/GLM Flash models and a custom harness",
+      "date": "October 30, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xichig/5_minutes_thats_all_it_took_for_astra_to_nearly/"
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xit9g8/research_matching_claude_code_sonnet_55_design/"
     },
     {
-      "id": "plus-limits",
-      "subreddit": "r/ChatGPT",
-      "title": "5 Hour Limit suddenly 0%",
-      "date": "October 29, 2026",
-      "text": "I am new user to ChatGPT. Last night I just subscribe Plus plan and only dabble a bit.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xic0l9/5_hour_limit_suddenly_0/"
+      "id": "dojo-agents",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Wanted Fable, Astra and the local agent working together, so i Built Dojo",
+      "date": "October 30, 2026",
+      "text": "The idea is simple actually, in my workflow a lot of the work passes between sessions of agents in different terminal windows.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xisevm/wanted_fable_astra_and_the_local_agent_working/"
     },
     {
-      "id": "singularity-gatekeeping",
+      "id": "global-law-git",
+      "subreddit": "r/LocalLLaMA",
+      "title": "Git for Global Law: Global Law querable in Git",
+      "date": "October 30, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiv58m/git_for_global_law_global_law_querable_in_git/"
+    },
+    {
+      "id": "local-vulkan-bug",
+      "subreddit": "r/LocalLLaMA",
+      "title": "swapped 5600x to 5600g and got 4x slower inference on vulkan",
+      "date": "October 30, 2026",
+      "text": "- qwen/qwen3.8-27b fully in main GPU VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiy7of/swapped_5600x_to_5600g_and_got_4x_slower/"
+    },
+    {
+      "id": "binance-breach-thread",
+      "subreddit": "r/technology",
+      "title": "Attacker gets away with up to $3 billion from Binance",
+      "date": "October 30, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/technology/comments/1xj351g/attacker_gets_away_with_up_to_3_billion_from/"
+    },
+    {
+      "id": "homework-ai-assessment",
+      "subreddit": "r/technology",
+      "title": "Fields Medal-winning UC Berkeley professor ends graded homework due to AI cheating — says in-person exams are the only solution left to widespread AI use",
+      "date": "October 30, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/technology/comments/1xj1dtb/fields_medalwinning_uc_berkeley_professor_ends/"
+    },
+    {
+      "id": "copilot-tvs",
+      "subreddit": "r/technology",
+      "title": "Microsoft is killing Copilot on all smart TVs after backlash and strategy shift – LG confirms support will end before 2027",
+      "date": "October 30, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/technology/comments/1xj1d9j/microsoft_is_killing_copilot_on_all_smart_tvs/"
+    },
+    {
+      "id": "panos-exploit-community",
+      "subreddit": "r/technology",
+      "title": "Custom PHP2Shell Exploit Chained with Kernel LPE to Root Versions of Palo Alto Networks PAN-OS Firewalls in the Wild",
+      "date": "October 30, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/technology/comments/1xj0ghm/custom_php2shell_exploit_chained_with_kernel_lpe/"
+    },
+    {
+      "id": "rivian-vw-community",
+      "subreddit": "r/technology",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "date": "October 30, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/technology/comments/1xizn08/rivian_expands_joint_venture_with_vw_to_include/"
+    },
+    {
+      "id": "oracle-ai-metering-community",
+      "subreddit": "r/technology",
+      "title": "Oracle wants to bill you for every AI task, not just every seat",
+      "date": "October 30, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/technology/comments/1xizkm2/oracle_wants_to_bill_you_for_every_ai_task_not/"
+    },
+    {
+      "id": "ai-particle-physics",
       "subreddit": "r/singularity",
-      "title": "Why do pro AI people have to be so mean to other people that are pro AI?",
+      "title": "AI is coming for particle physics, but it’s complicated",
       "date": "October 29, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/singularity/comments/1xi0sta/why_do_pro_ai_people_have_to_be_so_mean_to_other/"
+      "url": "https://www.reddit.com/r/singularity/comments/1xi2syj/ai_is_coming_for_particle_physics_but_its/"
     },
     {
-      "id": "singularity-robot-arm",
+      "id": "ai-community-education",
       "subreddit": "r/singularity",
-      "title": "GPT-6 Astra painted this on a real robot arm then",
+      "title": "We either need to make AI perfect or teach people how to use it",
       "date": "October 29, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/singularity/comments/1xi0o38/gpt6_astra_painted_this_on_a_real_robot_arm_then/"
-    },
-    {
-      "id": "bmw-ix3-v-i5",
-      "subreddit": "r/BMW",
-      "title": "UK spec iX3 or i5 Touring",
-      "date": "October 28, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/BMW/comments/1xhxg7c/uk_spec_ix3_or_i5_touring/"
-    },
-    {
-      "id": "bmw-dealer-tire",
-      "subreddit": "r/BMW",
-      "title": "Peter Pan BMW charged me $600 for a nail in a loaner tire after 5 miles",
-      "date": "October 28, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/BMW/comments/1xhx0yl/peter_pan_bmw_charged_me_600_for_a_nail_in_a/"
-    },
-    {
-      "id": "bmw-igla",
-      "subreddit": "r/BMW",
-      "title": "IGLA anti-theft system reliability?",
-      "date": "October 28, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/BMW/comments/1xhvbvb/igla_anti_theft_reliability/"
+      "url": "https://www.reddit.com/r/singularity/comments/1xi88qa/we_either_need_to_make_ai_perfect_or_teach_people/"
     }
   ],
   "xPosts": [],
-  "comments": [
-    {
-      "id": "macbook-pro-oled-touch-2026-10-28",
-      "headline": "Apple unveils the touchscreen OLED MacBook Pro",
-      "date": "October 28, 2026",
-      "publisher": "Apple",
-      "articleUrl": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
-      "context": "Apple announced 14- and 16-inch MacBook Pro models with a tandem OLED PROLED XDR display, touch input, a lighter chassis and Dynamic Island. Prices start at $2,899 and $3,399, respectively; preorders opened October 28, with availability on November 6.",
-      "synthesis": [
-        "This is the immediate response to the actual October 28 announcement, not a retrospective on rumors. Across the MacRumors launch thread and three new r/apple threads, the loudest argument concerns the cost of the OLED model relative to MacBooks with familiar M5 Pro and M5 Max performance. Some welcome a premium display; others see it as a hard-to-justify surcharge.",
-        "The second disagreement is subtler than whether people like touchscreens: even Mac users attracted to touch wonder when they would reach past a superb trackpad. Other commenters offer specific cases—app testing, spreadsheets, presentations, and 3D work—and argue occasional touch can be useful without replacing keyboard and mouse input.",
-        "Several reactions also focus on the peculiar positioning of the new model. The lightweight body, OLED panel, Dynamic Island and illuminated logo attract interest, but the unchanged clamshell hinge, lack of announced Apple Pencil support, and absent cellular option leave some feeling that the hardware stops short of the convergence they had imagined.",
-        "These are selected launch-day reactions, not a sentiment poll. A few comments below are deliberately detailed or contradictory: that tension is what makes a comment roundup useful. Claims about pricing, displays and compatibility in individual comments remain the commenters' claims unless confirmed by the Apple announcement."
-      ],
-      "sources": [
-        {
-          "name": "Apple announcement · Oct 28",
-          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/"
-        },
-        {
-          "name": "MacRumors · Announcement comments · Oct 28",
-          "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/"
-        },
-        {
-          "name": "r/apple · New MacBook Pro with touch · Oct 28",
-          "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/"
-        },
-        {
-          "name": "r/apple · PROLED product discussion · Oct 28",
-          "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/"
-        },
-        {
-          "name": "r/apple · Apple Newsroom post · Oct 28",
-          "url": "https://www.reddit.com/r/apple/comments/1xhu302/newsroom_apple_unveils_groundbreaking_macbook_pro/"
-        }
-      ],
-      "themes": [
-        {
-          "title": "The price: is OLED worth the premium?",
-          "insight": "The launch prompted immediate comparisons with the existing MacBook Pro line. Buyers who appreciate the panel disagree about what the price increase actually buys.",
-          "comments": [
-            {
-              "author": "Astuces iOS",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Says the Canadian pricing is around CAD $4,000—more than double what this commenter paid for a base M4 MacBook Pro—and rules out the purchase.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
-              "note": "MacRumors launch thread, post #13"
-            },
-            {
-              "author": "joshwithachance",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Argues that the machine is essentially an M5-era refresh with a striking new display, and questions whether the added expense is justified by the changes.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-6",
-              "note": "MacRumors launch thread"
-            },
-            {
-              "author": "switch8000",
-              "source": "r/apple · Apple Newsroom discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "So it's just $400 more for the touch + XDR?\n\n$2,499.00 vs $2,899.00",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu302/newsroom_apple_unveils_groundbreaking_macbook_pro/",
-              "note": "Comparing listed configurations"
-            },
-            {
-              "author": "gabo2007",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I'll save you the time – the new stuff (OLED, touch, lighter weight) costs exactly $400 extra compared to the exact same configuration of a standard Macbook Pro.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "Same-chip comparison"
-            },
-            {
-              "author": "caphis",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "My 14\" M5 Pro with 48GB was $2599 when I bought it 7 months ago in March.\n\nNow a 14\" M5 Pro with 48GB is... $3699? Because it has a touchscreen?\n\nGTFO.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "A comparison that also reflects changes beyond the touch display"
-            },
-            {
-              "author": "flogman12",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I mean I’m a professional. It’s still overpriced. I do 3d rendering. This exact machine was made for me, I need accurate color and also work in higher education. It’s overpriced. It starts at 2899. Professional devices can still be too expensive for professionals.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "An intended professional buyer pushes back"
-            },
-            {
-              "author": "leo-g",
-              "source": "r/apple · Apple Newsroom discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "With a XDR screen? For some industries focused on color work like film editing that’s cheap.\n\nAgain here to point out, nobody really needs this. You don’t need this to edit your word doc.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu302/newsroom_apple_unveils_groundbreaking_macbook_pro/",
-              "note": "Counterargument about specialized professional value"
-            }
-          ]
-        },
-        {
-          "title": "OLED, weight, and which upgrades matter",
-          "insight": "A significant faction views the display as the real feature, with touch merely attached. The reduced weight and returning illuminated logo generate enthusiasm, too.",
-          "comments": [
-            {
-              "author": "JPack",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Describes it as a mid-cycle update centered on OLED, with touch presented as one additional way to interact with the Mac—not a replacement for existing controls.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
-              "note": "MacRumors launch thread, post #12"
-            },
-            {
-              "author": "appleguy123",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Impressed by a roughly three-pound 14-inch laptop with high-end power, and delighted at the possibility of a glowing Apple logo, but says it is too expensive to consider buying.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
-              "note": "MacRumors launch thread, post #17"
-            },
-            {
-              "author": "svish",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Welcomes the illuminated logo and is pleased the price rise was smaller than the feared $500. Wants to see real photographs and videos before judging further.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
-              "note": "MacRumors launch thread, post #8"
-            },
-            {
-              "author": "Miserable_Theory7373",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Oled, 20% lighter, thinner, touch. Pretty sweet",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Positive on the full package"
-            },
-            {
-              "author": "bran_the_man93",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I strongly maintain that OLED as a technology is much better suited for content consumption over content creation\nInfrequent true-black use cases in production workflows really make a waste of OLED's key selling point, and static on-screen elements emphasize the downsides of OLED.\nFor something like a TV or a gaming monitor, totally makes sense - but if a user is mainly scrubbing timelines and writing code, OLED is sort of pointless, especially with modern mini-LED displays really getting quite good",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Detailed OLED-use-case criticism, not a settled technical conclusion"
-            },
-            {
-              "author": "Miserable_Theory7373",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Some of you only ever drive places and use your computers at home and it shows. I’m on the road a lot with a backpacking, biking, commuting, big fan of thinner and lighter Pros 🌞",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Why portability matters to a commuter"
-            },
-            {
-              "author": "ToxicBuddhismFanboy",
-              "source": "r/apple · Apple Newsroom discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Looks cool. I'd prefer no touch screen though. I hope the notch gets swapped for the Dynamic Island on all MBP models going forward.\nEasy save $400 for the comparable 14\" MBP M5 Pro without the touch screen.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu302/newsroom_apple_unveils_groundbreaking_macbook_pro/",
-              "note": "Likes a redesign element, would choose the cheaper model"
-            }
-          ]
-        },
-        {
-          "title": "Do you actually want to touch a Mac?",
-          "insight": "The immediate practical debate pits MacBook trackpad ergonomics and finger smudges against occasional natural touch interactions and specific professional tasks.",
-          "comments": [
-            {
-              "author": "Corefile",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I don't want gorilla arms.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
-              "note": "MacRumors launch thread, post #3"
-            },
-            {
-              "author": "Tagbert",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Calls an outright refusal to buy a touchscreen Mac an overreaction: the older non-touch models remain available, and nobody is compelled to touch the display even on the new machine.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-5",
-              "note": "MacRumors launch thread, post #103"
-            },
-            {
-              "author": "Sxr71",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Agrees that reaching to a laptop display is often awkward but says touching an iMac or monitor while standing can be genuinely useful. Hopes the laptop becomes a proving ground for better macOS touch interfaces.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-21",
-              "note": "MacRumors launch thread, post #502"
-            },
-            {
-              "author": "gertopas",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "the touch screen is weird, fingerprints aside but also for how dang good the trackpad is in macbooks. All those things in the video of dragging, scrolling and pinching, all those you can already do and very efficiently in the trackpad, it feels redundant to have both.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Trackpad makes the proposed gestures redundant"
-            },
-            {
-              "author": "dtoxin",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "My work laptop had a touch screen. I probably have used it maybe 4 times a year. Usually it’s when I’m talking with a coworker about something on a PDF and I’m pointing to something with my finger and do a pinch to zoom in or out on what we’re discussing.\n\nThat’s all I’ve ever found it useful for",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "Firsthand use case from a different touchscreen laptop"
-            },
-            {
-              "author": "Tumblrrito",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Bro forgot we have been living with touchscreen iPhones, iPads, and Watches for years without issue.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Pushback to fingerprint anxiety"
-            },
-            {
-              "author": "Valterri_lts_James",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "yeah, everytime you put your phone in your pocket, it naturally removes oil. People aren't doing the same with their macbooks so cleaning them all the time would be annoying.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Counterpoint: laptops aren't wiped like phones"
-            }
-          ]
-        },
-        {
-          "title": "The Mac–iPad boundary and the missing features",
-          "insight": "Some viewers want a Mac that folds flat, accepts Pencil, or gives an iPad full macOS. Others wonder what Apple is actually doing with the touch interface and the expanded Dynamic Island.",
-          "comments": [
-            {
-              "author": "guzhogi",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Likes touch for drawing in full desktop creative apps, yet wishes the MacBook could fold back or enter a tent configuration. Also questions why the premium redesign has M5 Pro/Max while the base Pro is moving to M6, and would prefer touch to be optional.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-14",
-              "note": "MacRumors launch thread, post #328; balanced pro/con"
-            },
-            {
-              "author": "badabubaba",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Overall, it looks amazing: great display, light (kinda), powerful. But the touchscreen feels weird: they’ve been saying for decades that it doesn’t make sense on a Mac, and now it makes sense because… you can rotate a 3D thing? And press a key on a keyboard? Weird. I was expecting them to come up with a new design that allowed for a complete rotation to use it like a heavy and powerful iPad, but… no. That would make sense for us creatives. This doesn’t.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Creative-work perspective with a hinge critique"
-            },
-            {
-              "author": "cInfinityOperator",
-              "source": "r/apple · Apple Newsroom discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I think Apple's reluctance to cannibalize their own products prevents them from releasing something actually useful.\n\nLike this would genuinely be a good laptop if it stepped on the iPad's toes and had pencil support and a hinge that would support note taking.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu302/newsroom_apple_unveils_groundbreaking_macbook_pro/",
-              "note": "Wants a Pencil-compatible convertible"
-            },
-            {
-              "author": "JuicyButDry",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I think it’s actually an underrated feature for devs. Especially for simulating touch devices like the iPhone, it’s a great addition.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "App-development use case"
-            },
-            {
-              "author": "Educational_Yard_326",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Why? First thing I thought of was what happens to it when you are connected to another monitor? Currently you can interact with the menubar items on any monitor, but something like music controls being in the dynamic island that only the laptop has, do you have to mouse over to it every time? That would also make it inconsistent with other controls that traditionally went in the menu bar.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "Specific usability issue for external-monitor setups"
-            },
-            {
-              "author": "btnydds",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "It's gonna be awesome for iPhone Mirroring. Will make using that way less cumbersome",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "Possible practical benefit; interaction behavior not independently tested"
-            },
-            {
-              "author": "falconbrad",
-              "source": "r/apple · Apple Newsroom discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "This is wildly disappointing. Now that you're making touch affordances for Mac OS just go ahead and release an iPad line with Mac OS...\n\nAlso, I was really really hoping for a cellular option with this release. Super disappointed to see that it did not make the cut.\n\nApple's product strategy more confusing than ever.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu302/newsroom_apple_unveils_groundbreaking_macbook_pro/",
-              "note": "Wants macOS on iPad and cellular MacBooks"
-            }
-          ]
-        },
-        {
-          "title": "Buy immediately, wait, or skip it?",
-          "insight": "Buying reactions span exuberance, a strong 'not at that price' camp, and a pragmatic middle ground that wants testing and more mature touch software.",
-          "comments": [
-            {
-              "author": "Illuminated",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Shut up and take my money!",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/",
-              "note": "MacRumors launch thread, post #4"
-            },
-            {
-              "author": "iPod2001",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Would buy despite the roughly £3,400 price, which seems more palatable when factoring in trade-in credit.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-5",
-              "note": "MacRumors launch thread, post #101"
-            },
-            {
-              "author": "Iron Curtains",
-              "source": "MacRumors Forums",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "summary",
-              "text": "Is ordering because of the long-awaited OLED screen but plans simply not to touch it, arguing that touchscreen hardware does not force a change in how they use a Mac.",
-              "url": "https://forums.macrumors.com/threads/apple-announces-oled-macbook-pro-with-touch-display.2493049/page-12",
-              "note": "MacRumors launch thread, quoted in post #293"
-            },
-            {
-              "author": "GlowTwoDoor",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Why is everyone complaining about touch screen on a MacBook? If you don’t like it you don’t have to use it. It’s not like it changes anything from how you use a MacBook before",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Pro-choice-without-using-touch view"
-            },
-            {
-              "author": "Shot-Possibility-399",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I had a touchscreen laptop once that could fold all the way back so it could be a tablet.\nWanna know how often I used either of those features? Never. The use case is so small, it's not worth the upgrade imo.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Firsthand history with a convertible laptop"
-            },
-            {
-              "author": "originalfilmscoring",
-              "source": "r/apple · Product page discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "Depends who you are I think. If you’re on windows or still using an Intel Mac than yeah it’s a great time. If you already have an Apple silicone chip there’s like 0 reason.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhu3hv/macbook_pro_with_proled_xdr_display/",
-              "note": "Upgrade calculus depends on current machine"
-            },
-            {
-              "author": "TonyWonderslostnut",
-              "source": "r/apple · Announcement discussion",
-              "date": "Oct 28, 2026 · After announcement",
-              "kind": "quote",
-              "text": "I use my touchscreen when I’m using Excel. It’s just easier. Also I hate my life.",
-              "url": "https://www.reddit.com/r/apple/comments/1xhuih8/new_macbook_pro_with_proled_xdr_display_the/",
-              "note": "Rare specific productivity use case, with humor"
-            }
-          ]
-        }
-      ],
-      "methodology": "Only reactions written after Apple's October 28, 2026, touchscreen OLED MacBook Pro announcement. MacRumors comments come from the article's same-day forum discussion; Reddit comments come exclusively from three r/apple posts opened after the news broke. All comments have an attributed author and link to their containing announcement thread. Exact reader words are tagged 'VERBATIM'; summaries are tagged 'EDITORIAL SUMMARY.' Reactions are not hands-on reviews of the just-announced laptop. These are curated viewpoints, not a poll, and user claims are not independent product facts."
-    }
-  ]
+  "comments": []
 }
