@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "editions": [
     {
+      "id": "v14-2026-10-30",
+      "date": "2026-10-30",
+      "displayDate": "Friday, October 30",
+      "year": "2026",
+      "type": "published",
+      "title": "The Brief — v14",
+      "file": "archive/editions/v14-2026-10-30.json",
+      "storyCount": 34,
+      "sourceCount": 21,
+      "redditCount": 20,
+      "xCount": 0
+    },
+    {
       "id": "v13-2026-10-29",
       "date": "2026-10-29",
       "displayDate": "Thursday, October 29",
