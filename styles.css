@@ -255,3 +255,99 @@ footer{border-top:1px solid var(--line);background:#ffffff}
  .comment-verbatim{font-size:15px}
  .comment-origin{margin-left:0}
 }
+
+/* System appearance: follow Apple/macOS/iOS Light and Dark settings automatically. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #11171d;
+    --surface: #1a232b;
+    --ink: #eaf0f4;
+    --muted: #b4c1ca;
+    --subtle: #a0afb9;
+    --gold: #d2b67d;
+    --line: #303d47;
+    --line-dark: #40505a;
+    --hover: #222f38;
+  }
+  html, body { background: var(--bg); }
+  .skip { background: var(--surface); color: var(--ink); }
+  .masthead { background: #151d24; border-bottom-color: var(--line); }
+  .identity h1, .edition-title, .comment-story-title, .comment-section-title,
+  .comment-theme-title { color: var(--ink); }
+  .gold-rule { background: var(--gold); }
+  .tab, .section-tools .tab { color: #b1bec8; }
+  .tab.active { color: var(--ink); }
+  .preview-label, .masthead-side { color: var(--subtle); }
+  .hairline { background: var(--line-dark); }
+  .edition-year { color: #a7b5be; }
+  .search-wrap input {
+    background: var(--surface); border-color: var(--line-dark); color: var(--ink);
+  }
+  .search-wrap input:focus {
+    border-color: #bca576;
+    box-shadow: 0 0 0 2px rgba(210,182,125,.2);
+  }
+  .search-wrap input::placeholder { color: #a0afba; }
+  .search-wrap svg { stroke: #aebcc6; }
+  .feed-meta, .story-meta, .publisher-count, .reddit-sub { color: #a0aeb8; }
+  .publisher-name { color: #cad6df; }
+  .publisher-head img { background: #f3f5f6; padding: 2px; }
+  .publisher-fallback { background: #303d47; color: #d8e3ea; }
+  .story-toggle:hover .story-title { color: #e1c28b; }
+  .story-chevron { stroke: #a4b3bd; }
+  .story-detail p { color: #c2ced6; }
+  .story-actions a, .score-card-foot a, .football-event-note .broadcast,
+  .football-tv-row strong, .football-community-link small {
+    color: #dfc38e;
+  }
+  .story-actions .explore, .archive-return { color: #b8c7d2; }
+  .archive-open { border-color: var(--line-dark); color: var(--ink); }
+  .archive-open:hover { background: var(--hover); }
+  .footer-inner { color: var(--subtle); }
+  .footer-name { color: #b9c6d0; }
+  footer, .panoply-footer { background: var(--bg); border-color: var(--line); }
+  .panoply-footer { color: var(--ink); }
+  .panoply-footer-brand { color: var(--gold); }
+  .panoply-footer-brand::before, .panoply-footer-brand::after { background: var(--gold); }
+  .panoply-footer-sites a { color: #b1c0ca; }
+  .panoply-footer-sites a:hover { color: var(--gold); }
+  .football-top-schedule strong, .football-event-note, .football-tv-row span {
+    color: #b8c7d1;
+  }
+  .football-preview-note, .football-feature-eyebrow .kick-status,
+  .football-team-record, .football-vs, .football-subhead span,
+  .score-card-top, .score-card-top .card-state, .score-rank, .score-kick,
+  .score-card-foot, .football-community-link span {
+    color: #a2b1bc;
+  }
+  .football-feature, .score-card, .football-community-link {
+    background: var(--surface); border-color: var(--line-dark);
+    box-shadow: none;
+  }
+  .football-feature { border-top-color: #bc6872; }
+  .football-feature-eyebrow { color: #d7a0aa; }
+  .score-number { color: #e1eaf0; }
+  .score-card-foot { border-top-color: var(--line); }
+  .football-tv, .football-reddit { border-top-color: var(--line-dark); }
+  .football-community-link:hover { border-color: #80929f; }
+  .archive-summary, .section-tools .edition-version, #news-panel .edition-version {
+    color: #9fb0bb;
+  }
+  .section-tools .tab.active {
+    background: #283640; border-color: #3c4b56; color: var(--ink);
+  }
+  .section-tools .tab:hover { background: var(--hover); color: var(--ink); }
+  .section-tools .edition-date { color: #d9e2e8; }
+  .comment-article-meta, .comment-source, .comment-date,
+  .comment-method, .comment-note, .comment-total, .comment-methodology {
+    color: #a1b0bc;
+  }
+  .comment-story-context, .comment-synthesis p, .comment-theme-insight,
+  .comment-paraphrase { color: #c0ccd5; }
+  .comment-author { color: #e0e9ee; }
+  .comment-verbatim { border-left-color: #b89f75; color: #e0e9ef; }
+  .comment-origin { color: #dfc38e; }
+  .comment-story-title a:hover { color: #e1c28b; }
+  ::selection { background: #526476; color: #fff; }
+}
