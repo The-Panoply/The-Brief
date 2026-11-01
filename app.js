@@ -5,8 +5,9 @@
   const chevron=() => {const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('class','story-chevron');svg.setAttribute('aria-hidden','true');const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d','m5 9 7 7 7-7');svg.append(path);return svg};
   const make=(tag,cls,text) => {const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e};
   function navigate(tab, updateHistory=true) {
+    if(!['news','reddit','archive','edition'].includes(tab))tab='news';
     state.tab=tab;
-    const selected=tab==='edition'?'archive':tab;
+    const selected=tab==='edition'?'news':tab==='archive'?null:tab;
     ['news','reddit','x','football','comments','archive'].forEach(id=>{
       $(id+'-panel').hidden=(tab==='edition'?id!=='news':id!==tab);
       const b=document.querySelector('[data-tab="'+id+'"]');
@@ -215,7 +216,7 @@
     editionLabel.textContent=data.type==='published'&&/^v\d+$/.test(data.edition||'')?data.edition:'';
     editionLabel.hidden=!editionLabel.textContent;
     $('archive-reader-bar').hidden=!entry;
-    news();reddit();xDesk();commentsDesk();
+    news();reddit();
   }
   function latestEdition(){
     if(state.latestData)renderEdition(state.latestData);
@@ -303,11 +304,11 @@
       if(state.latestData)renderEdition(state.latestData);
       navigate('news',false);
     }else{
-      navigate(['reddit','x','football','comments','archive'].includes(hash)?hash:'news',false);
+      navigate(['reddit','archive'].includes(hash)?hash:'news',false);
     }
   }
   async function start(){
-    document.querySelectorAll('[data-tab]').forEach(button=>button.addEventListener('click',()=>{
+    document.querySelectorAll('[data-tab="news"],[data-tab="reddit"]').forEach(button=>button.addEventListener('click',()=>{
       if(button.dataset.tab==='news')latestEdition();
       else navigate(button.dataset.tab);
     }));
@@ -322,14 +323,6 @@
       if(!Array.isArray(data.news)||!Array.isArray(data.reddit))throw Error('Invalid edition');
       state.latestData=data;
       renderEdition(data);
-      try{
-        const footballResponse=await fetch('./football.json',{cache:'no-store'});
-        if(!footballResponse.ok)throw Error('HTTP '+footballResponse.status);
-        loadFootball(await footballResponse.json());
-      }catch(footballError){
-        $('football-feature').append(make('p','empty','Football preview could not be loaded. Please refresh this page.'));
-        console.error(footballError);
-      }
     }catch(error){
       $('news-list').append(make('p','empty','The demo edition could not be loaded. Please refresh the page.'));
       console.error(error);
