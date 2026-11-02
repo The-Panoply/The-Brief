@@ -1,0 +1,328 @@
+{
+  "type": "published",
+  "edition": "v16",
+  "displayDate": "Monday, November 2",
+  "year": "2026",
+  "news": [
+    {
+      "id": "v16-news-01",
+      "publisher": "Florida State",
+      "domain": "seminoles.com",
+      "category": "College Football",
+      "date": "November 1, 2026",
+      "headline": "Florida State fires Mike Norvell and announces national coaching search",
+      "summary": [
+        "Following the Clemson defeat, FSU dismissed Norvell after seven seasons and named Rick Stockstill interim head coach. A university-led search for permanent leadership has begun."
+      ],
+      "url": "https://seminoles.com/news/2026/11/1/florida-state-makes-football-leadership-change"
+    },
+    {
+      "id": "v16-news-02",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
+      "category": "College Football",
+      "date": "November 1, 2026",
+      "headline": "Florida State president explains the Norvell dismissal and overlapping searches",
+      "summary": [
+        "President Richard McCullough and interim AD Bruce Warwick discussed why the program changed direction and the urgency of simultaneous athletic-director and head-coach searches. Recruiting and the transfer portal add a deadline."
+      ],
+      "url": "https://www.tomahawknation.com/florida-state-football/139853/fsu-seminoles-norvell-president-athletic-director-press-conference"
+    },
+    {
+      "id": "v16-news-03",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
+      "category": "College Football",
+      "date": "November 2, 2026",
+      "headline": "FSU elevates Ernie Sims as interim defensive coordinator",
+      "summary": [
+        "The coaching shake-up extends beyond Norvell: Tony White is out and former Seminole All-American Ernie Sims will lead the defense for the rest of the season."
+      ],
+      "url": "https://www.tomahawknation.com/florida-state-football/139843/names-ernie-sims-as-interim-defensive-coordinator-tony-white-legend-mike-norvell-fired-season"
+    },
+    {
+      "id": "v16-news-04",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Apple",
+      "date": "November 1, 2026",
+      "headline": "Gurman: OLED iPad Air and other new iPads expected in early 2027",
+      "summary": [
+        "Mark Gurman reports Apple is aiming for new iPad Air, iPad Pro and entry-level iPad models in the first half of 2027; the Air is expected to gain OLED and the Pro a vapor chamber. Plans remain unannounced."
+      ],
+      "url": "https://www.macrumors.com/2026/11/01/three-new-ipads-in-first-half-of-2027/"
+    },
+    {
+      "id": "v16-news-05",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Apple",
+      "date": "November 1, 2026",
+      "headline": "HomeView code hints at a future privacy-aware security-camera mode",
+      "summary": [
+        "Developers found references to HomeKit Secure Video motion detection, streaming and recording in HomeView software. This is code evidence of a possible feature, not an announced or guaranteed launch capability."
+      ],
+      "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features"
+    },
+    {
+      "id": "v16-news-06",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Apple",
+      "date": "November 1, 2026",
+      "headline": "HomePod Mini 2 hands-on: faster Siri and smart-home control, but Mac pairing disappoints",
+      "summary": [
+        "The reviewer found much snappier commands and a useful disable-touch-control option, but could not get the touted persistent Mac-speaker feature to work; upgraded Siri AI has not yet arrived."
+      ],
+      "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker"
+    },
+    {
+      "id": "v16-news-07",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "November 1, 2026",
+      "headline": "Driven: BMW iX3 50 xDrive proves a surprisingly playful electric X3",
+      "summary": [
+        "Firsthand driving impressions emphasize the Neue Klasse chassis, steering and electric torque delivery, rather than a routine specification recap."
+      ],
+      "url": "https://www.bmwblog.com/2026/11/01/2027-bmw-ix3-50-xdrive-review/"
+    },
+    {
+      "id": "v16-news-08",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive",
+      "date": "November 1, 2026",
+      "headline": "An i4 owner argues the pricier BMW iX4 may offer better real-world value",
+      "summary": [
+        "The nominal $4,700 price premium over iX3 narrows significantly when matching included equipment. A useful specialist comparison of crossover proportions and family utility."
+      ],
+      "url": "https://www.bmwblog.com/2026/11/01/2027-bmw-ix4-vs-ix3/"
+    },
+    {
+      "id": "v16-news-09",
+      "publisher": "Autoblog",
+      "domain": "autoblog.com",
+      "category": "Automotive",
+      "date": "November 1, 2026",
+      "headline": "Original Gallardo designer returns with a $1 million manual-V10 tribute",
+      "summary": [
+        "Fabrizio Giugiaro has helped reimagine the original Gallardo for a limited coachbuilt project. The unusual proportions and manual V10 are more interesting than another routine luxury model announcement."
+      ],
+      "url": "https://www.autoblog.com/news/original-lamborghini-gallardo-designer-gives-it-a-1-million-do-over"
+    },
+    {
+      "id": "v16-news-10",
+      "publisher": "Electrek",
+      "domain": "electrek.co",
+      "category": "Automotive",
+      "date": "November 1, 2026",
+      "headline": "Five years later, a $2,000 Chinese electric mini truck is still hauling on a farm",
+      "summary": [
+        "Micah Toll revisits an imported, non-street-legal mini-truck after years of genuine private-property work. Its mechanical durability impressed him, but freight, tariffs and a few repairs complicated the $2,000 headline price."
+      ],
+      "url": "https://electrek.co/2026/11/01/i-imported-a-2000-electric-truck-from-china-five-years-later-heres-the-truth/"
+    },
+    {
+      "id": "v16-news-11",
+      "publisher": "Nature Communications",
+      "domain": "nature.com",
+      "category": "Science",
+      "date": "November 1, 2026",
+      "headline": "Small molecule targeting KIF2C improves DNA repair and lifespan in progeria mice",
+      "summary": [
+        "An early peer-reviewed study reports improved double-strand break repair in aged and patient-derived cells, and better health and survival in mice with a progeria model. It is preclinical, not evidence of human longevity benefit."
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-79165-6"
+    },
+    {
+      "id": "v16-news-12",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Science",
+      "date": "October 31, 2026",
+      "headline": "Wild seabirds get jet-lagged—and their sun compass appears to drift",
+      "summary": [
+        "Two decades of movement records from Manx shearwaters reveal directional bias consistent with circadian misalignment after fast east-west travel. Researchers caution that the observational study does not establish every mechanism."
+      ],
+      "url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/"
+    },
+    {
+      "id": "v16-news-13",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Science",
+      "date": "October 31, 2026",
+      "headline": "NASA seeks commercial proposals to keep Hubble in orbit",
+      "summary": [
+        "NASA is asking industry how it could reboost, service or safely dispose of Hubble before its decaying orbit threatens the mission in the 2030s. Proposals are not yet funded rescue contracts."
+      ],
+      "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+    },
+    {
+      "id": "v16-news-14",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Privacy",
+      "date": "November 1, 2026",
+      "headline": "Cities report difficulty turning off canceled Flock plate-reader contracts",
+      "summary": [
+        "Reports from Minnesota and Illinois describe cities disconnecting or challenging license-plate-reader equipment after attempting to cancel. Flock disputes elements and says it is working to remove cameras; the story has direct relevance to Fairfax debates."
+      ],
+      "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
+    },
+    {
+      "id": "v16-news-15",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Cybersecurity",
+      "date": "November 1, 2026",
+      "headline": "FBI attributes enormous Binance cryptocurrency theft to North Korea",
+      "summary": [
+        "Federal investigators attribute an October 29 Binance virtual-asset theft to North Korea-linked actors, but public forensic details remain limited. The scale makes it a significant cybercrime development."
+      ],
+      "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+    },
+    {
+      "id": "v16-news-16",
+      "publisher": "Engadget",
+      "domain": "engadget.com",
+      "category": "Artificial Intelligence",
+      "date": "November 1, 2026",
+      "headline": "Anthropic tightens Claude responses that recreate existing video games",
+      "summary": [
+        "The company is restricting requests to replicate copyrighted games, raising questions about the distinction between creative assistance, reverse engineering, and direct imitation."
+      ],
+      "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/"
+    },
+    {
+      "id": "v16-news-17",
+      "publisher": "Reuters",
+      "domain": "reuters.com",
+      "category": "Business",
+      "date": "November 2, 2026",
+      "headline": "OpenAI deepens UAE ties through ADNOC, G42 and investment deals",
+      "summary": [
+        "ADNOC and G42 announced deployment of OpenAI technology in the energy company, alongside further Abu Dhabi agreements. Altman emphasized the real-world energy and physical infrastructure constraints on scaling AI."
+      ],
+      "url": "https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/"
+    },
+    {
+      "id": "v16-news-18",
+      "publisher": "Engadget",
+      "domain": "engadget.com",
+      "category": "Technology",
+      "date": "November 1, 2026",
+      "headline": "Judge allows NAACP pollution claims against an xAI data center to advance",
+      "summary": [
+        "A federal judge ruled that a pollution case concerning xAI data-center operations may proceed. That is a procedural ruling, not a final determination that the allegations are true."
+      ],
+      "url": "https://www.engadget.com/2303462/judge-says-xai-must-face-naacp-lawsuit-on-data-center-pollution/"
+    },
+    {
+      "id": "v16-news-19",
+      "publisher": "Capital Weather",
+      "domain": "capitalweather.com",
+      "category": "Northern Virginia",
+      "date": "November 1, 2026",
+      "headline": "Expert kayakers descend Great Falls amid spectacular fall foliage",
+      "summary": [
+        "Kevin Ambrose photographed two highly experienced kayakers navigating Class V-plus Potomac rapids in brilliant early-November colors, with original photos and video. A distinctive local discovery."
+      ],
+      "url": "https://www.capitalweather.com/kayakers-take-the-plunge-at-great-falls-amid-spectacular-fall-colors/"
+    }
+  ],
+  "reddit": [
+    {
+      "id": "v16-reddit-01",
+      "subreddit": "r/ClaudeAI",
+      "title": "Two Claude accounts, three computers, too many projects. How do you stay organized?",
+      "date": "November 1–2, 2026",
+      "text": "I use Claude heavily every day (Chat, Projects, Cowork, Claude Code) and I've hit a wall on organization. Looking for how others handle this.\n\nTwo accounts: personal and work. They don't share chats, Projects, memory or skills.\n\nThree computers: personal laptop, personal desktop, work desktop.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlpbp8/two_claude_accounts_three_computers_too_many/"
+    },
+    {
+      "id": "v16-reddit-02",
+      "subreddit": "r/ClaudeAI",
+      "title": "What I've learned over the weekend by taking a repo with almost 700 issues and 69 PRs (nice) (written by me)",
+      "date": "November 1–2, 2026",
+      "text": "Users don't know what the fuck they actually want or what they're asking for.\n\nIf you fork someone's repo and tell Claude just \"fix the bugs\" and \"implement the asks with a bounty\". You will waste time and tokens with scope creep and debugging ancient parts of the code base.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlmoie/what_ive_learned_over_the_weekend_by_taking_a/"
+    },
+    {
+      "id": "v16-reddit-03",
+      "subreddit": "r/ClaudeAI",
+      "title": "i dont understand all this \"claude + obsidian\" obsession",
+      "date": "November 1–2, 2026",
+      "text": "i honestly just dont see the point. a lot of people are saying its like a \"second brain\" but i tried it, and in my opinion, it just adds a ton of unnecesary fluff and ui.\n\nworks like magic.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlm85t/i_dont_understand_all_this_claude_obsidian/"
+    },
+    {
+      "id": "v16-reddit-04",
+      "subreddit": "r/ChatGPTPro",
+      "title": "How do I make my agent continue work till its goal...",
+      "date": "November 1–2, 2026",
+      "text": "So i'm using the desktop client, i've chosen 'approve for me' as the option, for most part everything works.\n\nBut some time within 30-45min if I leave my desk and the machine locks, things seem to just stall...",
+      "url": "https://www.reddit.com/r/ChatGPTPro/comments/1xlhwzy/how_do_i_make_my_agent_continue_work_till_its_goal/"
+    },
+    {
+      "id": "v16-reddit-05",
+      "subreddit": "r/ChatGPTPro",
+      "title": "Which AI tools have actually saved you time at work?",
+      "date": "November 1–2, 2026",
+      "text": "I work in a corporate setup and have been trying to figure out which Al tools are genuinely useful beyond the initial hype.\n\nWhat Al tools have actually become part of your workday? And what do you use them for -meetings, research, presentations, emails, automation, anything else?",
+      "url": "https://www.reddit.com/r/ChatGPTPro/comments/1xlp29i/which_ai_tools_have_actually_saved_you_time_at/"
+    },
+    {
+      "id": "v16-reddit-06",
+      "subreddit": "r/OpenAI",
+      "title": "OpenAI and Anthropic are worried people will switch to local models, but they are practically asking for it at this point",
+      "date": "November 1–2, 2026",
+      "text": "With these shitty usage changes, guardrails and restrictions, it's seriously making me want to go full local.\n\nOpenAI and Anthropic have tried so hard to prevent local models to become mainstream, but the way they are behaving, they are practically asking for it.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1xlhji9/openai_and_anthropic_are_worried_people_will/"
+    },
+    {
+      "id": "v16-reddit-07",
+      "subreddit": "r/singularity",
+      "title": "Are we underestimating AI revenue by looking at software spending instead of labor costs?",
+      "date": "November 1–2, 2026",
+      "text": "Lately, there has been a lot of discussion about the AI bubble, particularly whether OpenAI, Anthropic, and other companies can generate enough revenue to justify the enormous investments being made.\n\nWhat am I missing here?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkq2cu/are_we_underestimating_ai_revenue_by_looking_at/"
+    },
+    {
+      "id": "v16-reddit-08",
+      "subreddit": "r/singularity",
+      "title": "An honest attempt at understanding the universal income question in America.",
+      "date": "November 1–2, 2026",
+      "text": "I don’t know how many UBI questions I’ve seen in the last week. What I haven’t seen is anybody actually try to figure it out using the money that is currently in the economy. I'm not sure it's even well defined.\n\nSo I tried. I’m not an economist.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkpvc0/an_honest_attempt_at_understanding_the_universal/"
+    },
+    {
+      "id": "v16-reddit-09",
+      "subreddit": "r/singularity",
+      "title": "Worry about AI taking jobs rose for almost every job this year. Programmers are the exception, their worry peaked in March 2024",
+      "date": "November 1–2, 2026",
+      "text": "I tracked \"will AI replace [job]\" searches in Google Trends for 56 jobs. Programmers were the first to worry, with a spike right after ChatGPT and another in March 2024 when Devin was announced. Since then it's come down (-12% on last year), while teachers, doctors and lawyers all hit new highs in 2026.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkz44b/worry_about_ai_taking_jobs_rose_for_almost_every/"
+    },
+    {
+      "id": "v16-reddit-10",
+      "subreddit": "r/singularity",
+      "title": "So Anthropic's Claude AI blocks video game cloning and reverse-engineering, to avoid companies to get out of business, and that's ethical?",
+      "date": "November 1–2, 2026",
+      "text": "If Anthropic considers this ethical, what do they have to say to the individuals who will lose their jobs and livelihoods?\n\nThis decision by Anthropic is completely unethical, unjustified, and wrong. It's an evil decision.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkwvhe/so_anthropics_claude_ai_blocks_video_game_cloning/"
+    },
+    {
+      "id": "v16-reddit-11",
+      "subreddit": "r/singularity",
+      "title": "Richard Dawkins: 'I thought AI wouldn’t come in my lifetime'",
+      "date": "November 1–2, 2026",
+      "text": "",
+      "url": "https://www.reddit.com/r/singularity/comments/1xl006d/richard_dawkins_i_thought_ai_wouldnt_come_in_my/"
+    }
+  ],
+  "xPosts": [],
+  "comments": []
+}
