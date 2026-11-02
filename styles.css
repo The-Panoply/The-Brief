@@ -260,19 +260,19 @@ footer{border-top:1px solid var(--line);background:#ffffff}
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --bg: #11171d;
-    --surface: #1a232b;
-    --ink: #eaf0f4;
-    --muted: #b4c1ca;
-    --subtle: #a0afb9;
+    --bg: #252525;
+    --surface: #2e2e2e;
+    --ink: #dedede;
+    --muted: #b7bdc1;
+    --subtle: #aab1b5;
     --gold: #d2b67d;
-    --line: #303d47;
-    --line-dark: #40505a;
-    --hover: #222f38;
+    --line: #404040;
+    --line-dark: #505050;
+    --hover: #363636;
   }
   html, body { background: var(--bg); }
   .skip { background: var(--surface); color: var(--ink); }
-  .masthead { background: #151d24; border-bottom-color: var(--line); }
+  .masthead { background: #292929; border-bottom-color: var(--line); }
   .identity h1, .edition-title, .comment-story-title, .comment-section-title,
   .comment-theme-title { color: var(--ink); }
   .gold-rule { background: var(--gold); }
@@ -293,10 +293,10 @@ footer{border-top:1px solid var(--line);background:#ffffff}
   .feed-meta, .story-meta, .publisher-count, .reddit-sub { color: #a0aeb8; }
   .publisher-name { color: #cad6df; }
   .publisher-head img { background: #f3f5f6; padding: 2px; }
-  .publisher-fallback { background: #303d47; color: #d8e3ea; }
+  .publisher-fallback { background: #3a3a3a; color: #d8e3ea; }
   .story-toggle:hover .story-title { color: #e1c28b; }
   .story-chevron { stroke: #a4b3bd; }
-  .story-detail p { color: #c2ced6; }
+  .story-detail p { color: #c7cdd1; }
   .story-actions a, .score-card-foot a, .football-event-note .broadcast,
   .football-tv-row strong, .football-community-link small {
     color: #dfc38e;
@@ -335,10 +335,10 @@ footer{border-top:1px solid var(--line);background:#ffffff}
     color: #9fb0bb;
   }
   .section-tools .tab.active {
-    background: #283640; border-color: #3c4b56; color: var(--ink);
+    background: #363636; border-color: #505050; color: var(--ink);
   }
   .section-tools .tab:hover { background: var(--hover); color: var(--ink); }
-  .section-tools .edition-date { color: #d9e2e8; }
+  .section-tools .edition-date { color: #d5d5d5; }
   .comment-article-meta, .comment-source, .comment-date,
   .comment-method, .comment-note, .comment-total, .comment-methodology {
     color: #a1b0bc;
