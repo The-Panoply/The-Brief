@@ -1,554 +1,326 @@
 {
   "type": "published",
-  "edition": "v15",
-  "displayDate": "Sunday, November 1",
+  "edition": "v16",
+  "displayDate": "Monday, November 2",
   "year": "2026",
   "news": [
     {
-      "id": "v15-news-01",
+      "id": "v16-news-01",
+      "publisher": "Florida State",
+      "domain": "seminoles.com",
+      "category": "College Football",
+      "date": "November 1, 2026",
+      "headline": "Florida State fires Mike Norvell and announces national coaching search",
+      "summary": [
+        "Following the Clemson defeat, FSU dismissed Norvell after seven seasons and named Rick Stockstill interim head coach. A university-led search for permanent leadership has begun."
+      ],
+      "url": "https://seminoles.com/news/2026/11/1/florida-state-makes-football-leadership-change"
+    },
+    {
+      "id": "v16-news-02",
       "publisher": "Tomahawk Nation",
       "domain": "tomahawknation.com",
       "category": "College Football",
       "date": "November 1, 2026",
-      "headline": "FSU falls to Clemson 36–24 as four turnovers undo comeback",
+      "headline": "Florida State president explains the Norvell dismissal and overlapping searches",
       "summary": [
-        "Clemson pulled away late after Florida State trimmed the deficit to five points; FSU drops to 3–5."
+        "President Richard McCullough and interim AD Bruce Warwick discussed why the program changed direction and the urgency of simultaneous athletic-director and head-coach searches. Recruiting and the transfer portal add a deadline."
       ],
-      "url": "https://www.tomahawknation.com/florida-state-football/139744/fsu-seminoles-clemson-tigers-recap-game-loss"
+      "url": "https://www.tomahawknation.com/florida-state-football/139853/fsu-seminoles-norvell-president-athletic-director-press-conference"
     },
     {
-      "id": "v15-news-02",
+      "id": "v16-news-03",
       "publisher": "Tomahawk Nation",
       "domain": "tomahawknation.com",
       "category": "College Football",
-      "date": "November 1, 2026",
-      "headline": "Five questions after another painful Florida State defeat",
+      "date": "November 2, 2026",
+      "headline": "FSU elevates Ernie Sims as interim defensive coordinator",
       "summary": [
-        "The Tomahawk Nation staff examines preparation, turnovers, defensive lapses and coaching accountability."
+        "The coaching shake-up extends beyond Norvell: Tony White is out and former Seminole All-American Ernie Sims will lead the defense for the rest of the season."
       ],
-      "url": "https://www.tomahawknation.com/florida-state-football/139745/mike-norvell-ashton-daniels-clemson-acc-dabo-swinney"
+      "url": "https://www.tomahawknation.com/florida-state-football/139843/names-ernie-sims-as-interim-defensive-coordinator-tony-white-legend-mike-norvell-fired-season"
     },
     {
-      "id": "v15-news-03",
-      "publisher": "Tomahawk Nation",
-      "domain": "tomahawknation.com",
-      "category": "College Football",
-      "date": "November 1, 2026",
-      "headline": "Mike Norvell faces questions about the decisive Clemson loss",
-      "summary": [
-        "Norvell addressed mistakes in all three phases and the failure to prevent a late long touchdown run."
-      ],
-      "url": "https://www.tomahawknation.com/florida-state-football/139763/mike-norvell-postgame-interview-clemson-fsu"
-    },
-    {
-      "id": "v15-news-04",
+      "id": "v16-news-04",
       "publisher": "MacRumors",
       "domain": "macrumors.com",
       "category": "Apple",
-      "date": "October 31, 2026",
-      "headline": "Developers uncover much more of Apple HomeView software",
+      "date": "November 1, 2026",
+      "headline": "Gurman: OLED iPad Air and other new iPads expected in early 2027",
       "summary": [
-        "A virtualized HomeView reveals Control Center, clock faces, six-user recognition and a Liquid Glass tint slider; hardware uses Wi-Fi rather than Ethernet."
+        "Mark Gurman reports Apple is aiming for new iPad Air, iPad Pro and entry-level iPad models in the first half of 2027; the Air is expected to gain OLED and the Pro a vapor chamber. Plans remain unannounced."
       ],
-      "url": "https://www.macrumors.com/2026/10/31/apple-homeview-software-tour/"
+      "url": "https://www.macrumors.com/2026/11/01/three-new-ipads-in-first-half-of-2027/"
     },
     {
-      "id": "v15-news-05",
-      "publisher": "MacRumors",
-      "domain": "macrumors.com",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "Apple issues internal repair guidance for iPhone Duo screen cracking",
-      "summary": [
-        "An internal memo directs technicians to evaluate affected units; Apple says a small number are affected and has not announced a recall."
-      ],
-      "url": "https://www.macrumors.com/2026/10/30/apple-alerts-stores-to-iphone-duo-display-cracking/"
-    },
-    {
-      "id": "v15-news-06",
-      "publisher": "MacStories",
-      "domain": "macstories.net",
-      "category": "Technology",
-      "date": "October 31, 2026",
-      "headline": "MacStories explores ChatGPT iCloud plugins and texting with a Dot",
-      "summary": [
-        "John Voorhees tested new iCloud Calendar and Mail connectors and describes texting an AI Dot from Messages; access depends on eligibility."
-      ],
-      "url": "https://www.macstories.net/linked/openai-adds-icloud-calendar-and-mail-plugins-and-dot-texting/"
-    },
-    {
-      "id": "v15-news-07",
-      "publisher": "Daring Fireball",
-      "domain": "daringfireball.net",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "Gruber details the complex new MacBook Pro pricing grid",
-      "summary": [
-        "A careful price-and-configuration comparison highlights unexpectedly restricted RAM combinations across M6, M5 Pro and M5 Max."
-      ],
-      "url": "https://daringfireball.net/2026/10/macbook_pro_pricing_and_configurations_for_m6_m5_pro_and_m5_max"
-    },
-    {
-      "id": "v15-news-08",
-      "publisher": "9to5Mac",
-      "domain": "9to5mac.com",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "Apple previews iOS 27.3 beta and Apple Intelligence in China",
-      "summary": [
-        "Apple says a developer beta is coming next week, with its China rollout testing set for November 4; that is not a confirmed precise beta-release date."
-      ],
-      "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/"
-    },
-    {
-      "id": "v15-news-09",
-      "publisher": "MacStories",
-      "domain": "macstories.net",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "MacStories: The touchscreen MacBook is a Mac for the iPad generation",
-      "summary": [
-        "Federico Viticci examines why complementary touch could suit a generation raised on the iPad, rather than replace the Mac’s keyboard and trackpad."
-      ],
-      "url": "https://www.macstories.net/stories/macbook-pro-with-touch-a-mac-for-the-ipad-generation/"
-    },
-    {
-      "id": "v15-news-10",
+      "id": "v16-news-05",
       "publisher": "The Verge",
       "domain": "theverge.com",
-      "category": "Technology",
-      "date": "October 31, 2026",
-      "headline": "The Vergecast debates Apple’s unusually experimental hardware era",
+      "category": "Apple",
+      "date": "November 1, 2026",
+      "headline": "HomeView code hints at a future privacy-aware security-camera mode",
       "summary": [
-        "A substantive discussion about the Duo, touchscreen MacBook, and other new devices asks whether Apple’s extra screens are genuinely useful."
+        "Developers found references to HomeKit Secure Video motion detection, streaming and recording in HomeView software. This is code evidence of a possible feature, not an announced or guaranteed launch capability."
       ],
-      "url": "https://www.theverge.com/podcast/1023194/the-delightfully-messy-state-of-apple-gadgets"
+      "url": "https://www.theverge.com/tech/1024219/apples-homeview-could-add-security-camera-features"
     },
     {
-      "id": "v15-news-11",
+      "id": "v16-news-06",
       "publisher": "The Verge",
       "domain": "theverge.com",
-      "category": "Technology",
-      "date": "October 31, 2026",
-      "headline": "AI giants back a shared website signal for training opt-outs",
+      "category": "Apple",
+      "date": "November 1, 2026",
+      "headline": "HomePod Mini 2 hands-on: faster Siri and smart-home control, but Mac pairing disappoints",
       "summary": [
-        "OpenAI, Google, Microsoft and Anthropic support common publisher controls; the providers’ implementations and timing differ."
+        "The reviewer found much snappier commands and a useful disable-touch-control option, but could not get the touted persistent Mac-speaker feature to work; upgraded Siri AI has not yet arrived."
       ],
-      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+      "url": "https://www.theverge.com/tech/1024108/homepod-mini-2-hands-on-siri-smart-home-mac-speaker"
     },
     {
-      "id": "v15-news-12",
-      "publisher": "Ars Technica",
-      "domain": "arstechnica.com",
-      "category": "Cybersecurity",
-      "date": "October 30, 2026",
-      "headline": "Official Claude extension in Cursor was backdoored for hours",
-      "summary": [
-        "A malicious release distributed from the verified extension account may have reached 5,000 developers; installing a clean update does not necessarily remove persistence."
-      ],
-      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/"
-    },
-    {
-      "id": "v15-news-13",
-      "publisher": "Reuters",
-      "domain": "reuters.com",
-      "category": "Major News",
-      "date": "October 31, 2026",
-      "headline": "Data center growth and power bills move into US midterm campaigns",
-      "summary": [
-        "Electricity costs and the capital expense of AI infrastructure are driving candidate proposals on utility regulation and data centers."
-      ],
-      "url": "https://www.reuters.com/business/energy/power-bills-data-centers-cast-rare-spotlight-utilities-us-midterms-2026-10-31/"
-    },
-    {
-      "id": "v15-news-14",
-      "publisher": "Associated Press",
-      "domain": "apnews.com",
-      "category": "World",
-      "date": "October 31, 2026",
-      "headline": "Congo Ebola outbreak surpasses 5,000 deaths",
-      "summary": [
-        "The Bundibugyo-virus outbreak has spread widely, with severe containment challenges; there is no specific licensed vaccine for this strain."
-      ],
-      "url": "https://apnews.com/article/cb7e79534ec9f3ab3c8f3bd03b3e1ad0"
-    },
-    {
-      "id": "v15-news-15",
-      "publisher": "Associated Press",
-      "domain": "apnews.com",
-      "category": "World",
-      "date": "October 31, 2026",
-      "headline": "A major Ukraine evacuation follows a rare temporary ceasefire",
-      "summary": [
-        "Residents of Russian-occupied Oleshky crossed to Ukrainian-held territory during a temporary humanitarian arrangement."
-      ],
-      "url": "https://apnews.com/article/5cbc7d2a5b8ac34b15c914338fd5a9f3"
-    },
-    {
-      "id": "v15-news-16",
-      "publisher": "Associated Press",
-      "domain": "apnews.com",
-      "category": "World",
-      "date": "October 31, 2026",
-      "headline": "G20 foreign ministers finish divided over Ukraine and security",
-      "summary": [
-        "The Atlanta meeting ended with a chairman’s statement but no joint communique after major disputes."
-      ],
-      "url": "https://apnews.com/article/21c65a8bb02a3a0f0c89f0ce6d56d5fd"
-    },
-    {
-      "id": "v15-news-17",
+      "id": "v16-news-07",
       "publisher": "BMWBLOG",
       "domain": "bmwblog.com",
       "category": "Automotive",
-      "date": "October 30, 2026",
-      "headline": "2028 BMW ALPINA 7 Series test mule caught on video",
+      "date": "November 1, 2026",
+      "headline": "Driven: BMW iX3 50 xDrive proves a surprisingly playful electric X3",
       "summary": [
-        "Camouflaged Nürburgring testing offers an early look at the next ALPINA sedan, reportedly with a V8 sound."
+        "Firsthand driving impressions emphasize the Neue Klasse chassis, steering and electric torque delivery, rather than a routine specification recap."
       ],
-      "url": "https://www.bmwblog.com/2026/10/30/2028-bmw-alpina-7-series-spy-video/"
+      "url": "https://www.bmwblog.com/2026/11/01/2027-bmw-ix3-50-xdrive-review/"
     },
     {
-      "id": "v15-news-18",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
+      "id": "v16-news-08",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
       "category": "Automotive",
+      "date": "November 1, 2026",
+      "headline": "An i4 owner argues the pricier BMW iX4 may offer better real-world value",
+      "summary": [
+        "The nominal $4,700 price premium over iX3 narrows significantly when matching included equipment. A useful specialist comparison of crossover proportions and family utility."
+      ],
+      "url": "https://www.bmwblog.com/2026/11/01/2027-bmw-ix4-vs-ix3/"
+    },
+    {
+      "id": "v16-news-09",
+      "publisher": "Autoblog",
+      "domain": "autoblog.com",
+      "category": "Automotive",
+      "date": "November 1, 2026",
+      "headline": "Original Gallardo designer returns with a $1 million manual-V10 tribute",
+      "summary": [
+        "Fabrizio Giugiaro has helped reimagine the original Gallardo for a limited coachbuilt project. The unusual proportions and manual V10 are more interesting than another routine luxury model announcement."
+      ],
+      "url": "https://www.autoblog.com/news/original-lamborghini-gallardo-designer-gives-it-a-1-million-do-over"
+    },
+    {
+      "id": "v16-news-10",
+      "publisher": "Electrek",
+      "domain": "electrek.co",
+      "category": "Automotive",
+      "date": "November 1, 2026",
+      "headline": "Five years later, a $2,000 Chinese electric mini truck is still hauling on a farm",
+      "summary": [
+        "Micah Toll revisits an imported, non-street-legal mini-truck after years of genuine private-property work. Its mechanical durability impressed him, but freight, tariffs and a few repairs complicated the $2,000 headline price."
+      ],
+      "url": "https://electrek.co/2026/11/01/i-imported-a-2000-electric-truck-from-china-five-years-later-heres-the-truth/"
+    },
+    {
+      "id": "v16-news-11",
+      "publisher": "Nature Communications",
+      "domain": "nature.com",
+      "category": "Science",
+      "date": "November 1, 2026",
+      "headline": "Small molecule targeting KIF2C improves DNA repair and lifespan in progeria mice",
+      "summary": [
+        "An early peer-reviewed study reports improved double-strand break repair in aged and patient-derived cells, and better health and survival in mice with a progeria model. It is preclinical, not evidence of human longevity benefit."
+      ],
+      "url": "https://www.nature.com/articles/s41467-026-79165-6"
+    },
+    {
+      "id": "v16-news-12",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Science",
       "date": "October 31, 2026",
-      "headline": "Karma reveals 1,195-hp Eximius 1 hybrid sedan commission",
+      "headline": "Wild seabirds get jet-lagged—and their sun compass appears to drift",
       "summary": [
-        "This dramatic V8 hybrid is a one-off commission, not an announced mass-production model."
+        "Two decades of movement records from Manx shearwaters reveal directional bias consistent with circadian misalignment after fast east-west travel. Researchers caution that the observational study does not establish every mechanism."
       ],
-      "url": "https://www.caranddriver.com/news/a74302542/karma-eximius-1-revealed/"
+      "url": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/"
     },
     {
-      "id": "v15-news-19",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
-      "category": "Automotive",
-      "date": "October 30, 2026",
-      "headline": "A modern Audi Quattro tribute promises a 10,000-rpm V8",
-      "summary": [
-        "The coachbuilt Audacious IV blends B7 RS4 underpinnings with classic Quattro proportions and a claimed 50-car run."
-      ],
-      "url": "https://www.caranddriver.com/news/a74295295/audi-quattro-audacious-automotive-iv-tribute-car/"
-    },
-    {
-      "id": "v15-news-20",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
-      "category": "Automotive",
-      "date": "October 30, 2026",
-      "headline": "McLaren confirms the McL 820 name and 809-hp target",
-      "summary": [
-        "The successor to the 750S is slated for 2027; details remain limited beyond the new naming scheme and metric horsepower."
-      ],
-      "url": "https://www.caranddriver.com/news/a74296120/mclaren-mcl-820-supercar-name-confirmed/"
-    },
-    {
-      "id": "v15-news-21",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
-      "category": "Automotive",
-      "date": "October 30, 2026",
-      "headline": "Used EVs are moving faster than gas or hybrid cars in a new study",
-      "summary": [
-        "An iSeeCars analysis of more than 1.5 million used vehicles reports faster turnover for EVs, despite price increases."
-      ],
-      "url": "https://www.caranddriver.com/news/a74287278/used-evs-selling-faster-gas-hybrid/"
-    },
-    {
-      "id": "v15-news-22",
-      "publisher": "Car and Driver",
-      "domain": "caranddriver.com",
-      "category": "Automotive",
-      "date": "October 30, 2026",
-      "headline": "Rivian R2 starts outselling its two older vehicles combined",
-      "summary": [
-        "The early R2 demand signal is notable despite sales currently concentrating on an expensive initial trim."
-      ],
-      "url": "https://www.caranddriver.com/news/a74298144/rivian-r2-strong-sales-start/"
-    },
-    {
-      "id": "v15-news-23",
-      "publisher": "Top Gear",
-      "domain": "topgear.com",
-      "category": "Automotive",
-      "date": "October 30, 2026",
-      "headline": "Dakar Rally will return to Africa for 2027",
-      "summary": [
-        "The famous endurance rally is scheduled to return to the continent where its original route began."
-      ],
-      "url": "https://www.topgear.com/car-news/motorsport/dakar-rally-returning-africa-2027"
-    },
-    {
-      "id": "v15-news-24",
-      "publisher": "Top Gear",
-      "domain": "topgear.com",
-      "category": "Automotive",
-      "date": "October 30, 2026",
-      "headline": "Nissan revives a wild 300-hp Sentra Spec-V concept for SEMA",
-      "summary": [
-        "An eye-catching modified Sentra joins a trio of Nissan SEMA show vehicles."
-      ],
-      "url": "https://www.topgear.com/car-news/modified/nissans-wild-300bhp-spec-v-sentra-one-three-sema-concepts"
-    },
-    {
-      "id": "v15-news-25",
-      "publisher": "FFXnow",
-      "domain": "ffxnow.com",
-      "category": "Northern Virginia",
-      "date": "October 30, 2026",
-      "headline": "Fairfax activists urge supervisors to remove Flock license plate readers",
-      "summary": [
-        "The county’s privacy-versus-public-safety dispute deepens as other Northern Virginia jurisdictions reconsider automated tracking."
-      ],
-      "url": "https://www.ffxnow.com/2026/10/30/critics-of-license-plate-readers-call-on-leaders-to-de-flock-fairfax/"
-    },
-    {
-      "id": "v15-news-26",
-      "publisher": "FFXnow",
-      "domain": "ffxnow.com",
-      "category": "Northern Virginia",
-      "date": "October 30, 2026",
-      "headline": "Herndon election will shape downtown redevelopment and town services",
-      "summary": [
-        "A council candidate details impending decisions on town management, Comstock litigation, affordability and downtown growth."
-      ],
-      "url": "https://www.ffxnow.com/2026/10/30/herndon-vice-mayor-says-steady-leadership-needed-as-big-decisions-face-next-town-council/"
-    },
-    {
-      "id": "v15-news-27",
-      "publisher": "Aging Cell",
-      "domain": "pmc.ncbi.nlm.nih.gov",
+      "id": "v16-news-13",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
       "category": "Science",
-      "date": "September 27, 2026",
-      "headline": "Human-cell aging study challenges a universal decline in autophagy",
+      "date": "October 31, 2026",
+      "headline": "NASA seeks commercial proposals to keep Hubble in orbit",
       "summary": [
-        "Previously published research highlighted in recent longevity discussion finds cell-type and sex-specific changes rather than one uniform decline; not a new October 31 paper."
+        "NASA is asking industry how it could reboost, service or safely dispose of Hubble before its decaying orbit threatens the mission in the 2030s. Proposals are not yet funded rescue contracts."
       ],
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13617198/"
+      "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
     },
     {
-      "id": "v15-news-28",
-      "publisher": "Journal of Cerebral Blood Flow & Metabolism",
-      "domain": "pubmed.ncbi.nlm.nih.gov",
-      "category": "Science",
-      "date": "September 10, 2026",
-      "headline": "Small pilot trial reports greater cerebral blood flow after rapamycin in APOE4 carriers",
+      "id": "v16-news-14",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Privacy",
+      "date": "November 1, 2026",
+      "headline": "Cities report difficulty turning off canceled Flock plate-reader contracts",
       "summary": [
-        "A 23-person, single-arm, four-week trial finds a physiological signal in APOE4 carriers; uncontrolled and too preliminary for clinical conclusions."
+        "Reports from Minnesota and Illinois describe cities disconnecting or challenging license-plate-reader equipment after attempting to cancel. Flock disputes elements and says it is working to remove cameras; the story has direct relevance to Fairfax debates."
       ],
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42723264/"
+      "url": "https://www.theverge.com/tech/1024232/flock-ignoring-cancel-contracts"
     },
     {
-      "id": "v15-news-29",
-      "publisher": "9to5Mac",
-      "domain": "9to5mac.com",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "Rian Johnson creates a cinematic iPhone camera app with his cinematographer",
+      "id": "v16-news-15",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Cybersecurity",
+      "date": "November 1, 2026",
+      "headline": "FBI attributes enormous Binance cryptocurrency theft to North Korea",
       "summary": [
-        "The Knives Out director commissioned cinematographer Steve Yedlin to build Chromagraph Camera; a distinctive example of filmmaker-driven mobile software, priced at $12.99."
+        "Federal investigators attribute an October 29 Binance virtual-asset theft to North Korea-linked actors, but public forensic details remain limited. The scale makes it a significant cybercrime development."
       ],
-      "url": "https://9to5mac.com/2026/10/30/knives-out-director-launches-iphone-camera-app-that-shoots-like-his-movies/"
+      "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
     },
     {
-      "id": "v15-news-30",
-      "publisher": "9to5Mac",
-      "domain": "9to5mac.com",
+      "id": "v16-news-16",
+      "publisher": "Engadget",
+      "domain": "engadget.com",
+      "category": "Artificial Intelligence",
+      "date": "November 1, 2026",
+      "headline": "Anthropic tightens Claude responses that recreate existing video games",
+      "summary": [
+        "The company is restricting requests to replicate copyrighted games, raising questions about the distinction between creative assistance, reverse engineering, and direct imitation."
+      ],
+      "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/"
+    },
+    {
+      "id": "v16-news-17",
+      "publisher": "Reuters",
+      "domain": "reuters.com",
+      "category": "Business",
+      "date": "November 2, 2026",
+      "headline": "OpenAI deepens UAE ties through ADNOC, G42 and investment deals",
+      "summary": [
+        "ADNOC and G42 announced deployment of OpenAI technology in the energy company, alongside further Abu Dhabi agreements. Altman emphasized the real-world energy and physical infrastructure constraints on scaling AI."
+      ],
+      "url": "https://www.reuters.com/business/energy/abu-dhabis-adnoc-g42-sign-deal-with-openai-sam-altman-travels-uae-2026-11-02/"
+    },
+    {
+      "id": "v16-news-18",
+      "publisher": "Engadget",
+      "domain": "engadget.com",
       "category": "Technology",
-      "date": "October 30, 2026",
-      "headline": "Apple licenses Ascend.io technology and hires part of its agentic data team",
+      "date": "November 1, 2026",
+      "headline": "Judge allows NAACP pollution claims against an xAI data center to advance",
       "summary": [
-        "Apple reportedly hired employees and obtained technology rights from the data-engineering startup; this should not be mistaken for a straightforward full-company acquisition."
+        "A federal judge ruled that a pollution case concerning xAI data-center operations may proceed. That is a procedural ruling, not a final determination that the allegations are true."
       ],
-      "url": "https://9to5mac.com/2026/10/30/apple-acquires-ascend%E2%80%A4io-an-agentic-ai-engineering-startup/"
+      "url": "https://www.engadget.com/2303462/judge-says-xai-must-face-naacp-lawsuit-on-data-center-pollution/"
     },
     {
-      "id": "v15-news-31",
-      "publisher": "9to5Mac",
-      "domain": "9to5mac.com",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "iPadOS 27.2 adds contextual Siri affordances and TV profile changes",
+      "id": "v16-news-19",
+      "publisher": "Capital Weather",
+      "domain": "capitalweather.com",
+      "category": "Northern Virginia",
+      "date": "November 1, 2026",
+      "headline": "Expert kayakers descend Great Falls amid spectacular fall foliage",
       "summary": [
-        "Two smaller but practical changes affect Siri discovery and Apple TV profile control on the iPad."
+        "Kevin Ambrose photographed two highly experienced kayakers navigating Class V-plus Potomac rapids in brilliant early-November colors, with original photos and video. A distinctive local discovery."
       ],
-      "url": "https://9to5mac.com/2026/10/30/ipados-27-2-two-new-features-just-upgraded-your-ipad/"
-    },
-    {
-      "id": "v15-news-32",
-      "publisher": "9to5Mac",
-      "domain": "9to5mac.com",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "Apple hardware chief John Ternus describes his product-development philosophy",
-      "summary": [
-        "The executive outlines an emphasis on product simplification and long-term design amid unprecedented new device categories."
-      ],
-      "url": "https://9to5mac.com/2026/10/30/john-ternus-defines-his-focus-as-apple-ceo-with-one-word/"
-    },
-    {
-      "id": "v15-news-33",
-      "publisher": "9to5Mac",
-      "domain": "9to5mac.com",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "iPhone Duo browsing tweaks: Safari zoom and wider page layouts",
-      "summary": [
-        "A practical look at text sizing and page width on the unusual inner display, where app and website optimization still lag."
-      ],
-      "url": "https://9to5mac.com/2026/10/30/iphone-duo-here-are-two-tips-for-improving-safari-web-browsing/"
-    },
-    {
-      "id": "v15-news-34",
-      "publisher": "9to5Mac",
-      "domain": "9to5mac.com",
-      "category": "Apple",
-      "date": "October 30, 2026",
-      "headline": "iOS 27.2 expands Apple TV remote recovery through Find My",
-      "summary": [
-        "A small but genuinely useful ecosystem update focuses on locating misplaced living-room hardware."
-      ],
-      "url": "https://9to5mac.com/2026/10/30/ios-27-2-adds-new-find-my-feature-at-just-the-right-time/"
+      "url": "https://www.capitalweather.com/kayakers-take-the-plunge-at-great-falls-amid-spectacular-fall-colors/"
     }
   ],
   "reddit": [
     {
-      "id": "v15-reddit-01",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Lawyer benchmarks DeepSeek across two DGX Sparks plus a 3090 box",
-      "date": "October 31–November 1, 2026",
-      "text": "Update from the lawyer with the V100 server. I went and got two DGX Sparks, because of course I did.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk20x5/lawyer_with_too_many_gpus_part_3_deepseekv41flash/"
+      "id": "v16-reddit-01",
+      "subreddit": "r/ClaudeAI",
+      "title": "Two Claude accounts, three computers, too many projects. How do you stay organized?",
+      "date": "November 1–2, 2026",
+      "text": "I use Claude heavily every day (Chat, Projects, Cowork, Claude Code) and I've hit a wall on organization. Looking for how others handle this.\n\nTwo accounts: personal and work. They don't share chats, Projects, memory or skills.\n\nThree computers: personal laptop, personal desktop, work desktop.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlpbp8/two_claude_accounts_three_computers_too_many/"
     },
     {
-      "id": "v15-reddit-02",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Qwen agent loops rise markedly after INT4 quantization",
-      "date": "October 31–November 1, 2026",
-      "text": "In mid-October I switch from INT8 (4×3090) to AWQ INT4 (2×3090). Same sampling, harness(Hermes), and loop detector, so I compared about two weeks of logs from each setup.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjzm9q/qwen38_27b_loop_testing_int4_awq_vs_int8/"
+      "id": "v16-reddit-02",
+      "subreddit": "r/ClaudeAI",
+      "title": "What I've learned over the weekend by taking a repo with almost 700 issues and 69 PRs (nice) (written by me)",
+      "date": "November 1–2, 2026",
+      "text": "Users don't know what the fuck they actually want or what they're asking for.\n\nIf you fork someone's repo and tell Claude just \"fix the bugs\" and \"implement the asks with a bounty\". You will waste time and tokens with scope creep and debugging ancient parts of the code base.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlmoie/what_ive_learned_over_the_weekend_by_taking_a/"
     },
     {
-      "id": "v15-reddit-03",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Agentic painting software Toska shared by its developer",
-      "date": "October 31–November 1, 2026",
+      "id": "v16-reddit-03",
+      "subreddit": "r/ClaudeAI",
+      "title": "i dont understand all this \"claude + obsidian\" obsession",
+      "date": "November 1–2, 2026",
+      "text": "i honestly just dont see the point. a lot of people are saying its like a \"second brain\" but i tried it, and in my opinion, it just adds a ton of unnecesary fluff and ui.\n\nworks like magic.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xlm85t/i_dont_understand_all_this_claude_obsidian/"
+    },
+    {
+      "id": "v16-reddit-04",
+      "subreddit": "r/ChatGPTPro",
+      "title": "How do I make my agent continue work till its goal...",
+      "date": "November 1–2, 2026",
+      "text": "So i'm using the desktop client, i've chosen 'approve for me' as the option, for most part everything works.\n\nBut some time within 30-45min if I leave my desk and the machine locks, things seem to just stall...",
+      "url": "https://www.reddit.com/r/ChatGPTPro/comments/1xlhwzy/how_do_i_make_my_agent_continue_work_till_its_goal/"
+    },
+    {
+      "id": "v16-reddit-05",
+      "subreddit": "r/ChatGPTPro",
+      "title": "Which AI tools have actually saved you time at work?",
+      "date": "November 1–2, 2026",
+      "text": "I work in a corporate setup and have been trying to figure out which Al tools are genuinely useful beyond the initial hype.\n\nWhat Al tools have actually become part of your workday? And what do you use them for -meetings, research, presentations, emails, automation, anything else?",
+      "url": "https://www.reddit.com/r/ChatGPTPro/comments/1xlp29i/which_ai_tools_have_actually_saved_you_time_at/"
+    },
+    {
+      "id": "v16-reddit-06",
+      "subreddit": "r/OpenAI",
+      "title": "OpenAI and Anthropic are worried people will switch to local models, but they are practically asking for it at this point",
+      "date": "November 1–2, 2026",
+      "text": "With these shitty usage changes, guardrails and restrictions, it's seriously making me want to go full local.\n\nOpenAI and Anthropic have tried so hard to prevent local models to become mainstream, but the way they are behaving, they are practically asking for it.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1xlhji9/openai_and_anthropic_are_worried_people_will/"
+    },
+    {
+      "id": "v16-reddit-07",
+      "subreddit": "r/singularity",
+      "title": "Are we underestimating AI revenue by looking at software spending instead of labor costs?",
+      "date": "November 1–2, 2026",
+      "text": "Lately, there has been a lot of discussion about the AI bubble, particularly whether OpenAI, Anthropic, and other companies can generate enough revenue to justify the enormous investments being made.\n\nWhat am I missing here?",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkq2cu/are_we_underestimating_ai_revenue_by_looking_at/"
+    },
+    {
+      "id": "v16-reddit-08",
+      "subreddit": "r/singularity",
+      "title": "An honest attempt at understanding the universal income question in America.",
+      "date": "November 1–2, 2026",
+      "text": "I don’t know how many UBI questions I’ve seen in the last week. What I haven’t seen is anybody actually try to figure it out using the money that is currently in the economy. I'm not sure it's even well defined.\n\nSo I tried. I’m not an economist.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkpvc0/an_honest_attempt_at_understanding_the_universal/"
+    },
+    {
+      "id": "v16-reddit-09",
+      "subreddit": "r/singularity",
+      "title": "Worry about AI taking jobs rose for almost every job this year. Programmers are the exception, their worry peaked in March 2024",
+      "date": "November 1–2, 2026",
+      "text": "I tracked \"will AI replace [job]\" searches in Google Trends for 56 jobs. Programmers were the first to worry, with a spike right after ChatGPT and another in March 2024 when Devin was announced. Since then it's come down (-12% on last year), while teachers, doctors and lawyers all hit new highs in 2026.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkz44b/worry_about_ai_taking_jobs_rose_for_almost_every/"
+    },
+    {
+      "id": "v16-reddit-10",
+      "subreddit": "r/singularity",
+      "title": "So Anthropic's Claude AI blocks video game cloning and reverse-engineering, to avoid companies to get out of business, and that's ethical?",
+      "date": "November 1–2, 2026",
+      "text": "If Anthropic considers this ethical, what do they have to say to the individuals who will lose their jobs and livelihoods?\n\nThis decision by Anthropic is completely unethical, unjustified, and wrong. It's an evil decision.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xkwvhe/so_anthropics_claude_ai_blocks_video_game_cloning/"
+    },
+    {
+      "id": "v16-reddit-11",
+      "subreddit": "r/singularity",
+      "title": "Richard Dawkins: 'I thought AI wouldn’t come in my lifetime'",
+      "date": "November 1–2, 2026",
       "text": "",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk0ypv/this_is_toska_my_open_source_agentic_painting_tool/"
-    },
-    {
-      "id": "v15-reddit-04",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Small-model batching makes a single GPU more productive",
-      "date": "October 31–November 1, 2026",
-      "text": "Running one harness/agent gives overall less tokens-per-second (tps) than running multiple agents at the same time.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx63n/just_rediscovered_batching_and_swarming_while/"
-    },
-    {
-      "id": "v15-reddit-05",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Independent 1,200-run test examines Qwen suspicious URL behavior",
-      "date": "October 31–November 1, 2026",
-      "text": "The Multidimensional Butterfly Effect: What Cohere Didn’t Test on Qwen3.8-Flash-Next",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx36m/the_multidimensional_butterfly_effect_what_cohere/"
-    },
-    {
-      "id": "v15-reddit-06",
-      "subreddit": "r/LocalLLaMA",
-      "title": "QEngine 1.3.1 reports faster Qwen Flash Next decoding on dual 5090s",
-      "date": "October 31–November 1, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/"
-    },
-    {
-      "id": "v15-reddit-07",
-      "subreddit": "r/LocalLLaMA",
-      "title": "User investigates major ROCm regression in newer llama.cpp build",
-      "date": "October 31–November 1, 2026",
-      "text": "i have a 9070xt and B1356 lemonade build is the last Fast Rocm Builds.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjy973/not_a_smart_man_but_i_think_llamacpp_is_broken/"
-    },
-    {
-      "id": "v15-reddit-08",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Predictions on Qwen4 quantization and hardware tradeoffs",
-      "date": "October 31–November 1, 2026",
-      "text": "I previously wrote about the shift to 4-way HC.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjy0uv/a_few_predictions_on_qwen4_hc_and_quantization/"
-    },
-    {
-      "id": "v15-reddit-09",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Ming-TTS 3.0 speedup demonstration",
-      "date": "October 31–November 1, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjz5kn/mingtts_30_x18_faster/"
-    },
-    {
-      "id": "v15-reddit-10",
-      "subreddit": "r/LocalLLaMA",
-      "title": "A reader asks whether multi-agent swarms outperform a larger single model",
-      "date": "October 31–November 1, 2026",
-      "text": "I understand that online things I have read said, \"Multi-agent is no better than single-agent in certain circumstances\".",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjvos0/swarm_of_multiple_qwen38_27b_agents_vs_single/"
-    },
-    {
-      "id": "v15-reddit-11",
-      "subreddit": "r/LocalLLaMA",
-      "title": "A developer proposes a hierarchical large-planner/small-worker agent",
-      "date": "October 31–November 1, 2026",
-      "text": "the smaller models then completes the task, instructions all from the larger model",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk3d0f/light_weight_model_to_execute_task_while_having_a/"
-    },
-    {
-      "id": "v15-reddit-12",
-      "subreddit": "r/LocalLLaMA",
-      "title": "Fast-moving AI techniques make saved implementation notes stale",
-      "date": "October 31–November 1, 2026",
-      "text": "I keep notes/bookmarks and almost none of them seem relevant now.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjsjhy/ai_changes_so_fast_any_saved_knowledge_gets/"
-    },
-    {
-      "id": "v15-reddit-13",
-      "subreddit": "r/ChatGPT",
-      "title": "Non-programming power user says chatbots are failing long-running projects",
-      "date": "October 31–November 1, 2026",
-      "text": "Complex, long-term projects have become almost impossible to manage in regular chatbots.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xkonte/are_chatbots_dead/"
-    },
-    {
-      "id": "v15-reddit-14",
-      "subreddit": "r/ChatGPT",
-      "title": "Voice dictation changes how a reader has long conversations with AI",
-      "date": "October 31–November 1, 2026",
-      "text": "The biggest benefit isn’t necessarily that speaking is faster than typing.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xkm5tf/if_youre_not_using_chatgpts_voicetotext_feature/"
-    },
-    {
-      "id": "v15-reddit-15",
-      "subreddit": "r/ChatGPT",
-      "title": "Dot user asks why CarPlay integration is missing",
-      "date": "October 31–November 1, 2026",
-      "text": "Does anyone know how to make the Dots work in CarPlay? It doesn’t call the dot.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xkm8ke/how_to_use_dots_on_carplay/"
-    },
-    {
-      "id": "v15-reddit-16",
-      "subreddit": "r/ChatGPT",
-      "title": "Voice mode user reports echo-triggered interruptions",
-      "date": "October 31–November 1, 2026",
-      "text": "When it goes to answer a question it hears itself on the phone speaker and then thinks I’m talking to it.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xkluq7/voice_mode_picking_up_its_own_reply_and_cutting/"
-    },
-    {
-      "id": "v15-reddit-17",
-      "subreddit": "r/ChatGPT",
-      "title": "Student describes how AI tutoring aided two difficult semesters",
-      "date": "October 31–November 1, 2026",
-      "text": "It was 2 years ago, I had a very tough semester where I had Control Systems, Circuit Theory, Thermodynamics/Technical Physics and other challenging subjects all at once.",
-      "url": "https://www.reddit.com/r/ChatGPT/comments/1xko5p8/is_it_normal_to_be_grateful_of_chatgpt_because_it/"
+      "url": "https://www.reddit.com/r/singularity/comments/1xl006d/richard_dawkins_i_thought_ai_wouldnt_come_in_my/"
     }
   ],
   "xPosts": [],
