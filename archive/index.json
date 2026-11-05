@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "editions": [
     {
+      "id": "v17-2026-11-05",
+      "date": "2026-11-05",
+      "displayDate": "Thursday, November 5",
+      "year": "2026",
+      "type": "published",
+      "title": "The Brief — v17",
+      "file": "archive/editions/v17-2026-11-05.json",
+      "storyCount": 18,
+      "sourceCount": 13,
+      "redditCount": 11,
+      "xCount": 0
+    },
+    {
       "id": "v16-2026-11-02",
       "date": "2026-11-02",
       "displayDate": "Monday, November 2",
