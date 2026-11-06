@@ -1,0 +1,220 @@
+{
+  "type": "published",
+  "edition": "v18",
+  "displayDate": "Friday, November 6",
+  "year": "2026",
+  "news": [
+    {
+      "id": "v18-news-01",
+      "publisher": "MacStories",
+      "domain": "macstories.net",
+      "category": "Apple & AI",
+      "date": "November 5, 2026",
+      "headline": "A Closer Look at Apple’s Upcoming Creator Studio Update",
+      "summary": [
+        "John Voorhees explores Apple’s upcoming Creator Studio changes hands-on, including agent-accessible Pages, Numbers, and Keynote workflows and a different approach to manipulating documents. These are beta and preview capabilities, not proof that every AI-assisted task works reliably."
+      ],
+      "url": "https://www.macstories.net/reviews/a-closer-look-at-apples-upcoming-creator-studio-update/"
+    },
+    {
+      "id": "v18-news-02",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Prototype Watch",
+      "date": "November 5, 2026",
+      "headline": "Electric BMW ALPINA 7 Series Possibly Spied for the First Time",
+      "summary": [
+        "Fresh camouflage footage may show an all-electric ALPINA 7 Series, with clues in the bodywork and absence of visible exhausts. BMWBLOG presents the identification as a possibility, not a confirmed future model."
+      ],
+      "url": "https://www.bmwblog.com/2026/11/05/electric-bmw-alpina-7-series-spy-video/"
+    },
+    {
+      "id": "v18-news-03",
+      "publisher": "Electrek",
+      "domain": "electrek.co",
+      "category": "Automotive Investigation",
+      "date": "November 5, 2026",
+      "headline": "Tesla Wants Its Sworn Cybercab Answers to NHTSA Kept Entirely Secret",
+      "summary": [
+        "Electrek examines Tesla’s request to withhold its responses to federal safety questions about the Cybercab. The secrecy request is documented; it is not itself a finding that the vehicle violates safety rules."
+      ],
+      "url": "https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/"
+    },
+    {
+      "id": "v18-news-04",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "AI & Cybersecurity",
+      "date": "November 5, 2026",
+      "headline": "OpenAI Says Its New Cybersecurity Model Is Better at Not Hacking Other Companies",
+      "summary": [
+        "The new GPT-6 Cyber model is described as a restricted defensive-security system, with reported vulnerability discoveries and tighter safeguards against acting outside scope. Performance figures are OpenAI’s claims and access is limited; this is not a general consumer release."
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+    },
+    {
+      "id": "v18-news-05",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Engineering & Space",
+      "date": "November 5, 2026",
+      "headline": "Blue Origin Says It Is Building a Higher-Performing Rocket Engine at One-Quarter the Cost",
+      "summary": [
+        "Blue Origin detailed an ambitious propulsion and manufacturing overhaul, including a proposed Northstar rocket engine with fewer parts and extensive additive manufacturing. The cost and performance advantages are company projections, not yet demonstrated operational economics."
+      ],
+      "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/"
+    },
+    {
+      "id": "v18-news-06",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Apple Software & Pricing",
+      "date": "November 5, 2026",
+      "headline": "Paid $200 for Logic Pro? Apple Says You Won’t Get This New Feature",
+      "summary": [
+        "Apple’s new AI-assisted Logic Pro feature is tied to its Creator Studio subscription rather than the previously purchased standalone Logic license. An unusually concrete example of where permanent licenses and subscription-only AI features diverge."
+      ],
+      "url": "https://www.macrumors.com/2026/11/05/logic-pro-new-feature-requires-subscription/"
+    },
+    {
+      "id": "v18-news-07",
+      "publisher": "HomeKit News and Reviews",
+      "domain": "homekitnews.com",
+      "category": "Smart Home",
+      "date": "November 6, 2026",
+      "headline": "Nuki Launches Smart Module and White Keypad 2 NFC with Theft Detection",
+      "summary": [
+        "Nuki introduced a concealed lock-control module and updated NFC keypad with anti-theft detection. The announced products are European offerings; U.S. compatibility and availability should not be assumed."
+      ],
+      "url": "https://homekitnews.com/2026/11/06/nuki-launches-smart-module-white-keypad-2-nfc-w-theft-detection/"
+    },
+    {
+      "id": "v18-news-08",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
+      "category": "Florida State",
+      "date": "November 5, 2026",
+      "headline": "Inside Seminole Boosters’ Plan to Rebuild and Expand FSU’s Donor Base",
+      "summary": [
+        "Original interviews examine FSU’s effort to reverse a shrinking donor base through a lower-priced membership program and expanded national outreach. It is a deeper look at the program’s institutional direction than the latest coaching rumor."
+      ],
+      "url": "https://www.tomahawknation.com/florida-state-football/140051/seminole-boosters-plan-donors-base-season"
+    },
+    {
+      "id": "v18-news-09",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "AI Agents",
+      "date": "November 5, 2026",
+      "headline": "Perplexity Launches Its Own Take on AI Agents for Work",
+      "summary": [
+        "Perplexity’s Teammates introduces persistent workplace agent conversations and skills, with Slack integration and an expensive Max-tier entry point. The announcement outlines an agent architecture, not an independent demonstration of long-term reliability."
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+    },
+    {
+      "id": "v18-news-10",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Automotive Spy Photos",
+      "date": "November 5, 2026",
+      "headline": "2028 BMW iX2 Facelift Spied with a Neue Klasse Face",
+      "summary": [
+        "New test-car photos reveal a thinner, more horizontal lighting treatment on the X2 family, hinting at Neue Klasse design influence. The photographed prototype’s powertrain should not be mistaken for a confirmed electric iX2."
+      ],
+      "url": "https://www.bmwblog.com/2026/11/05/2028-bmw-ix2-facelift-spy-photos/"
+    },
+    {
+      "id": "v18-news-11",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Apple Hardware Review",
+      "date": "November 5, 2026",
+      "headline": "The Touchscreen MacBook Pro Is a Winner",
+      "summary": [
+        "A detailed hands-on assessment explores whether Apple’s new touchscreen OLED MacBook Pro is actually useful rather than merely novel. The account addresses user experience, but does not establish PWM comfort for display-sensitive readers."
+      ],
+      "url": "https://www.theverge.com/tech/1026570/apple-macbook-pro-proled-xdr-display-review"
+    },
+    {
+      "id": "v18-news-12",
+      "publisher": "Royal Caribbean Blog",
+      "domain": "royalcaribbeanblog.com",
+      "category": "Travel",
+      "date": "November 5, 2026",
+      "headline": "Royal Caribbean Launches 11 New Caribbean Weeklong Routes",
+      "summary": [
+        "New 2028–29 itineraries include departures from several U.S. homeports, with Baltimore and Bayonne among the practical East Coast options. The value is in the actual future routes, not a generic cruise promotion."
+      ],
+      "url": "https://www.royalcaribbeanblog.com/2026/11/05/royal-caribbean-launches-11-new-caribbean-weeklong-routes"
+    },
+    {
+      "id": "v18-news-13",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Apps & Workflows",
+      "date": "November 5, 2026",
+      "headline": "Instagram’s Edits Video Editor Is Now Available on Mac",
+      "summary": [
+        "Meta’s Mac version of Edits adds multitrack editing and export capabilities, with agent-oriented integration that may matter more than the routine app announcement. Confirm availability and supported automation before relying on it."
+      ],
+      "url": "https://www.macrumors.com/2026/11/05/instagram-edits-mac/"
+    },
+    {
+      "id": "v18-news-14",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Home Security",
+      "date": "November 5, 2026",
+      "headline": "Anker’s New Window-Mounted Camera Monitors the Outdoors from Inside",
+      "summary": [
+        "Eufy’s window-facing camera tries to avoid drilling and exterior wiring by filming through a pane of glass, an unusually practical tradeoff worth investigating. Do not infer HomeKit compatibility from the camera’s indoor installation."
+      ],
+      "url": "https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision"
+    }
+  ],
+  "reddit": [
+    {
+      "id": "v18-reddit-01",
+      "subreddit": "r/apple",
+      "title": "Apple MacBook Pro (16-inch, M5 Max, 2026) with PROLED XDR Display review: The screen that every Mac deserves",
+      "date": "November 5, 2026",
+      "text": "A link-post discussion of the new MacBook Pro display. Commenters weigh the OLED image quality and touch features against price, durability and long-term screen concerns; the linked review is distinct from any firsthand experience claimed by the OP.",
+      "url": "https://www.reddit.com/r/apple/comments/1xovusy/apple_macbook_pro_16inch_m5_max_2026_with_proled/"
+    },
+    {
+      "id": "v18-reddit-02",
+      "subreddit": "r/HomeKit",
+      "title": "Apple HomeView could soon double as a HomeKit Secure Video camera",
+      "date": "October 31, 2026",
+      "text": "An original poster examines strings in software suggesting a possible HomeView/HomeKit Secure Video recording mode. Commenters discuss the potential privacy and practical implications. These are code clues, not confirmation of a shipped Apple feature. OVERLOOKED: first posted October 31.",
+      "url": "https://www.reddit.com/r/HomeKit/comments/1xkjt7w/apple_homeview_could_soon_double_as_a_homekit/"
+    },
+    {
+      "id": "v18-reddit-03",
+      "subreddit": "r/OpenAI",
+      "title": "I'm done with it.",
+      "date": "November 2, 2026",
+      "text": "A first-person complaint that an advanced model can fixate on a narrow interpretation while missing the broader task. Replies debate whether the problem lies in model reasoning, context management or how the surrounding agent workflow is designed. OVERLOOKED: the original discussion began November 2.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1xm3ieo/im_done_with_it/"
+    },
+    {
+      "id": "v18-reddit-04",
+      "subreddit": "r/fsusports",
+      "title": "FSU coaching staff changes/speculation megathread",
+      "date": "November 1, 2026",
+      "text": "A community thread consolidates confirmed staff changes and fan assessments of replacement candidates. Much of the thread is speculation; distinguish reported departures from unconfirmed coaching rumors. OVERLOOKED: this conversation began November 1, and its more general theme was already partly represented in v17.",
+      "url": "https://www.reddit.com/r/fsusports/comments/1xlfq22/fsu_coaching_staff_changesspeculation_megathread/"
+    },
+    {
+      "id": "v18-reddit-05",
+      "subreddit": "r/singularity",
+      "title": "The 'AI is fancy autocomplete' vs. 'Imminent RSI/AGI' argument.",
+      "date": "November 3, 2026",
+      "text": "The OP asks what actually separates next-token prediction from a model able to accelerate its own improvement. Replies challenge both extreme positions, including whether consciousness is relevant to recursive technical progress. Treat predictions about imminent AGI as opinions. OVERLOOKED: originally posted November 3.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xmwoy8/the_ai_is_fancy_autocomplete_vs_imminent_rsiagi/"
+    }
+  ],
+  "xPosts": [],
+  "comments": []
+}
