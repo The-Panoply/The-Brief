@@ -1,314 +1,218 @@
 {
   "type": "published",
-  "edition": "v17",
-  "displayDate": "Thursday, November 5",
+  "edition": "v18",
+  "displayDate": "Friday, November 6",
   "year": "2026",
   "news": [
     {
-      "id": "v17-news-01",
-      "publisher": "AP News",
-      "domain": "apnews.com",
-      "category": "U.S. News",
-      "date": "November 4, 2026",
-      "headline": "Democratic sweep of Congress ushers in a new era as Trump acknowledges impact of the Iran war",
-      "summary": [
-        "AP reports Democrats captured both chambers in the midterms, reshaping Washington and curtailing unified Republican control. The reporting connects the outcome to voters' economic concerns and the Iran war; it is a consequential outcome, not simply another horse-race forecast."
-      ],
-      "url": "https://apnews.com/article/9c5c4c5283f58b1ae0786e2f410c21a0"
-    },
-    {
-      "id": "v17-news-02",
-      "publisher": "Apple Developer",
-      "domain": "developer.apple.com",
-      "category": "Technology",
-      "date": "November 3, 2026",
-      "headline": "Siri AI is now open to all developers",
-      "summary": [
-        "Apple opened new developer pathways for Siri AI, making deeper app actions and natural-language requests possible through its developer interfaces. This is a developer rollout, not proof that every app or all features work for users today."
-      ],
-      "url": "https://developer.apple.com/news/?id=gdk2umrf"
-    },
-    {
-      "id": "v17-news-03",
+      "id": "v18-news-01",
       "publisher": "MacStories",
       "domain": "macstories.net",
-      "category": "Apple",
-      "date": "November 3, 2026",
-      "headline": "iPad mini (2026) Review: Pushing the Boundaries with Apple’s Smallest iPad",
+      "category": "Apple & AI",
+      "date": "November 5, 2026",
+      "headline": "A Closer Look at Apple’s Upcoming Creator Studio Update",
       "summary": [
-        "John Voorhees' sustained hands-on review covers a genuinely new mini design, lighter hardware, OLED display and unusual speaker architecture. The thoughtful examination is more illuminating than a specifications roundup; it does not establish flicker comfort for sensitive users."
+        "John Voorhees explores Apple’s upcoming Creator Studio changes hands-on, including agent-accessible Pages, Numbers, and Keynote workflows and a different approach to manipulating documents. These are beta and preview capabilities, not proof that every AI-assisted task works reliably."
       ],
-      "url": "https://www.macstories.net/reviews/ipad-mini-2026-review-pushing-the-boundaries-with-apples-smallest-ipad/"
+      "url": "https://www.macstories.net/reviews/a-closer-look-at-apples-upcoming-creator-studio-update/"
     },
     {
-      "id": "v17-news-04",
+      "id": "v18-news-02",
+      "publisher": "BMWBLOG",
+      "domain": "bmwblog.com",
+      "category": "Prototype Watch",
+      "date": "November 5, 2026",
+      "headline": "Electric BMW ALPINA 7 Series Possibly Spied for the First Time",
+      "summary": [
+        "Fresh camouflage footage may show an all-electric ALPINA 7 Series, with clues in the bodywork and absence of visible exhausts. BMWBLOG presents the identification as a possibility, not a confirmed future model."
+      ],
+      "url": "https://www.bmwblog.com/2026/11/05/electric-bmw-alpina-7-series-spy-video/"
+    },
+    {
+      "id": "v18-news-03",
+      "publisher": "Electrek",
+      "domain": "electrek.co",
+      "category": "Automotive Investigation",
+      "date": "November 5, 2026",
+      "headline": "Tesla Wants Its Sworn Cybercab Answers to NHTSA Kept Entirely Secret",
+      "summary": [
+        "Electrek examines Tesla’s request to withhold its responses to federal safety questions about the Cybercab. The secrecy request is documented; it is not itself a finding that the vehicle violates safety rules."
+      ],
+      "url": "https://electrek.co/2026/11/05/tesla-cybercab-nhtsa-sworn-answers-confidential/"
+    },
+    {
+      "id": "v18-news-04",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "AI & Cybersecurity",
+      "date": "November 5, 2026",
+      "headline": "OpenAI Says Its New Cybersecurity Model Is Better at Not Hacking Other Companies",
+      "summary": [
+        "The new GPT-6 Cyber model is described as a restricted defensive-security system, with reported vulnerability discoveries and tighter safeguards against acting outside scope. Performance figures are OpenAI’s claims and access is limited; this is not a general consumer release."
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch"
+    },
+    {
+      "id": "v18-news-05",
+      "publisher": "Ars Technica",
+      "domain": "arstechnica.com",
+      "category": "Engineering & Space",
+      "date": "November 6, 2026",
+      "headline": "Blue Origin Says It Is Building a Higher-Performing Rocket Engine at One-Quarter the Cost",
+      "summary": [
+        "Blue Origin detailed an ambitious propulsion and manufacturing overhaul, including a proposed Northstar rocket engine with fewer parts and extensive additive manufacturing. The cost and performance advantages are company projections, not yet demonstrated operational economics."
+      ],
+      "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/"
+    },
+    {
+      "id": "v18-news-06",
       "publisher": "MacRumors",
       "domain": "macrumors.com",
-      "category": "Apple",
-      "date": "November 3, 2026",
-      "headline": "iOS 27.3 Adds Vertical Tabs and Adaptive Dark Mode to Safari",
+      "category": "Apple Software & Pricing",
+      "date": "November 5, 2026",
+      "headline": "Paid $200 for Logic Pro? Apple Says You Won’t Get This New Feature",
       "summary": [
-        "Safari's new vertical tabs, wider title labels and adaptive dark appearance across iOS, iPadOS and macOS make this a meaningful browser workflow change, especially for people who prefer clean tab-based navigation. It is currently in 27.3 testing."
+        "Apple’s new AI-assisted Logic Pro feature is tied to its Creator Studio subscription rather than the previously purchased standalone Logic license. An unusually concrete example of where permanent licenses and subscription-only AI features diverge."
       ],
-      "url": "https://www.macrumors.com/2026/11/03/ios-27-3-safari/"
+      "url": "https://www.macrumors.com/2026/11/05/logic-pro-new-feature-requires-subscription/"
     },
     {
-      "id": "v17-news-05",
-      "publisher": "The Atlantic",
-      "domain": "theatlantic.com",
-      "category": "Technology & Education",
-      "date": "November 4, 2026",
-      "headline": "Google Won’t Give Schools the One Thing They Want",
+      "id": "v18-news-07",
+      "publisher": "HomeKit News and Reviews",
+      "domain": "homekitnews.com",
+      "category": "Smart Home",
+      "date": "November 6, 2026",
+      "headline": "Nuki Launches Smart Module and White Keypad 2 NFC with Theft Detection",
       "summary": [
-        "An original examination of schools trying to keep AI assistance out of some classroom search experiences while Google increasingly integrates AI into the default search environment. The tension is between educational control and the direction of a ubiquitous product."
+        "Nuki introduced a concealed lock-control module and updated NFC keypad with anti-theft detection. The announced products are European offerings; U.S. compatibility and availability should not be assumed."
       ],
-      "url": "https://www.theatlantic.com/technology/2026/11/google-schools-ai-search/689298/"
+      "url": "https://homekitnews.com/2026/11/06/nuki-launches-smart-module-white-keypad-2-nfc-w-theft-detection/"
     },
     {
-      "id": "v17-news-06",
-      "publisher": "Ars Technica",
-      "domain": "arstechnica.com",
-      "category": "Security",
-      "date": "November 4, 2026",
-      "headline": "Hackers exploited iOS and Android flaws to infect phones",
+      "id": "v18-news-08",
+      "publisher": "Tomahawk Nation",
+      "domain": "tomahawknation.com",
+      "category": "Florida State",
+      "date": "November 5, 2026",
+      "headline": "Inside Seminole Boosters’ Plan to Rebuild and Expand FSU’s Donor Base",
       "summary": [
-        "Security researchers describe a targeted campaign that used previously patched mobile flaws and deceptive websites to deliver payloads. They assess possible links to Russian intelligence, with stated uncertainty; updates remain important because the flaws were not all zero-days."
+        "Original interviews examine FSU’s effort to reverse a shrinking donor base through a lower-priced membership program and expanded national outreach. It is a deeper look at the program’s institutional direction than the latest coaching rumor."
       ],
-      "url": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/"
+      "url": "https://www.tomahawknation.com/florida-state-football/140051/seminole-boosters-plan-donors-base-season"
     },
     {
-      "id": "v17-news-07",
-      "publisher": "Engadget",
-      "domain": "engadget.com",
-      "category": "Technology Experiment",
-      "date": "November 4, 2026",
-      "headline": "Redditor uses AI to get Switch games running natively on Apple TV",
+      "id": "v18-news-09",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "AI Agents",
+      "date": "November 5, 2026",
+      "headline": "Perplexity Launches Its Own Take on AI Agents for Work",
       "summary": [
-        "An independent developer used Claude-assisted work on TVPort, a tool to recompile Switch games for third-generation Apple TV 4K. Reported performance varies by game; this is an experimental community port, not an official Nintendo release."
+        "Perplexity’s Teammates introduces persistent workplace agent conversations and skills, with Slack integration and an expensive Max-tier entry point. The announcement outlines an agent architecture, not an independent demonstration of long-term reliability."
       ],
-      "url": "https://www.engadget.com/2306727/redditor-uses-ai-to-get-switch-games-running-natively-on-apple-tv/"
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
     },
     {
-      "id": "v17-news-08",
-      "publisher": "Ars Technica",
-      "domain": "arstechnica.com",
-      "category": "Science & History",
-      "date": "November 4, 2026",
-      "headline": "Uranium cubes reveal why the German nuclear project failed",
-      "summary": [
-        "A forensic reassessment of surviving uranium cubes and calculations for the Nazi-era B8 reactor suggests the team was farther from achieving criticality than Heisenberg later implied. A rare collision of detective work, physics and history."
-      ],
-      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/"
-    },
-    {
-      "id": "v17-news-09",
+      "id": "v18-news-10",
       "publisher": "BMWBLOG",
       "domain": "bmwblog.com",
-      "category": "Automotive Design",
-      "date": "November 4, 2026",
-      "headline": "2027 BMW 3 Series: Fresh Photos Show The Four-Cylinder Sedan",
+      "category": "Automotive Spy Photos",
+      "date": "November 5, 2026",
+      "headline": "2028 BMW iX2 Facelift Spied with a Neue Klasse Face",
       "summary": [
-        "A new set of original photographs shows the new combustion-powered 3 Series and its Neue Klasse-era interior in greater detail. This is about seeing and evaluating the physical design rather than repeating the initial reveal."
+        "New test-car photos reveal a thinner, more horizontal lighting treatment on the X2 family, hinting at Neue Klasse design influence. The photographed prototype’s powertrain should not be mistaken for a confirmed electric iX2."
       ],
-      "url": "https://www.bmwblog.com/2026/11/04/2027-bmw-3-series-320-photos/"
+      "url": "https://www.bmwblog.com/2026/11/05/2028-bmw-ix2-facelift-spy-photos/"
     },
     {
-      "id": "v17-news-10",
-      "publisher": "BMWBLOG",
-      "domain": "bmwblog.com",
-      "category": "Driving",
-      "date": "November 4, 2026",
-      "headline": "Rally Legend Takes The BMW i3 Up A Hill Climb Course In Romania",
+      "id": "v18-news-11",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Apple Hardware Review",
+      "date": "November 5, 2026",
+      "headline": "The Touchscreen MacBook Pro Is a Winner",
       "summary": [
-        "Rally legend Ari Vatanen takes BMW's electric i3 sedan up a Romanian hill-climb route. The footage turns battery and performance claims into a tangible driving experience with unusually compelling context."
+        "A detailed hands-on assessment explores whether Apple’s new touchscreen OLED MacBook Pro is actually useful rather than merely novel. The account addresses user experience, but does not establish PWM comfort for display-sensitive readers."
       ],
-      "url": "https://www.bmwblog.com/2026/11/04/rally-legend-drives-bmw-i3-hill-climb/"
+      "url": "https://www.theverge.com/tech/1026570/apple-macbook-pro-proled-xdr-display-review"
     },
     {
-      "id": "v17-news-11",
-      "publisher": "Road & Track",
-      "domain": "roadandtrack.com",
-      "category": "Automotive Creativity",
-      "date": "November 4, 2026",
-      "headline": "This California Tuning Shop Built an Insane Lexus GX–Toyota Tacoma Off-Road Pickup Truck",
+      "id": "v18-news-12",
+      "publisher": "Royal Caribbean Blog",
+      "domain": "royalcaribbeanblog.com",
+      "category": "Travel",
+      "date": "November 5, 2026",
+      "headline": "Royal Caribbean Launches 11 New Caribbean Weeklong Routes",
       "summary": [
-        "Meso Customs built the Lexus-badged TX1 from Tacoma underpinnings and GX-inspired styling, turning a concept rendering into a physical SEMA machine on portal axles and 38-inch tires. An entertaining example of independent design ambition."
+        "New 2028–29 itineraries include departures from several U.S. homeports, with Baltimore and Bayonne among the practical East Coast options. The value is in the actual future routes, not a generic cruise promotion."
       ],
-      "url": "https://www.roadandtrack.com/news/a74336013/lexus-tacoma-pickup-truck-sema-build/"
+      "url": "https://www.royalcaribbeanblog.com/2026/11/05/royal-caribbean-launches-11-new-caribbean-weeklong-routes"
     },
     {
-      "id": "v17-news-12",
-      "publisher": "Road & Track",
-      "domain": "roadandtrack.com",
-      "category": "Design & Technology",
-      "date": "November 4, 2026",
-      "headline": "Mercedes-Benz Asks: What If We Put Screens in a Car’s Windows, Too?",
+      "id": "v18-news-13",
+      "publisher": "MacRumors",
+      "domain": "macrumors.com",
+      "category": "Apps & Workflows",
+      "date": "November 5, 2026",
+      "headline": "Instagram’s Edits Video Editor Is Now Available on Mac",
       "summary": [
-        "Mercedes previewed Intelligent Display in Glass and a holographic window display, proposing road warnings and other messages in vehicle glass. It invites a more interesting debate about useful information versus yet more screens."
+        "Meta’s Mac version of Edits adds multitrack editing and export capabilities, with agent-oriented integration that may matter more than the routine app announcement. Confirm availability and supported automation before relying on it."
       ],
-      "url": "https://www.roadandtrack.com/news/a74334470/mercedes-benz-asks-what-if-we-put-screens-in-a-cars-windows-too/"
+      "url": "https://www.macrumors.com/2026/11/05/instagram-edits-mac/"
     },
     {
-      "id": "v17-news-13",
-      "publisher": "ProPublica",
-      "domain": "propublica.org",
-      "category": "Investigation",
-      "date": "November 4, 2026",
-      "headline": "Vermont Was Supposed to Get an Audit of Its Lake Champlain Cleanup. It Never Happened.",
+      "id": "v18-news-14",
+      "publisher": "The Verge",
+      "domain": "theverge.com",
+      "category": "Home Security",
+      "date": "November 5, 2026",
+      "headline": "Anker’s New Window-Mounted Camera Monitors the Outdoors from Inside",
       "summary": [
-        "ProPublica and Seven Days find that the state never conducted a mandated assessment of its multiyear lake cleanup, while troubling algae blooms persist. A concrete example of why large environmental spending needs independent performance checks."
+        "Eufy’s window-facing camera tries to avoid drilling and exterior wiring by filming through a pane of glass, an unusually practical tradeoff worth investigating. Do not infer HomeKit compatibility from the camera’s indoor installation."
       ],
-      "url": "https://www.propublica.org/article/vermont-clean-water-act-champlain-audit"
-    },
-    {
-      "id": "v17-news-14",
-      "publisher": "ProPublica",
-      "domain": "propublica.org",
-      "category": "Firsthand Reporting",
-      "date": "November 3, 2026",
-      "headline": "I Was There to Document the Aftermath of Deadly Flooding. Then, It Started Raining.",
-      "summary": [
-        "Photographer Cengiz Yar describes returning to Ruidoso, New Mexico, where fires and deadly floods have left residents vulnerable, only to encounter renewed rainfall. A visceral first-person complement to the usual policy-level disaster story."
-      ],
-      "url": "https://www.propublica.org/article/ruidoso-new-mexico-floods-fire"
-    },
-    {
-      "id": "v17-news-15",
-      "publisher": "Reuters",
-      "domain": "reuters.com",
-      "category": "Space Science",
-      "date": "November 4, 2026",
-      "headline": "Pungent gas above Martian fissures hints at ongoing volcanism",
-      "summary": [
-        "The ExoMars Trace Gas Orbiter detected hydrogen chloride over fissures near Alba Mons. Scientists say the spatial association suggests possible present-day geological activity, not proof of an eruption or life beneath the surface."
-      ],
-      "url": "https://www.reuters.com/science/pungent-gas-above-martian-fissures-hints-ongoing-volcanism-2026-11-04/"
-    },
-    {
-      "id": "v17-news-16",
-      "publisher": "Stanford Medicine / Medical Xpress",
-      "domain": "medicalxpress.com",
-      "category": "Neuroscience",
-      "date": "November 4, 2026",
-      "headline": "Brain activity patterns may predict Alzheimer's years before memory slips",
-      "summary": [
-        "A Stanford-led study reported that resting brain patterns in cognitively normal adults were associated with later decline or unusually resilient aging over years of observation. This is research on a possible early biomarker, not a validated diagnostic test."
-      ],
-      "url": "https://medicalxpress.com/news/2026-11-brain-patterns-alzheimer-years-memory.html"
-    },
-    {
-      "id": "v17-news-17",
-      "publisher": "Ars Technica",
-      "domain": "arstechnica.com",
-      "category": "Gaming & Industry",
-      "date": "November 4, 2026",
-      "headline": "Nintendo's biggest ROM chip supplier is bowing out of the business",
-      "summary": [
-        "A supplier's departure from ROM cartridges underscores an unexpected constraint in Nintendo's physical-game ecosystem as semiconductor capacity and memory economics change. Hardware supply chains can reshape the future of software ownership."
-      ],
-      "url": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/"
-    },
-    {
-      "id": "v17-news-18",
-      "publisher": "Scientific American",
-      "domain": "scientificamerican.com",
-      "category": "Science & Environment",
-      "date": "November 4, 2026",
-      "headline": "The polar vortex is about to go haywire",
-      "summary": [
-        "An explanation of atmospheric disruption around the Arctic and its potential implications for late-autumn and winter weather. The possibility of unusual cold patterns is a forecasted influence, not a guarantee of local conditions."
-      ],
-      "url": "https://www.scientificamerican.com/article/the-polar-vortex-is-about-to-go-haywire/"
+      "url": "https://www.theverge.com/tech/1026360/anker-eufy-window-camera-e10-indoors-security-ai-color-night-vision"
     }
   ],
   "reddit": [
     {
-      "id": "v17-reddit-01",
-      "subreddit": "r/decomps",
-      "title": "[Release] TVPort - Port switch games to run natively on AppleTV (4k 3rd gen)",
-      "date": "November 4, 2026",
-      "text": "Hello everyone, [this is a proof on concept], and this is my final input on this project until I can get a 4th gen AppleTV, as I move to focus on Native Switch Ports on Xbox Series X. Please fork this project and work on implementing your games.\n\nJust to start, I want to make it known that this project is built with AI. I am sure this is obvious at this point, but if you are against AI, this project is not for you. I have used Claude Opus 5.5 on Extra High.\n\nI have been working on a fork of nxnative that recompiles your OG Switch and Switch 2 dumps for AppleTV. Currently, this only works on a game-by-game basis. Most games run essentially the same on the switch, but some load textures into memory differently and need to be diagnosed and fixed before the game will run properly. My hope is to find outliers during this beta so more fixes can be added into the program, making it a seamless experience.",
-      "url": "https://www.reddit.com/r/decomps/comments/1xn3wh1/release_tvport_port_switch_games_to_run_natively/"
+      "id": "v18-reddit-01",
+      "subreddit": "r/apple",
+      "title": "Apple MacBook Pro (16-inch, M5 Max, 2026) with PROLED XDR Display review: The screen that every Mac deserves",
+      "date": "November 5, 2026",
+      "text": "A link-post discussion of the new MacBook Pro display. Commenters weigh the OLED image quality and touch features against price, durability and long-term screen concerns; the linked review is distinct from any firsthand experience claimed by the OP.",
+      "url": "https://www.reddit.com/r/apple/comments/1xovusy/apple_macbook_pro_16inch_m5_max_2026_with_proled/"
     },
     {
-      "id": "v17-reddit-02",
-      "subreddit": "r/Siri",
-      "title": "An impressive Siri achievement today",
-      "date": "November 3, 2026",
-      "text": "I’ve been an Apple fanboy for decades, and I have been loud about my disappointment in Siri over the last five or six years. If you look around, you’ll even see a few posts from me angrily berating some Siri feature recently.\n\nBut today… I was very impressed with Siri. My wife texted me asking me why we had charged $45 onto our credit card nearly a month ago, and with my memory I can’t remember a thing, so I had no idea, so… I simply asked Siri if she would look back through my messages and see if there was anything on the day in question that might require me to spend that kind of money.\n\nShe instantly returned, letting me know that I had had a conversation with my wife on that day where she asked me to send some money to my daughter.\n\nBefore Siri, it would’ve taken me way too much time to scroll back through all of my messages to find that one bit of information, but Siri did it nearly instantly.\n\nSiri… You have my respect… At least today.",
-      "url": "https://www.reddit.com/r/Siri/comments/1xmswwe/an_impressive_siri_achievement_today/"
-    },
-    {
-      "id": "v17-reddit-03",
-      "subreddit": "r/BMW",
-      "title": "Unpopular opinion: The new 3 Series makes the G20 look seriously outdated. BMW nailed this! 🚗🤯",
-      "date": "November 4, 2026",
-      "text": "Went to BMW for service and they happened to be hosting an event with the new 3 Series. Wasn’t expecting to see it at all.\n\nHoly sh*t!! This thing looks seriously amazing!\n\nI’d watched a ton of videos and reviews, and while I thought the exterior looked cool, I wasn’t sold on the interior. But seeing it in person?\n\nGenuinely jaw-dropping. I can’t remember the last time a car in a showroom impressed me this much, including M3s.",
-      "url": "https://www.reddit.com/r/BMW/comments/1xnsz11/unpopular_opinion_the_new_3_series_makes_the_g20/"
-    },
-    {
-      "id": "v17-reddit-04",
+      "id": "v18-reddit-02",
       "subreddit": "r/HomeKit",
-      "title": "Location based automations and shortcuts",
-      "date": "November 4, 2026",
-      "text": "I don’t seem to be able to run location based automations when they run a shortcut. Location based automations controlling a device or scene trigger with no issues. The shortcuts operate as expected if I test them. Also, I can’t change the location for the problem automations - it is greyed out.\n\nIs the an issue any one else is facing?",
-      "url": "https://www.reddit.com/r/HomeKit/comments/1xnjuix/location_based_automations_and_shortcuts/"
+      "title": "Apple HomeView could soon double as a HomeKit Secure Video camera",
+      "date": "October 31, 2026",
+      "text": "An original poster examines strings in software suggesting a possible HomeView/HomeKit Secure Video recording mode. Commenters discuss the potential privacy and practical implications. These are code clues, not confirmation of a shipped Apple feature. OVERLOOKED: first posted October 31.",
+      "url": "https://www.reddit.com/r/HomeKit/comments/1xkjt7w/apple_homeview_could_soon_double_as_a_homekit/"
     },
     {
-      "id": "v17-reddit-05",
-      "subreddit": "r/HomeKit",
-      "title": "DIY: Homekit alarm system",
-      "date": "November 4, 2026",
-      "text": "Hi all, I'm new to HomeKit and haven't bought anything yet. My plan is a Home/Away/Night alarm using Aqara or IKEA door, window and motion sensors, arming automatically when the last person leaves.\n\nA few questions:\n\nAqara or IKEA sensors: which is more reliable in HomeKit, and can I mix them?\n\nDo I need an Apple TV or HomePod as a hub, and does Aqara need its own hub too?\n\nWhat do you use as a siren? Is an Aqara hub's built-in siren loud enough, or is a smart plug with a separate siren better?",
-      "url": "https://www.reddit.com/r/HomeKit/comments/1xnvima/diy_homekit_alarm_system/"
-    },
-    {
-      "id": "v17-reddit-06",
-      "subreddit": "r/AskHistorians",
-      "title": "Sunday Digest | Interesting & Overlooked Posts | November 01, 2026",
-      "date": "November 1, 2026",
-      "text": "Welcome to this week's instalment of /r/AskHistorians' Sunday Digest (formerly the Day of Reflection). Nobody can read all the questions and answers that are posted here, so in this thread we invite you to share anything you'd like to highlight from the last week - an interesting discussion, an informative answer, an insightful question that was overlooked, or anything else.",
-      "url": "https://www.reddit.com/r/AskHistorians/comments/1xl3ry4/sunday_digest_interesting_overlooked_posts/"
-    },
-    {
-      "id": "v17-reddit-07",
-      "subreddit": "r/KIC8462852_Analysis",
-      "title": "November 1 Update",
+      "id": "v18-reddit-03",
+      "subreddit": "r/OpenAI",
+      "title": "I'm done with it.",
       "date": "November 2, 2026",
-      "text": "Hi. We had some bad luck - six consecutive failed attempts. We were up against a shrinking observation window due to the stars progression toward the horizon combined with weather. In any case, we finally got in an observation last night (Nov 1) at OGG SQ30.",
-      "url": "https://www.reddit.com/r/KIC8462852_Analysis/comments/1xlwm2r/november_1_update/"
+      "text": "A first-person complaint that an advanced model can fixate on a narrow interpretation while missing the broader task. Replies debate whether the problem lies in model reasoning, context management or how the surrounding agent workflow is designed. OVERLOOKED: the original discussion began November 2.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1xm3ieo/im_done_with_it/"
     },
     {
-      "id": "v17-reddit-08",
-      "subreddit": "r/nova",
-      "title": "Weekend of Nov 6–8: 19 family events across NoVA",
-      "date": "November 3, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/nova/comments/1xmtnlc/weekend_of_nov_68_19_family_events_across_nova/"
-    },
-    {
-      "id": "v17-reddit-09",
+      "id": "v18-reddit-04",
       "subreddit": "r/fsusports",
-      "title": "Fired Up",
-      "date": "November 3, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/fsusports/comments/1xmypcm/fired_up/"
+      "title": "FSU coaching staff changes/speculation megathread",
+      "date": "November 1, 2026",
+      "text": "A community thread consolidates confirmed staff changes and fan assessments of replacement candidates. Much of the thread is speculation; distinguish reported departures from unconfirmed coaching rumors. OVERLOOKED: this conversation began November 1, and its more general theme was already partly represented in v17.",
+      "url": "https://www.reddit.com/r/fsusports/comments/1xlfq22/fsu_coaching_staff_changesspeculation_megathread/"
     },
     {
-      "id": "v17-reddit-10",
-      "subreddit": "r/CarDesign",
-      "title": "My concept, please read the description and give an honest assessment.",
-      "date": "October 26, 2026",
-      "text": "MONTERA S is my vision of a modern supercar with an aggressive design, a low profile, sharp headlights and a luxurious brown paint finish paired with black aerodynamic elements. I wanted to create something distinctive and futuristic while still looking like a car that could exist in the real world.\n\nI have put a lot of thought and effort into this project, and I would really appreciate it if you could take a closer look and share your honest opinions.",
-      "url": "https://www.reddit.com/r/CarDesign/comments/1xg92h0/my_concept_please_read_the_description_and_give/"
-    },
-    {
-      "id": "v17-reddit-11",
-      "subreddit": "r/CFB",
-      "title": "[On3] Brian Kelly confirms interest in Florida State head coaching job",
+      "id": "v18-reddit-05",
+      "subreddit": "r/singularity",
+      "title": "The 'AI is fancy autocomplete' vs. 'Imminent RSI/AGI' argument.",
       "date": "November 3, 2026",
-      "text": "",
-      "url": "https://www.reddit.com/r/CFB/comments/1xn95pw/on3_brian_kelly_confirms_interest_in_florida/"
+      "text": "The OP asks what actually separates next-token prediction from a model able to accelerate its own improvement. Replies challenge both extreme positions, including whether consciousness is relevant to recursive technical progress. Treat predictions about imminent AGI as opinions. OVERLOOKED: originally posted November 3.",
+      "url": "https://www.reddit.com/r/singularity/comments/1xmwoy8/the_ai_is_fancy_autocomplete_vs_imminent_rsiagi/"
     }
   ],
   "xPosts": [],
