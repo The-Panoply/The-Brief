@@ -1,6 +1,6 @@
 :root{color-scheme:light;--bg:#ffffff;--surface:#ffffff;--ink:#1c3143;--muted:#6c7983;--subtle:#8e969c;--gold:#a8894b;--line:#e4e6e5;--line-dark:#d2d7d8;--hover:#f7f9fb;--serif: "Iowan Old Style","Baskerville","Palatino Linotype","Book Antiqua",Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;background:#ffffff}
+html{scroll-behavior:smooth;background:var(--bg)}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;-webkit-font-smoothing:antialiased}
 button,input{font:inherit}
 button{cursor:pointer}
