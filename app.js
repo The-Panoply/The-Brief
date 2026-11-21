@@ -34,7 +34,6 @@
       if(typeof item.text==='string'&&item.text.trim())detail.append(make('p','',item.text));
     }else {
       // Prefer the source-provided opening/excerpt; otherwise use the summary.
-      const lead=typeof item.openingParagraph==='string'?item.openingParagraph.trim():'';
       const paragraphs=Array.isArray(item.summary)?item.summary:[];
       paragraphs.forEach(line=>detail.append(make('p','',line)));
     }
@@ -62,9 +61,8 @@
       article.append(media);
     }
     if(kind==='news'){
-      if(item.byline)detail.append(make('div','story-byline','By '+item.byline));
-      if(item.excerpt)detail.append(make('blockquote','story-excerpt','“'+item.excerpt+'”'));
-      detail.replaceChildren(...Array.from(detail.children));
+      if(item.excerpt)detail.prepend(make('blockquote','story-excerpt','“'+item.excerpt+'”'));
+      if(item.byline)detail.prepend(make('div','story-byline','By '+item.byline));
       if(item.why)detail.append(make('p','story-why','WHY IT MADE THE BRIEF  '+item.why));
       if(item.access)detail.append(make('p','story-access',item.access));
       if(item.galleryUrl&&item.imageUrl){
@@ -73,7 +71,7 @@
         actions.append(gallery);
       }
     }
-    article.append(toggle,detail);return article;
+    article.prepend(toggle);article.append(detail);return article;
   }
   function news(){
     const host=$('news-list');host.replaceChildren();
