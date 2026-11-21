@@ -351,3 +351,17 @@ footer{border-top:1px solid var(--line);background:#ffffff}
   .comment-story-title a:hover { color: #e1c28b; }
   ::selection { background: #526476; color: #fff; }
 }
+
+/* Photo-forward issue presentation (2026-11-21); the publisher image stays linked to its original. */
+.story-media{margin:18px 0 5px}
+.story-media[hidden]{display:none}
+.story-image-link{display:block;overflow:hidden;border-radius:7px;background:#edece8}
+.story-image{display:block;width:100%;max-height:520px;object-fit:cover;object-position:center;height:auto}
+.story-image-credit{font-size:10px;color:var(--muted);padding:7px 1px 1px;text-align:right}
+.story-detail .story-byline{font-size:12px;color:var(--muted);margin:3px 0 15px}
+.story-detail .story-excerpt{font:italic 18px/1.5 var(--serif);color:var(--ink);border-left:2px solid var(--gold);padding:4px 0 4px 14px;margin:7px 0 16px}
+.story-detail p.story-why{font-size:14px;color:var(--ink);font-weight:550;margin-top:17px}
+.story-detail p.story-access{font-size:12px;color:var(--muted);font-style:italic}
+.story-gallery{font-size:12px;color:var(--gold);font-weight:650;text-decoration:none;margin-left:auto}
+@media(max-width:740px){.story-image{max-height:360px}.story-media{margin-top:16px}}
+@media(prefers-reduced-motion:reduce){.story-image{transition:none}}

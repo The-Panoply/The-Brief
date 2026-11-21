@@ -35,7 +35,7 @@
     }else {
       // Prefer the source-provided opening/excerpt; otherwise use the summary.
       const lead=typeof item.openingParagraph==='string'?item.openingParagraph.trim():'';
-      const paragraphs=lead?[lead]:(Array.isArray(item.summary)?item.summary:[]);
+      const paragraphs=Array.isArray(item.summary)?item.summary:[];
       paragraphs.forEach(line=>detail.append(make('p','',line)));
     }
     const sourceLabel=kind==='reddit'?item.subreddit:kind==='x'?(item.author+(item.handle?' · '+item.handle:'')):item.publisher;
@@ -52,6 +52,27 @@
       if(state.open.has(key))state.open.delete(key);else state.open.add(key);
       const open=state.open.has(key);toggle.setAttribute('aria-expanded',String(open));detail.hidden=!open;
     });
+    if(kind==='news'&&item.imageUrl){
+      const media=make('div','story-media');
+      const link=make('a','story-image-link');link.href=item.galleryUrl||item.url;link.target='_blank';link.rel='noopener noreferrer';
+      const img=make('img','story-image');img.src=item.imageUrl;img.alt=item.imageAlt||item.headline;img.loading='lazy';img.decoding='async';
+      img.addEventListener('error',()=>{media.hidden=true});
+      link.append(img);media.append(link);
+      if(item.imageCredit)media.append(make('div','story-image-credit',item.imageCredit));
+      article.append(media);
+    }
+    if(kind==='news'){
+      if(item.byline)detail.append(make('div','story-byline','By '+item.byline));
+      if(item.excerpt)detail.append(make('blockquote','story-excerpt','“'+item.excerpt+'”'));
+      detail.replaceChildren(...Array.from(detail.children));
+      if(item.why)detail.append(make('p','story-why','WHY IT MADE THE BRIEF  '+item.why));
+      if(item.access)detail.append(make('p','story-access',item.access));
+      if(item.galleryUrl&&item.imageUrl){
+        const gallery=make('a','story-gallery','View source photographs ↗');
+        gallery.href=item.galleryUrl;gallery.target='_blank';gallery.rel='noopener noreferrer';
+        actions.append(gallery);
+      }
+    }
     article.append(toggle,detail);return article;
   }
   function news(){
