@@ -7,12 +7,9 @@
 
   <meta name="description" content="The Brief — a curated daily intelligence journal from The Panoply.">
   <title>The Brief — The Panoply</title><link rel="icon" type="image/svg+xml" sizes="any" href="./favicon.svg?v=tab-svg-only-2"><link rel="stylesheet" href="./styles.css?v=dark-charcoal-20261102">
-  <script defer src="./app.js?v=two-desk-20261101"></script>
+  <script defer src="./app.js?v=archive-retired-20261121"></script>
   <style>
     .tabs .tab[hidden], #x-panel, #football-panel, #comments-panel { display: none !important; }
-    .brief-archive-link { margin-top: 14px; text-align: center; }
-    .brief-archive-link a { color: var(--muted); font-size: 11px; text-decoration: none; }
-    .brief-archive-link a:hover, .brief-archive-link a:focus-visible { color: var(--gold); text-decoration: underline; }
   </style>
 
 <meta name="color-scheme" content="light dark">
@@ -45,7 +42,6 @@
         <button data-tab="football" class="tab" hidden aria-hidden="true" tabindex="-1">CFB</button>
         <button data-tab="x" class="tab" hidden aria-hidden="true" tabindex="-1">X</button>
         <button data-tab="comments" class="tab" hidden aria-hidden="true" tabindex="-1">Comments</button>
-        <button data-tab="archive" class="tab" hidden aria-hidden="true" tabindex="-1">Archive</button>
       </nav>
       <div id="edition-heading" class="edition-meta" aria-label="Edition date and version">
         <span id="edition-title" class="edition-date">Wednesday, October 28</span>
@@ -53,10 +49,6 @@
       </div>
     </div>
     <section id="news-panel" class="panel" aria-label="News edition">
-      <div id="archive-reader-bar" class="archive-reader-bar" hidden>
-        <button type="button" id="archive-back" class="archive-return">← Archive</button>
-        <button type="button" id="archive-latest" class="archive-return">Latest edition ↗</button>
-      </div>
       <div id="news-list" class="feed" aria-live="polite"></div>
       <div id="empty-news" class="empty" hidden>No stories in this edition.</div>
       <div class="feed-meta news-footer-count"><span id="news-count" aria-live="polite"></span></div>
@@ -92,13 +84,7 @@
       <div id="comments-list" class="comments-features" aria-live="polite"></div>
       <p id="comments-empty" class="archive-note" hidden>No major-story comment dossiers in this edition.</p>
     </section>
-    <section id="archive-panel" class="panel" aria-label="Edition archive" hidden>
-      <div id="archive-list" class="archive-list" aria-live="polite"></div>
-      <div class="archive-summary" id="archive-count" aria-live="polite">Loading archive…</div>
-      <p id="archive-empty" class="archive-note" hidden>No published editions yet.</p>
-      <p id="archive-error" class="archive-note" role="alert" hidden></p>
-    </section>
   </main>
-  <footer class="panoply-footer"><div class="panoply-footer-brand"><span>The Panoply</span></div><div class="brief-archive-link"><a href="#archive">Past editions</a></div></footer>
+  <footer class="panoply-footer"><div class="panoply-footer-brand"><span>The Panoply</span></div></footer>
 </body>
 </html>
