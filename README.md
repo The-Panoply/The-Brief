@@ -15,3 +15,7 @@
 - A new daily edition replaces the previous live edition. Same-day requests to add more stories append to the current edition without removing existing selections.
 - Do not generate a new archive snapshot, archive index, or automatic historical backup during publication. The separate Kindle EPUB is optional delivery, not a mandatory preserved edition.
 - Earlier publishing instructions that require archive snapshots are historical on this point; the reader's November 21 direction controls.
+
+## Website held as a clean prototype (November 22, 2026)
+
+At the reader’s express request, `index.html` currently displays only the existing masthead/header and a blank main element. The prior current-edition material was cleared from `edition.json` (empty arrays); no editorials, archive, or Reddit panel is rendered. `app.js`, styles, icons, manifest and other design assets are preserved for an optional later test of displaying Kindle EPUB content on the website. Send to Kindle EPUB is the primary deliverable, not automatic web publication. Earlier website material remains recoverable through Git history. No new scheduled publishing or deletion of repository history was authorized.
